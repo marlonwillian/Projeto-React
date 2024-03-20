@@ -1,0 +1,8 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(93, 99, 105);
+    color: white;
+    padding-top: 70px;
+    text-align: center;
+}
