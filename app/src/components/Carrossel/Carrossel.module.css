@@ -4,9 +4,9 @@
     margin-block: 35px;
     padding-block: 50px;
     text-align: center;
-    background-color: #191919ab;
-    border-radius: 10px;
-    box-shadow: 2px 3px 4px #050505; 
+    background: linear-gradient(90deg, #00000000 0%, #000000d9 5%, #000000e6 10%, #000000e6 90%, #000000d9 95%, #00000000 100%);
+    border-top: 0.5px solid #ffffff35;
+    border-bottom: 0.5px solid #ffffff35;
 }
 
 .div img {
