@@ -1,9 +1,12 @@
 import Carrossel from "../../components/Carrossel";
+import Card from "../../components/Card";
 import Container from "../../components/Container";
 import Banner from "../../components/Banner";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import styles from "./Home.module.css";
+import Category from "../../components/Category";
+import videos from "../../json/lancamentos.json";
 
 function Home() {
     return (
@@ -13,7 +16,9 @@ function Home() {
                 <Carrossel/>
             </Banner>
             <Container>
-                <h1>Teste</h1>
+                <Category title="Lançamentos">
+                    { videos.map(video => <Card id={video.id} key={video.id} /> )}
+                </Category>
             </Container>
             <Footer/>
         </section>

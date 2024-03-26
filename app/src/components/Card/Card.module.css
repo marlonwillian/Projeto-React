@@ -1,0 +1,54 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card {
+    border: 1px solid white;
+    width: 250px;
+    height: 300px;
+}
+
+.cover {
+    width: 100%;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.section p {
+    color: white;
+    padding-block: 10px;
+    align-items: center;
+    max-width: 300px;
+    max-height: 50px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* .icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #00000050;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    cursor: pointer;
+    background-color: black;
+    width: 45px;
+    height: 45px;
+} */
