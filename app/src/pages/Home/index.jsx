@@ -6,21 +6,38 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import styles from "./Home.module.css";
 import Category from "../../components/Category";
-import videos from "../../json/lancamentos.json";
+import Transition from "../../components/Transition";
+import jogos from "../../json/jogos.json";
+
+const categories = [
+    "Lançamentos",
+    "Rockstar Games",
+    "Ubisoft",
+    "EA",
+    "Capcom",
+    "From Software"
+]
+
+function filterCategory(id) {
+    return jogos.filter(jogo => jogo.category === categories[id])
+}
 
 function Home() {
     return (
         <section className={styles.home}>
-            <Header/>
+            <Header />
             <Banner>
-                <Carrossel/>
+                <Carrossel />
             </Banner>
+            <Transition/>
             <Container>
-                <Category title="Lançamentos">
-                    { videos.map(video => <Card id={video.id} key={video.id} /> )}
-                </Category>
+                { categories.map((category, index) =>
+                    <Category title={category} category={category} key={index} >
+                        {filterCategory(index).map(jogo => <Card id={jogo.id} key={jogo.id} />)}
+                    </Category>
+                )}
             </Container>
-            <Footer/>
+            <Footer />
         </section>
     );
 }

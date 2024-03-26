@@ -6,8 +6,8 @@ function Header() {
         <header className={styles.header}>
             <h2>Nome</h2>
             <nav className={styles.nav}> 
-                <Link to="/">Link 1</Link>
-                <Link to="/">Link 2</Link>
+                <Link to="/">Consoles</Link>
+                <Link to="/">PC</Link>
                 <Link to="/">Link 3</Link>
             </nav>
         </header>

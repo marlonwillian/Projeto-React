@@ -6,14 +6,16 @@
 }
 
 .card {
-    border: 1px solid white;
     width: 250px;
     height: 300px;
+    background-color: #151d27;
+    border-radius: 8px;
 }
 
 .cover {
     width: 100%;
-    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     transition: 0.5s;
 }
 
