@@ -4,9 +4,9 @@
     margin-block: 35px;
     padding-block: 50px;
     text-align: center;
-    background: linear-gradient(90deg, #151d2700 0%, #151d2781 5%, #151d27e6 10%, #151d27e6 90%, #151d2781 95%, #151d2700 100%);
-    border-top: 0.5px solid #000000;
-    border-bottom: 0.5px solid #000000;
+    background: linear-gradient(90deg, #00000000 0%, #00000081 5%, #000000e6 10%, #000000e6 90%, #00000081 95%, #00000000 100%);
+    border-top: 0.5px solid #ffffff5a;
+    border-bottom: 0.5px solid #ffffff5a;
 }
 
 .div img {

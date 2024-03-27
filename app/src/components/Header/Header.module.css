@@ -8,12 +8,34 @@
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
-    border-bottom: 0.5px solid lightgray;
+    box-shadow: #000000fe 5px 3px 8px;
+    border-bottom: 0.5px solid #ffffff5a;
+}
+
+.nav {
+    padding-top: 5px;
 }
 
 .nav a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
+    padding-inline: 18px;
+    transition: 0.2s;
+}
+
+.nav2 a{
+    text-decoration: none;
+    color: white;
     font-size: 25px;
     padding-inline: 18px;
+    transition: 0.2s;
+}
+
+.nav2 a:hover {
+    border-top: 2px solid light;
+}
+
+.nav2 i {
+    width: 89px;
 }

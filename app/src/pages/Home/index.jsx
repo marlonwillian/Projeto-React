@@ -6,8 +6,8 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import styles from "./Home.module.css";
 import Category from "../../components/Category";
-import Transition from "../../components/Transition";
 import jogos from "../../json/jogos.json";
+import Menu from "../../components/Menu";
 
 const categories = [
     "Lançamentos",
@@ -26,10 +26,12 @@ function Home() {
     return (
         <section className={styles.home}>
             <Header />
+            {/* <Menu>
+                <h1>Menu</h1>
+            </Menu> */}
             <Banner>
                 <Carrossel />
             </Banner>
-            <Transition/>
             <Container>
                 { categories.map((category, index) =>
                     <Category title={category} category={category} key={index} >
