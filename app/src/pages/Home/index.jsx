@@ -6,11 +6,11 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import styles from "./Home.module.css";
 import Category from "../../components/Category";
-import jogos from "../../json/jogos.json";
+import jogos from "../../json/home.json";
 import Menu from "../../components/Menu";
 
 const categories = [
-    "Lançamentos",
+    "Lançamentos e anunciados",
     "Rockstar Games",
     "Ubisoft",
     "EA",
@@ -29,13 +29,13 @@ function Home() {
             {/* <Menu>
                 <h1>Menu</h1>
             </Menu> */}
-            <Banner>
+            <Banner img={"https://www.notebookcheck.info/fileadmin/Notebooks/News/_nc4/shadow-of-the-erdtree.jpg"}>
                 <Carrossel />
             </Banner>
             <Container>
                 { categories.map((category, index) =>
                     <Category title={category} category={category} key={index} >
-                        {filterCategory(index).map(jogo => <Card id={jogo.id} key={jogo.id} />)}
+                        {filterCategory(index).map(jogo => <Card title={jogo.title} id={jogo.id} key={jogo.id} />)}
                     </Category>
                 )}
             </Container>

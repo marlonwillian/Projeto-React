@@ -8,4 +8,4 @@ function Menu({ children }) {
     )
 }
 
-export default Menu;
+export default Menu

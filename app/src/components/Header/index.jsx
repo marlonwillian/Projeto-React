@@ -3,7 +3,7 @@ import styles from "./Header.module.css"
 import { Link } from "react-router-dom"
 
 function abrirMenu() {
-    console.log('funciona')
+    // console.log('funciona')
     return <Menu>
         <h1>menu</h1>
     </Menu>
@@ -14,7 +14,8 @@ function Header() {
         <header className={styles.header}>
             <h2>Nome</h2>
             <nav className={styles.nav}> 
-                <a onMouseOver={abrirMenu}><i class="fa-solid fa-gamepad"></i> Consoles</a>
+                <a onClick={abrirMenu}><i class="fa-solid fa-gamepad"></i> Consoles</a>
+                
                 <a><i class="fa-solid fa-magnifying-glass"></i> Pesquisa</a>
                 <a><i class="fa-solid fa-computer"></i> PC</a>
             </nav>

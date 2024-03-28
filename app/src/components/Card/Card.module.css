@@ -34,6 +34,18 @@
     text-decoration: none;
 }
 
+.btn {
+    border: 2px solid white;
+}
+
+.btn h6 {
+    width: 100px;
+    height: 25px;
+    margin-top: 15px;
+    color: white;
+    background-color: lightcoral;
+}
+
 /* .icon {
     position: absolute;
     width: 30px;
