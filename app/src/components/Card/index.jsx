@@ -10,8 +10,8 @@ function Card({ id, title }) {
           alt="Capa" className={styles.cover} />
           <p className={styles.card}>{`${title}`}</p>
           <div className={styles.btn}>
-            <h6>Comprar</h6>
-            <h6>R$ 349,00</h6>
+            <span className={styles.carrinho}><i class="fa-solid fa-cart-plus"></i></span>
+            <span className={styles.preco}>R$349,00</span>
           </div>
         </div> 
       </Link>

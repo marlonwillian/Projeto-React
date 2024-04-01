@@ -16,7 +16,6 @@
     width: 100%;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    transition: 0.5s;
 }
 
 .section p {
@@ -35,34 +34,29 @@
 }
 
 .btn {
-    border: 2px solid white;
-}
-
-.btn h6 {
-    width: 100px;
-    height: 25px;
-    margin-top: 15px;
-    color: white;
+    width: 80%;
+    height: 55px;
     background-color: lightcoral;
+    border-radius: 8px;
 }
 
-/* .icon {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: #00000050;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.5s;
+.link span {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #151d27;
 }
 
-.icon:hover {
-    cursor: pointer;
-    background-color: black;
-    width: 45px;
-    height: 45px;
-} */
+.carrinho {
+    margin-right: 15px;
+    transition: all 0.5s ease-out;
+}
+
+.preco {
+    transition: all 0.5s ease-out;
+}
+
+.card:hover {
+    .carrinho {
+        color: white;
+    }
+}
