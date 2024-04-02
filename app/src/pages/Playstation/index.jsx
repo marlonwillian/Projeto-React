@@ -24,7 +24,7 @@ function Playstation() {
         <section className="styles.section">
             <Header/>
             <Banner img={image}>
-                <h1>PlayStation</h1>
+                <h1><img src="https://static.vecteezy.com/system/resources/previews/024/039/109/non_2x/playstation-logo-transparent-free-png.png" alt="PlayStation" /></h1>
             </Banner>
             <Container>
                 { categories.map((category, index) =>

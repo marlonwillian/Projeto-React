@@ -1,7 +1,7 @@
 .header {
     background-color: #000000;
-    color: white;
     position: absolute;
+    color: white;
     top: 0;
     width: 100%;
     height: 70px;
@@ -26,18 +26,27 @@
 }
 
 .consoles a {
+    color: black;
     padding: 10px;
     text-decoration: none;
-    color: black;
 }
 
-.consoles:hover {
-
+.nav1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding-inline: 18px;
+    transition: 0.2s;
 }
 
-.ps_link:hover {
-    color: #0a58cd;
+.nav1 a:hover {
+    color: lightblue;
 }
+
+.nav1 i {
+    font-size: 25px;
+}
+
 
 .nav {
     padding-top: 5px;
@@ -45,46 +54,29 @@
 
 .nav a{
     text-decoration: none;
-    color: white;
     font-size: 20px;
     padding-inline: 18px;
     transition: 0.2s;
-    cursor: pointer;
+    padding-inline: 50px;
     padding-bottom: 23px;
 }
 
-.nav2 a{
-    text-decoration: none;
+.a_con {
     color: white;
-    font-size: 25px;
-    padding-inline: 18px;
-    transition: 0.2s;
+    transition: 5s ease;
 }
 
-.nav2 a:hover {
-    color: lightblue;
-}
-
-.nav2 i {
-    width: 89px;
-}
-.header {
-    background-color: #000000;
-    color: white;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 70px;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 15px;
-    box-shadow: #000000fe 5px 3px 8px;
-    border-bottom: 0.5px solid #ffffff5a;
+.a_con:hover > i {
+    transform: rotate(180deg);
 }
 
 .a_con:hover {
     .consoles {
         display: grid;
+    }
+
+    .consoles a{
+        font-size: 15px;
     }
 }
 
@@ -92,20 +84,20 @@
     display: none;
     position: absolute;
     background-color: white;
-    color: black;
-    margin-top: 19px;
-    margin-right: 205px;
-    height: 150px;
+    height: 170px;
     width: 150px;
+    margin-top: 19px;
     border-top: 4px solid black;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    z-index: 1;
+    left: 550px;
 }
 
 .consoles a {
+    color: black;
     padding: 10px;
     text-decoration: none;
-    color: black;
 }
 
 .ps_link:hover {
@@ -123,21 +115,7 @@
     background-color: #0000001d;
 }
 
-.nav {
-    padding-top: 5px;
-}
-
-.nav a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    padding-inline: 18px;
-    transition: 0.2s;
-    cursor: pointer;
-    padding-bottom: 23px;
-}
-
-.nav2 a{
+.nav3 a{
     text-decoration: none;
     color: white;
     font-size: 25px;
@@ -145,10 +123,10 @@
     transition: 0.2s;
 }
 
-.nav2 a:hover {
+.nav3 a:hover {
     color: lightblue;
 }
 
-.nav2 i {
-    width: 89px;
+.nav3 i {
+    font-size: 25px;
 }
