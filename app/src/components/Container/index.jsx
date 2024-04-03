@@ -1,8 +1,8 @@
 import styles from "./Container.module.css";
 
-function Container({ children }) {
+function Container({ children, color }) {
     return (
-        <section className={styles.container}>  
+        <section className={styles.container} style={{backgroundColor: color}}>  
             { children }
         </section>
     );  

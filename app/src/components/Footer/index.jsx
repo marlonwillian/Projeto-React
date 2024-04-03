@@ -1,8 +1,8 @@
 import styles from "./Footer.module.css";
 
-function Footer() {
+function Footer({ color }) {
     return (
-        <footer className={styles.footer}><h1>Footer</h1></footer>
+        <footer className={styles.footer} style={{backgroundColor: color}}><h1>Footer</h1></footer>
     );
 }
 

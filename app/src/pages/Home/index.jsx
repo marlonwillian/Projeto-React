@@ -25,7 +25,7 @@ function filterCategory(id) {
 function Home() {
     return (
         <section className={styles.home}>
-            <Header />
+            <Header console="Consoles" color="black"/>
             {/* <Menu>
                 <h1>Menu</h1>
             </Menu> */}

@@ -1,5 +1,4 @@
 .header {
-    background-color: #000000;
     position: absolute;
     color: white;
     top: 0;
@@ -9,7 +8,7 @@
     justify-content: space-around;
     padding-top: 15px;
     box-shadow: #000000fe 5px 3px 8px;
-    border-bottom: 0.5px solid #ffffff5a;
+    background-color: #08264f;
 }
 
 .consoles {
@@ -17,7 +16,6 @@
     position: absolute;
     background-color: white;
     margin-top: 55px;
-    margin-right: 205px;
     height: 150px;
     width: 150px;
     border-top: 4px solid black;
@@ -59,6 +57,10 @@
     transition: 0.2s;
     padding-inline: 50px;
     padding-bottom: 23px;
+}
+
+.nav a span {
+    margin-inline: 10px;
 }
 
 .a_con {

@@ -22,7 +22,7 @@ function filterCategory(id) {
 function Nintendo() {
     return (
         <section className="styles.section">
-            <Header/>
+            <Header console="Nintendo" color="red"/>
             <Banner>
                 <h1>Nintendo</h1>
             </Banner>

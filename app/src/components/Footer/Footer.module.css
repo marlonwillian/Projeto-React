@@ -3,9 +3,8 @@
     width: 100%;
     height: 70px;
     text-align: center;
-    background-color: black;
     color: white;
-    border-top: 0.5px solid #ffffff5a;
+    box-shadow: #000000fe 5px 3px 8px;
 }
 
 .footer h1 {
