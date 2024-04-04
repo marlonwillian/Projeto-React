@@ -1,0 +1,10 @@
+@font-face {
+    font-family: playstation-font;
+    src: url(./font/playstation-font.ttf);
+}
+
+.title {
+    font-family: playstation-font;
+    font-size: 100px;
+    margin-top: 350px;
+}

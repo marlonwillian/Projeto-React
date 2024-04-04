@@ -22,14 +22,14 @@ function filterCategory(id) {
 function Playstation() {
     return (
         <section className="styles.section">
-            <Header console={<span class="fa-brands fa-playstation"></span>} color="#08459a"/>
+            <Header console={<i class="fa-brands fa-playstation"></i>} color="#08459a"/>
             <Banner img="https://preview.redd.it/the-new-playstation-studios-banner-who-can-spot-dreams-v0-nsy12gkrmdt81.jpg?auto=webp&s=66d3a29499ae8e4659ce4e0d0b34c7b69bed1d5a">
-                {/* <h1><img src="https://static.vecteezy.com/system/resources/previews/024/039/109/non_2x/playstation-logo-transparent-free-png.png" alt="PlayStation" /></h1> */}
+                <h1 className={styles.title}><span class="fa-brands fa-playstation"></span> PlayStation</h1>
             </Banner>
             <Container color="#08264f">
                 { categories.map((category, index) =>
                     <Category title={category} category={category} key={index} >
-                        {filterCategory(index).map(jogo => <Card title={jogo.title} id={jogo.id} preco={jogo.preco} key={jogo.id} />)}
+                        {filterCategory(index).map(jogo => <Card title={jogo.title} id={jogo.id} price={jogo.preco} color="#061a36" img={jogo.cover} key={jogo.id} />)}
                     </Category>
                 )}
             </Container>

@@ -68,10 +68,6 @@
     transition: 5s ease;
 }
 
-.a_con:hover > i {
-    transform: rotate(180deg);
-}
-
 .a_con:hover {
     .consoles {
         display: grid;

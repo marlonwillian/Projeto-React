@@ -22,7 +22,7 @@ function filterCategory(id) {
 function Xbox() {
     return (
         <section className="styles.section">
-            <Header console="Xbox" color="green"/>
+            <Header console={<span class="fa-brands fa-xbox"></span>} color="green"/>
             <Banner>
                 <h1>Xbox</h1>
             </Banner>
