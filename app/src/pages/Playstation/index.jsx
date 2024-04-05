@@ -3,7 +3,6 @@ import Header from "../../components/Header";
 import Banner from "../../components/Banner";
 import Container from "../../components/Container";
 import Footer from "../../components/Footer";
-// import image from "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/04/playstation-studios.jpg;
 import jogos from "../../json/playstation.json";
 import Category from "../../components/Category";
 import Card from "../../components/Card";

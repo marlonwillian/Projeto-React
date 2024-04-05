@@ -39,7 +39,7 @@ function Home() {
                     </Category>
                 )}
             </Container>
-            <Footer />
+            <Footer color="black"/>
         </section>
     );
 }

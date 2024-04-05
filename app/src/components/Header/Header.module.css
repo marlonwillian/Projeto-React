@@ -11,6 +11,10 @@
     background-color: #08264f;
 }
 
+.header > nav {
+    text-shadow: 0 -1px 2px #000000,0 1px 2px #000000,-1px 0 2px #000000,1px 0 2px #000000;
+}
+
 .consoles {
     display: grid;
     position: absolute;
@@ -21,6 +25,7 @@
     border-top: 4px solid black;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    text-shadow: none;
 }
 
 .consoles a {

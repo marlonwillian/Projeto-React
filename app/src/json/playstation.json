@@ -60,7 +60,7 @@
     "id": "mDGV5UucTu8",
     "title": "Marvel's Spider-Man 2",
     "preco": "R$ 349,90",
-    "cover": "https://sm.ign.com/t/ign_br/screenshot/default/marvels-spider-man-2_qq7b.1280.jpg",
+    "cover": "https://4kwallpapers.com/images/wallpapers/marvels-spider-man-2560x1440-11609.jpeg",
     "url": "https://www.youtube.com/watch?v=mDGV5UucTu8",      
     "category": "O melhor do PlayStation Studios"
   },
@@ -81,19 +81,10 @@
     "category": "O melhor do PlayStation Studios"
   },
   {
-  
-    "id": "MzH6BI6P4Uo",
-    "title": "Life is Strange",
-    "preco": "",
-    "cover": "https://i.ytimg.com/vi/MzH6BI6P4Uo/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=MzH6BI6P4Uo",
-    "category": "PS Plus"
-  },
-  {
     "id": "wjXYCrxRWqc",
     "title": "Resident Evil 2",
     "preco": "",
-    "cover": "https://i.ytimg.com/vi/wjXYCrxRWqc/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
+    "cover": "https://s2-techtudo.glbimg.com/DkFVWjDolUbDd6dGotV6r6LvPpk=/0x0:1904x1043/600x0/smart/filters:gifv():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/b/d/yXwuJaTbyHgv5cEqZbfA/resident-evil-2-remake.png",
     "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc",
     "category": "PS Plus"
   },
@@ -101,15 +92,15 @@
     "id": "_RYcKCtbFpE",
     "title": "Ratchet & Clank: Em uma outra dimensão",
     "preco": "",
-    "cover": "https://i.ytimg.com/vi/_RYcKCtbFpE/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
+    "cover": "https://sidequest.pt/wp-content/uploads/2021/06/ratchet-and-clank-rift-apart-ps5-art-1621336598.jpg",
     "url": "https://www.youtube.com/watch?v=_RYcKCtbFpE",      
     "category": "PS Plus"
   },
   {
     "id": "JQk2hJs2ToA",
-    "title": "Demon Souls",
+    "title": "Demon's Souls",
     "preco": "",
-    "cover": "https://i.ytimg.com/vi/N9Z9JtNcCWY/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
+    "cover": "https://reservoircreative.studio/app/uploads/2021/11/demonssouls_desktop.jpg",
     "url": "https://www.youtube.com/watch?v=JQk2hJs2ToA",
     "category": "PS Plus"
   },
@@ -117,8 +108,17 @@
     "id": "CNFm_DzHDaE",
     "title": "Returnal",
     "preco": "",
-    "cover": "https://i.ytimg.com/vi/CNFm_DzHDaE/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
+    "cover": "https://gmedia.playstation.com/is/image/SIEPDC/returnal-keyart-01-ps5-en-25feb21?$facebook$",
     "url": "https://www.youtube.com/watch?v=CNFm_DzHDaE",
+    "category": "PS Plus"
+  },
+  {
+  
+    "id": "MzH6BI6P4Uo",
+    "title": "Life is Strange",
+    "preco": "",
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/319630/capsule_616x353.jpg?t=1662395426",
+    "url": "https://www.youtube.com/watch?v=MzH6BI6P4Uo",
     "category": "PS Plus"
   },
   {
