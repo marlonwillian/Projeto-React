@@ -2,9 +2,9 @@ import Menu from "../Menu";
 import styles from "./Header.module.css"
 import { Link } from "react-router-dom"
 
-function Header( { console, color } ) {
+function Header( { console, color, shadow } ) {
     return (
-        <header className={styles.header} style={{backgroundColor: color}}>
+        <header className={styles.header} style={{backgroundColor: color, boxShadow: shadow}}>
             <nav className={styles.nav1}> 
                 <Link to="/"><i class="fa-solid fa-house"></i></Link>
             </nav>

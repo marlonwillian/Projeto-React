@@ -1,8 +1,6 @@
 .banner {
     width: 100%;
     height: 645px;
-    /* height: 150vh; */
-    max-height: 645px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
