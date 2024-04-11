@@ -59,7 +59,8 @@
   {
     "id": "mDGV5UucTu8",
     "title": "Marvel's Spider-Man 2",
-    "preco": "R$ 349,90",
+    "plataform": ["playstation", "xbox"],
+    "console": ["PS5"],
     "cover": "https://4kwallpapers.com/images/wallpapers/marvels-spider-man-2560x1440-11609.jpeg",
     "bigcover": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1301/ca076c20d88cabece6c6a3195fe68fbfbcff8dc5105e4df7.png",
     "url": "https://www.youtube.com/watch?v=mDGV5UucTu8",      
