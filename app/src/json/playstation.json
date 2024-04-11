@@ -1,65 +1,71 @@
 [
   {
-    "id": "JtqIas3bYhg",
+    "id": 0,
     "title": "Final Fantasy VII Rebirth",
     "preco": "R$ 349,90",
+    "console": ["PS5"],
     "cover": "https://sm.ign.com/t/ign_br/screenshot/default/ff7-rebirth-date-with-logo-09-14-23_ddgt.1200.jpg",
     "url": "https://www.youtube.com/watch?v=JtqIas3bYhg&t=5s",
     "category": "Ultimos lançamentos e anunciados"
   },
   {
-    "id": "Uv8bfaxl9j4",
+    "id": 1,
     "title": "Rise of the Ronin",
     "preco": "R$ 349,90",
+    "console": ["PS5"],
     "cover": "https://blog.playstation.com/tachyon/2023/12/c69c6628fa27bd853a8774cc26aae34ba970231e.jpg?resize=1088%2C612&crop_strategy=smart",
     "url": "https://www.youtube.com/watch?v=Uv8bfaxl9j4",
     "category": "Ultimos lançamentos e anunciados"
   },
   {
-    "id": "FAdiEjeNRi0",
+    "id": 2,
     "title": "Stellar Blade",
     "preco": "R$ 349,90",
+    "console": ["PS5"],
     "cover": "https://blog.playstation.com/tachyon/2024/01/6090803d73cfbc10cea24487001790b7f555c9b3-scaled.jpg?resize=1088%2C612&crop_strategy=smart",
     "url": "https://www.youtube.com/watch?v=FAdiEjeNRi0",      
     "category": "Ultimos lançamentos e anunciados"
   },
   {
-    "id": "Ab2YIbP5xw8",
+    "id": 3,
     "title": "Death Stranding 2: On The Beach",
     "preco": "Anunciado",
+    "console": ["PS5"],
     "cover": "https://m.economictimes.com/thumb/msid-107370432,width-1600,height-900,resizemode-4,imgsize-68196/death-stranding-2-on-the-beach-all-you-may-want-to-know.jpg",
     "url": "https://www.youtube.com/watch?v=Ab2YIbP5xw8",
     "category": "Ultimos lançamentos e anunciados"
   },
   {
-    "id": "3MB3OK3Xnvs",
+    "id": 4,
     "title": "Wolverine",
     "preco": "Anunciado",
+    "console": ["PS5"],
     "cover": "https://gaming-cdn.com/images/products/13543/orig/marvel-s-wolverine-ps5-playstation-5-jogo-playstation-store-cover.jpg?v=1703064633",
     "url": "https://www.youtube.com/watch?v=3MB3OK3Xnvs",
     "category": "Ultimos lançamentos e anunciados"
   },
   {
   
-    "id": "xGwe7D0RKWc",
+    "id": 5,
     "title": "The Last of Us Parte II Remastered",
     "preco": "R$ 249,50",
+    "console": ["PS5"],
     "cover": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2024-01-15-151652974_kfc9.1024.jpg",
     "url": "https://www.youtube.com/watch?v=xGwe7D0RKWc",
     "category": "O melhor do PlayStation Studios"
   },
   {
-    "id": "vIMm04L916I",
+    "id": 6,
     "title": "God of War Ragnarök",
     "preco": "R$ 199,90",
+    "console": ["PS5"],
     "cover": "https://jogandocasualmente.com.br/wp-content/uploads/2022/11/gow-capa.jpg",
     "url": "https://www.youtube.com/watch?v=vIMm04L916I",
     "category": "O melhor do PlayStation Studios"
   },
   {
-    "id": "mDGV5UucTu8",
+    "id": 7,
     "title": "Marvel's Spider-Man 2",
-    "plataform": ["playstation", "xbox"],
     "console": ["PS5"],
     "cover": "https://4kwallpapers.com/images/wallpapers/marvels-spider-man-2560x1440-11609.jpeg",
     "bigcover": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1301/ca076c20d88cabece6c6a3195fe68fbfbcff8dc5105e4df7.png",
@@ -67,99 +73,111 @@
     "category": "O melhor do PlayStation Studios"
   },
   {
-    "id": "M7XM597XO94",
+    "id": 8,
     "title": "Death Stranding",
     "preco": "R$ 249,50",
+    "console": ["PS5"],
     "cover": "https://cdn1.epicgames.com/offer/0a9e3c5ab6684506bd624a849ca0cf39/EGS_DeathStrandingDirectorsCut_KOJIMAPRODUCTIONS_S3_2560x1440-fe4e51f1801fba36e452aa3466625789",
     "bigcover": "https://wallpapercg.com/download/norman-reedus-as-sam-porter-bridges-3840x2160-9857.jpg",
     "url": "https://www.youtube.com/watch?v=M7XM597XO94",
     "category": "O melhor do PlayStation Studios"
   },
   {
-    "id": "N2dx2M4L8T0",
+    "id": 9,
     "title": "Bloodborne",
     "preco": "R$ 99,50",
+    "console": ["PS5"],
     "cover": "https://steamuserimages-a.akamaihd.net/ugc/244710630325034704/291095750288C120997B83819F4FE0F30C72DBEA/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true",
     "url": "https://www.youtube.com/watch?v=N2dx2M4L8T0",
     "category": "O melhor do PlayStation Studios"
   },
   {
-    "id": "wjXYCrxRWqc",
+    "id": 10,
     "title": "Resident Evil 2",
     "preco": "",
+    "console": ["PS5"],
     "cover": "https://s2-techtudo.glbimg.com/DkFVWjDolUbDd6dGotV6r6LvPpk=/0x0:1904x1043/600x0/smart/filters:gifv():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/b/d/yXwuJaTbyHgv5cEqZbfA/resident-evil-2-remake.png",
     "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc",
     "category": "PS Plus"
   },
   {
-    "id": "_RYcKCtbFpE",
+    "id": 11,
     "title": "Ratchet & Clank: Em uma outra dimensão",
     "preco": "",
+    "console": ["PS5"],
     "cover": "https://sidequest.pt/wp-content/uploads/2021/06/ratchet-and-clank-rift-apart-ps5-art-1621336598.jpg",
     "url": "https://www.youtube.com/watch?v=_RYcKCtbFpE",      
     "category": "PS Plus"
   },
   {
-    "id": "JQk2hJs2ToA",
+    "id": 12,
     "title": "Demon's Souls",
     "preco": "",
+    "console": ["PS5"],
     "cover": "https://reservoircreative.studio/app/uploads/2021/11/demonssouls_desktop.jpg",
     "url": "https://www.youtube.com/watch?v=JQk2hJs2ToA",
     "category": "PS Plus"
   },
   {
-    "id": "CNFm_DzHDaE",
+    "id": 13,
     "title": "Returnal",
     "preco": "",
+    "console": ["PS5"],
     "cover": "https://gmedia.playstation.com/is/image/SIEPDC/returnal-keyart-01-ps5-en-25feb21?$facebook$",
     "url": "https://www.youtube.com/watch?v=CNFm_DzHDaE",
     "category": "PS Plus"
   },
   {
   
-    "id": "MzH6BI6P4Uo",
+    "id": 14,
     "title": "Life is Strange",
     "preco": "",
+    "console": ["PS5"],
     "cover": "https://cdn.akamai.steamstatic.com/steam/apps/319630/capsule_616x353.jpg?t=1662395426",
     "url": "https://www.youtube.com/watch?v=MzH6BI6P4Uo",
     "category": "PS Plus"
   },
   {
-    "id": "MzH6BI6P4Uo",
+    "id": 15,
     "title": "10 reais",
     "preco": "",
+    "console": ["PS5"],
     "cover": "https://i.ytimg.com/vi/MzH6BI6P4Uo/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
     "url": "https://www.youtube.com/watch?v=MzH6BI6P4Uo",
     "category": "Gift Cards"
   },
   {
-    "id": "wjXYCrxRWqc",
+    "id": 16,
     "title": "30 Reais",
     "preco": "",
+    "console": ["PS5"],
     "cover": "https://i.ytimg.com/vi/wjXYCrxRWqc/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
     "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc",
     "category": "Gift Cards"
   },
   {
-    "id": "MzH6BI6P4Uo",
+    "id": 17,
     "title": "50 Reais",
     "preco": "",
+    "console": ["PS5"],
     "cover": "https://i.ytimg.com/vi/MzH6BI6P4Uo/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
     "url": "https://www.youtube.com/watch?v=MzH6BI6P4Uo",
     "category": "Gift Cards"
   },
   {
-    "id": "wjXYCrxRWqc",
+    "id": 18,
     "title": "100 Reais",
     "preco": "",
+    "console": ["PS5"],
     "cover": "https://i.ytimg.com/vi/wjXYCrxRWqc/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
     "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc",
     "category": "Gift Cards"
   },
   {
-    "id": "wjXYCrxRWqc",
+    "id": 19,
     "title": "300 Reais",
     "preco": "",
+    "console": ["PS5"],
     "cover": "https://i.ytimg.com/vi/wjXYCrxRWqc/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
     "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc",
     "category": "Gift Cards"
