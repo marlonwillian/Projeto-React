@@ -2,17 +2,17 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: left;
 }
 
 .card {
     width: 250px;
-    height: 400px;
+    max-height: 400px;
     border-radius: 8px;
 }
 
-.plataform {
-    font-size: 5px;
+.card p {
+    margin-bottom: none;
 }
 
 .cover {
@@ -20,19 +20,22 @@
     height: 145px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    border-bottom: 1px solid white;
+    
 }
 
-.section p {
+.title {
     color: white;
-    padding-block: 10px;
-    align-items: center;
     max-width: 300px;
-    max-height: 50px;
+    height: 25px;
+    padding-left: 10px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    margin-inline: 10px;
+}
+
+.div_plataforms {
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 .link {
@@ -44,21 +47,19 @@
     height: 55px;
     background-color: lightcoral;
     border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-.link span {
-    margin-top: 15px;
+.btn span {
     font-size: 18px;
+    margin-top: 15px;
     color: #151d27;
+    transition: all 0.5s ease-out;
 }
 
 .carrinho {
     margin-right: 15px;
-    transition: all 0.5s ease-out;
-}
-
-.preco {
-    transition: all 0.5s ease-out;
 }
 
 .card:hover {

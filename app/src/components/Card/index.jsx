@@ -9,8 +9,10 @@ function Card({ id, title, price, color, img }) {
         <div className={styles.card} style={{backgroundColor: color}}>
           <img src={img}
           alt="Capa" className={styles.cover} />
-          <p className={styles.card}>{`${title}`}</p>
-          <span className={styles.plataform}><FilterPlataform id={`${id}`}/></span>
+          <span className={styles.title}>{`${title}`}</span>
+          <div className={styles.div_plataforms}>
+            <FilterPlataform fontsize="7px" id={`${id}`}/>
+          </div>
           <div className={styles.btn}>
             <span className={styles.carrinho}><i class="fa-solid fa-cart-plus"></i></span>
             <span className={styles.preco}>{`${price}`}</span>

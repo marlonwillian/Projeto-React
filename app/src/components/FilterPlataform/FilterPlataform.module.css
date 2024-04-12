@@ -19,12 +19,10 @@
 }
 
 .plataform {
-    display: inline;
-    font-size: 13px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
     
-    padding: 10px;
-    
-
     /* 
         display: inline-table;
         font-size: 13px;

@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 
 function Form() {
     const [valorSelecionado, setValorSelecionado] = useState('');
-    const opcoes = ['Edição Padrão | 349,90', 'Edição Deluxe | 399,90'];
+    const opcoes = ['Edição Padrão | R$ 349,90', 'Edição Deluxe | R$ 399,90'];
     
     const handleChange = (event) => {
         setValorSelecionado(event.target.value);
@@ -16,10 +16,10 @@ function Form() {
             <h2>{jogo[7].title}</h2>
             <h5>Insomniac Games</h5>
             <form className={styles.version}>
-                <FilterPlataform/>
+                <FilterPlataform fontsize="13px"/>
                 <div>
                     {opcoes.map(opcao => (
-                        <label key={opcao}>
+                        <label key={opcao} checked>
                             <input
                                 type="radio"
                                 value={opcao}
