@@ -1,6 +1,6 @@
 [
   {
-    "id": 0,
+    "id": "0",
     "title": "Final Fantasy VII Rebirth",
     "preco": "R$ 349,90",
     "console": ["PS5"],
@@ -47,9 +47,9 @@
   {
   
     "id": 5,
-    "title": "The Last of Us Parte II Remastered",
+    "title": "The Last of Us Parte II",
     "preco": "R$ 249,50",
-    "console": ["PS5"],
+    "console": ["PS5", "PS4"],
     "cover": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2024-01-15-151652974_kfc9.1024.jpg",
     "url": "https://www.youtube.com/watch?v=xGwe7D0RKWc",
     "category": "O melhor do PlayStation Studios"
@@ -58,7 +58,7 @@
     "id": 6,
     "title": "God of War Ragnarök",
     "preco": "R$ 199,90",
-    "console": ["PS5"],
+    "console": ["PS5", "PS4"],
     "cover": "https://jogandocasualmente.com.br/wp-content/uploads/2022/11/gow-capa.jpg",
     "url": "https://www.youtube.com/watch?v=vIMm04L916I",
     "category": "O melhor do PlayStation Studios"
@@ -76,7 +76,7 @@
     "id": 8,
     "title": "Death Stranding",
     "preco": "R$ 249,50",
-    "console": ["PS5"],
+    "console": ["PS5", "PS4", "STEAM"],
     "cover": "https://cdn1.epicgames.com/offer/0a9e3c5ab6684506bd624a849ca0cf39/EGS_DeathStrandingDirectorsCut_KOJIMAPRODUCTIONS_S3_2560x1440-fe4e51f1801fba36e452aa3466625789",
     "bigcover": "https://wallpapercg.com/download/norman-reedus-as-sam-porter-bridges-3840x2160-9857.jpg",
     "url": "https://www.youtube.com/watch?v=M7XM597XO94",
@@ -86,7 +86,7 @@
     "id": 9,
     "title": "Bloodborne",
     "preco": "R$ 99,50",
-    "console": ["PS5"],
+    "console": ["PS4"],
     "cover": "https://steamuserimages-a.akamaihd.net/ugc/244710630325034704/291095750288C120997B83819F4FE0F30C72DBEA/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true",
     "url": "https://www.youtube.com/watch?v=N2dx2M4L8T0",
     "category": "O melhor do PlayStation Studios"
@@ -95,7 +95,7 @@
     "id": 10,
     "title": "Resident Evil 2",
     "preco": "",
-    "console": ["PS5"],
+    "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
     "cover": "https://s2-techtudo.glbimg.com/DkFVWjDolUbDd6dGotV6r6LvPpk=/0x0:1904x1043/600x0/smart/filters:gifv():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/b/d/yXwuJaTbyHgv5cEqZbfA/resident-evil-2-remake.png",
     "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc",
     "category": "PS Plus"
@@ -132,7 +132,7 @@
     "id": 14,
     "title": "Life is Strange",
     "preco": "",
-    "console": ["PS5"],
+    "console": ["PS4", "XBOX", "Nintendo", "STEAM"],
     "cover": "https://cdn.akamai.steamstatic.com/steam/apps/319630/capsule_616x353.jpg?t=1662395426",
     "url": "https://www.youtube.com/watch?v=MzH6BI6P4Uo",
     "category": "PS Plus"

@@ -10,7 +10,7 @@ function AppRoutes() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={ <Home/> }></Route>
-                <Route path="/jogo" element={ <Game/> }></Route>
+                <Route path="/jogo/:id" element={ <Game/> }></Route>
                 <Route path="/playstation" element={ <Playstation/> }></Route>
                 <Route path="/nintendo" element={ <Nintendo/> }></Route>
                 <Route path="/Xbox" element={ <Xbox/> }></Route>

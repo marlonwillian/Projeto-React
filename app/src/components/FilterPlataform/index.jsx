@@ -1,11 +1,11 @@
 import styles from "./FilterPlataform.module.css";
 import jogo from "../../json/playstation.json";
 
-function FilterPlataform( {fontsize, marginbottom}) {
+function FilterPlataform( {fontsize, id}) {
     const consoles = ['PS5', 'PS4', 'Xbox Series', 'Xbox One', 'Nintendo Switch', 'PC'];
     
     function filterPlataform(index) {
-        return jogo[7].console.filter(jogo => jogo.console === consoles[index])
+        return jogo[id].console.filter(jogo => jogo.console === consoles[index])
     }
 
     return (

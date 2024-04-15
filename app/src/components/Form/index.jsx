@@ -3,7 +3,7 @@ import jogo from "../../json/playstation.json"
 import FilterPlataform from "../FilterPlataform";
 import React, { useState } from 'react';
 
-function Form() {
+function Form(id) {
     const [valorSelecionado, setValorSelecionado] = useState('');
     const opcoes = ['Edição Padrão | R$ 349,90', 'Edição Deluxe | R$ 399,90'];
     
@@ -13,11 +13,12 @@ function Form() {
 
     return (
         <div className={styles.description}>
-            <h2>{jogo[7].title}</h2>
+            <h2>{jogo[0].title}</h2>
             <h5>Insomniac Games</h5>
-            <form className={styles.version}>
-                <FilterPlataform fontsize="13px"/>
+            <form className={styles.edition}>
+                {/* <FilterPlataform id={id} fontsize="13px"/> */}
                 <div>
+                    <hr/>
                     {opcoes.map(opcao => (
                         <label key={opcao} checked>
                             <input
@@ -29,15 +30,11 @@ function Form() {
                             {opcao}
                         </label>
                     ))}
-                    {/* <h4>PS5 | Edição Padrão</h4>
-                <input type="radio" id="padrao" value="padrao" checked />
-                <label for>R$ 349,00</label>
-                <hr />
-                <h4>PS5 | Edição Digital Deluxe</h4>
-                <input type="radio" id="deluxe" value="deluxe" />
-                <label for="deluxe"> R$ 349,00</label> */}
+                    <hr/>
+                    <button type="submit">Adicionar ao carrinho</button>
                 </div>
             </form>
+            {console.log(parseInt(id))}
         </div>
     );
 }
