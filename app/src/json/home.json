@@ -1,214 +1,312 @@
 [
   {
-    "id": "JtqIas3bYhg",
-    "title": "Rise of Ronin",
-    "cover": "https://i.ytimg.com/vi/JtqIas3bYhg/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=JtqIas3bYhg&t=5s",
+    "id": "0",
+    "title": "Final Fantasy VII Rebirth",
+    "developer": "Square Enix",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://catwithmonocle.com/wp-content/uploads/2023/12/ff7rebirth-artwork-01-1920x1080-1.jpg",
+    "bigcover": "https://wallpapercg.com/download/final-fantasy-vii-rebirth-4k-wallpaper--18762.jpg",
     "category": "Lançamentos e anunciados"
   },
   {
-    "id": "Uv8bfaxl9j4",
-    "title": "Peaky Blinders",
-    "cover": "https://i.ytimg.com/vi/Uv8bfaxl9j4/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=Uv8bfaxl9j4",
+    "id": "1",
+    "title": "Dragon's Dogma 2",
+    "developer": "Capcom",
+    "preco": "R$ 349,90",
+    "console": ["PS5", "XBOX X|S", "STEAM"],
+    "cover": "https://catwithmonocle.com/wp-content/uploads/2023/12/ff7rebirth-artwork-01-1920x1080-1.jpg",
+    "bigcover": "https://wallpapercg.com/download/final-fantasy-vii-rebirth-4k-wallpaper--18762.jpg",
     "category": "Lançamentos e anunciados"
   },
   {
-    "id": "FAdiEjeNRi0",
-    "title": "Better Call Saul",
-    "cover": "https://i.ytimg.com/vi/FAdiEjeNRi0/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=FAdiEjeNRi0",      
+    "id": "2",
+    "title": "Rise of the Ronin",
+    "developer": "Koei Tecmo",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://blog.playstation.com/tachyon/2023/12/c69c6628fa27bd853a8774cc26aae34ba970231e.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_rise_of_the_ronin_01_1920x1080.jpg",
     "category": "Lançamentos e anunciados"
   },
   {
-    "id": "Ab2YIbP5xw8",
-    "title": "Suits",
-    "cover": "https://i.ytimg.com/vi/Ab2YIbP5xw8/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=Ab2YIbP5xw8",
+    "id": "3",
+    "title": "The Outlast Trials",
+    "developer": "Red Barrels Studio",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://blog.playstation.com/tachyon/2024/01/6090803d73cfbc10cea24487001790b7f555c9b3-scaled.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://i.pinimg.com/originals/b7/ca/92/b7ca923d7a3a32effb462653e9edeb24.webp",    
     "category": "Lançamentos e anunciados"
   },
   {
-    "id": "3MB3OK3Xnvs",
-    "title": "Arcane",
-    "cover": "https://i.ytimg.com/vi/3MB3OK3Xnvs/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=3MB3OK3Xnvs",
+    "id": "4",
+    "title": "Alone in The Dark",
+    "developer": "Kojima Productions",
+    "preco": "Anunciado",
+    "console": ["PS5"],
+    "cover": "https://m.economictimes.com/thumb/msid-107370432,width-1600,height-900,resizemode-4,imgsize-68196/death-stranding-2-on-the-beach-all-you-may-want-to-know.jpg",
+    "bigcover": "https://cdn.neowin.com/news/images/uploaded/2024/01/1706742231_coverimage.jpg",
     "category": "Lançamentos e anunciados"
   },
   {
-  
-    "id": "xGwe7D0RKWc",
-    "title": "Blade Runner 2049",
-    "cover": "https://i.ytimg.com/vi/xGwe7D0RKWc/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=xGwe7D0RKWc",
+    "id": "0",
+    "title": "Final Fantasy VII Rebirth",
+    "developer": "Square Enix",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://catwithmonocle.com/wp-content/uploads/2023/12/ff7rebirth-artwork-01-1920x1080-1.jpg",
+    "bigcover": "https://wallpapercg.com/download/final-fantasy-vii-rebirth-4k-wallpaper--18762.jpg",
     "category": "Rockstar Games"
   },
   {
-    "id": "vIMm04L916I",
-    "title": "Arremessando Alto",
-    "cover": "https://i.ytimg.com/vi/UvIMm04L916I/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=vIMm04L916I",
+    "id": "1",
+    "title": "Rise of the Ronin",
+    "developer": "Koei Tecmo",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://blog.playstation.com/tachyon/2023/12/c69c6628fa27bd853a8774cc26aae34ba970231e.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_rise_of_the_ronin_01_1920x1080.jpg",
     "category": "Rockstar Games"
   },
   {
-    "id": "mDGV5UucTu8",
-    "title": "Corra!",
-    "cover": "https://i.ytimg.com/vi/mDGV5UucTu8/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=mDGV5UucTu8",      
+    "id": "2",
+    "title": "Stellar Blade",
+    "developer": "Shift Up",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://blog.playstation.com/tachyon/2024/01/6090803d73cfbc10cea24487001790b7f555c9b3-scaled.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://i.pinimg.com/originals/b7/ca/92/b7ca923d7a3a32effb462653e9edeb24.webp",    
     "category": "Rockstar Games"
   },
   {
-    "id": "M7XM597XO94",
-    "title": "John Wick 3: Parabellum",
-    "cover": "https://i.ytimg.com/vi/M7XM597XO94/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=M7XM597XO94",
+    "id": "3",
+    "title": "Death Stranding 2: On The Beach",
+    "developer": "Kojima Productions",
+    "preco": "Anunciado",
+    "console": ["PS5"],
+    "cover": "https://m.economictimes.com/thumb/msid-107370432,width-1600,height-900,resizemode-4,imgsize-68196/death-stranding-2-on-the-beach-all-you-may-want-to-know.jpg",
+    "bigcover": "https://cdn.neowin.com/news/images/uploaded/2024/01/1706742231_coverimage.jpg",
     "category": "Rockstar Games"
   },
   {
-    "id": "N2dx2M4L8T0",
-    "title": "Velozes & Furiosos 9",
-    "cover": "https://i.ytimg.com/vi/N2dx2M4L8T0/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=N2dx2M4L8T0",
+    "id": "4",
+    "title": "Marvel's Wolverine",
+    "developer": "Insomniac Games",
+    "preco": "Anunciado",
+    "console": ["PS5"],
+    "cover": "https://gaming-cdn.com/images/products/13543/orig/marvel-s-wolverine-ps5-playstation-5-jogo-playstation-store-cover.jpg?v=1703064633",
+    "bigcover": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/02/02/marvels-wolverine-insomniac-game.jpeg",
     "category": "Rockstar Games"
   },
   {
-  
-    "id": "MzH6BI6P4Uo",
-    "title": "De Tirar o Fôlego",
-    "cover": "https://i.ytimg.com/vi/MzH6BI6P4Uo/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=MzH6BI6P4Uo",
-    "category": "Ubisoft"
-  },
-  {
-    "id": "wjXYCrxRWqc",
-    "title": "Privacidade Hackeada",
-    "cover": "https://i.ytimg.com/vi/wjXYCrxRWqc/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc",
-    "category": "Ubisoft"
-  },
-  {
-    "id": "_RYcKCtbFpE",
-    "title": "Era dos Samurais",
-    "cover": "https://i.ytimg.com/vi/_RYcKCtbFpE/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=_RYcKCtbFpE",      
-    "category": "Ubisoft"
-  },
-  {
-    "id": "JQk2hJs2ToA",
-    "title": "Arremesso Final",
-    "cover": "https://i.ytimg.com/vi/N9Z9JtNcCWY/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=JQk2hJs2ToA",
-    "category": "Ubisoft"
-  },
-  {
-    "id": "CNFm_DzHDaE",
-    "title": "Uma Viagem para o Infinito",
-    "cover": "https://i.ytimg.com/vi/CNFm_DzHDaE/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=CNFm_DzHDaE",
-    "category": "Ubisoft"
-  },
-  {
-    "id": "MzH6BI6P4Uo",
-    "title": "De Tirar o Fôlego",
-    "cover": "https://i.ytimg.com/vi/MzH6BI6P4Uo/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=MzH6BI6P4Uo",
-    "category": "EA"
-  },
-  {
-    "id": "wjXYCrxRWqc",
-    "title": "Privacidade Hackeada",
-    "cover": "https://i.ytimg.com/vi/wjXYCrxRWqc/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc",
-    "category": "EA"
-  },
-  {
-    "id": "MzH6BI6P4Uo",
-    "title": "De Tirar o Fôlego",
-    "cover": "https://i.ytimg.com/vi/MzH6BI6P4Uo/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=MzH6BI6P4Uo",
-    "category": "EA"
-  },
-  {
-    "id": "wjXYCrxRWqc",
-    "title": "Privacidade Hackeada",
-    "cover": "https://i.ytimg.com/vi/wjXYCrxRWqc/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc",
-    "category": "EA"
-  },
-  {
-    "id": "wjXYCrxRWqc",
-    "title": "Privacidade Hackeada",
-    "cover": "https://i.ytimg.com/vi/wjXYCrxRWqc/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc",
-    "category": "EA"
-  },
-  {
-    "id": "MzH6BI6P4Uo",
-    "title": "De Tirar o Fôlego",
-    "cover": "https://i.ytimg.com/vi/MzH6BI6P4Uo/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=MzH6BI6P4Uo",
-    "category": "Capcom"
-  },
-  {
-    "id": "wjXYCrxRWqc",
-    "title": "Privacidade Hackeada",
-    "cover": "https://i.ytimg.com/vi/wjXYCrxRWqc/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc",
-    "category": "Capcom"
-  },
-  {
-    "id": "MzH6BI6P4Uo",
-    "title": "De Tirar o Fôlego",
-    "cover": "https://i.ytimg.com/vi/MzH6BI6P4Uo/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=MzH6BI6P4Uo",
-    "category": "Capcom"
-  },
-  {
-    "id": "wjXYCrxRWqc",
-    "title": "Privacidade Hackeada",
-    "cover": "https://i.ytimg.com/vi/wjXYCrxRWqc/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc",
-    "category": "Capcom"
-  },
-  {
-    "id": "wjXYCrxRWqc",
-    "title": "Privacidade Hackeada",
-    "cover": "https://i.ytimg.com/vi/wjXYCrxRWqc/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc",
-    "category": "Capcom"
-  },
-  {
-    "id": "MzH6BI6P4Uo",
-    "title": "De Tirar o Fôlego",
-    "cover": "https://i.ytimg.com/vi/MzH6BI6P4Uo/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=MzH6BI6P4Uo",
+    "id": "0",
+    "title": "Final Fantasy VII Rebirth",
+    "developer": "Square Enix",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://catwithmonocle.com/wp-content/uploads/2023/12/ff7rebirth-artwork-01-1920x1080-1.jpg",
+    "bigcover": "https://wallpapercg.com/download/final-fantasy-vii-rebirth-4k-wallpaper--18762.jpg",
     "category": "From Software"
   },
   {
-    "id": "wjXYCrxRWqc",
-    "title": "Privacidade Hackeada",
-    "cover": "https://i.ytimg.com/vi/wjXYCrxRWqc/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc",
+    "id": "1",
+    "title": "Rise of the Ronin",
+    "developer": "Koei Tecmo",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://blog.playstation.com/tachyon/2023/12/c69c6628fa27bd853a8774cc26aae34ba970231e.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_rise_of_the_ronin_01_1920x1080.jpg",
     "category": "From Software"
   },
   {
-    "id": "MzH6BI6P4Uo",
-    "title": "De Tirar o Fôlego",
-    "cover": "https://i.ytimg.com/vi/MzH6BI6P4Uo/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=MzH6BI6P4Uo",
+    "id": "2",
+    "title": "Stellar Blade",
+    "developer": "Shift Up",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://blog.playstation.com/tachyon/2024/01/6090803d73cfbc10cea24487001790b7f555c9b3-scaled.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://i.pinimg.com/originals/b7/ca/92/b7ca923d7a3a32effb462653e9edeb24.webp",    
     "category": "From Software"
   },
   {
-    "id": "wjXYCrxRWqc",
-    "title": "Privacidade Hackeada",
-    "cover": "https://i.ytimg.com/vi/wjXYCrxRWqc/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc",
+    "id": "3",
+    "title": "Death Stranding 2: On The Beach",
+    "developer": "Kojima Productions",
+    "preco": "Anunciado",
+    "console": ["PS5"],
+    "cover": "https://m.economictimes.com/thumb/msid-107370432,width-1600,height-900,resizemode-4,imgsize-68196/death-stranding-2-on-the-beach-all-you-may-want-to-know.jpg",
+    "bigcover": "https://cdn.neowin.com/news/images/uploaded/2024/01/1706742231_coverimage.jpg",
     "category": "From Software"
   },
   {
-    "id": "wjXYCrxRWqc",
-    "title": "Privacidade Hackeada",
-    "cover": "https://i.ytimg.com/vi/wjXYCrxRWqc/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
-    "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc",
+    "id": "4",
+    "title": "Marvel's Wolverine",
+    "developer": "Insomniac Games",
+    "preco": "Anunciado",
+    "console": ["PS5"],
+    "cover": "https://gaming-cdn.com/images/products/13543/orig/marvel-s-wolverine-ps5-playstation-5-jogo-playstation-store-cover.jpg?v=1703064633",
+    "bigcover": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/02/02/marvels-wolverine-insomniac-game.jpeg",
     "category": "From Software"
+  },
+  {
+    "id": "0",
+    "title": "Final Fantasy VII Rebirth",
+    "developer": "Square Enix",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://catwithmonocle.com/wp-content/uploads/2023/12/ff7rebirth-artwork-01-1920x1080-1.jpg",
+    "bigcover": "https://wallpapercg.com/download/final-fantasy-vii-rebirth-4k-wallpaper--18762.jpg",
+    "category": "Ubisoft"
+  },
+  {
+    "id": "1",
+    "title": "Rise of the Ronin",
+    "developer": "Koei Tecmo",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://blog.playstation.com/tachyon/2023/12/c69c6628fa27bd853a8774cc26aae34ba970231e.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_rise_of_the_ronin_01_1920x1080.jpg",
+    "category": "Ubisoft"
+  },
+  {
+    "id": "2",
+    "title": "Stellar Blade",
+    "developer": "Shift Up",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://blog.playstation.com/tachyon/2024/01/6090803d73cfbc10cea24487001790b7f555c9b3-scaled.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://i.pinimg.com/originals/b7/ca/92/b7ca923d7a3a32effb462653e9edeb24.webp",    
+    "category": "Ubisoft"
+  },
+  {
+    "id": "3",
+    "title": "Death Stranding 2: On The Beach",
+    "developer": "Kojima Productions",
+    "preco": "Anunciado",
+    "console": ["PS5"],
+    "cover": "https://m.economictimes.com/thumb/msid-107370432,width-1600,height-900,resizemode-4,imgsize-68196/death-stranding-2-on-the-beach-all-you-may-want-to-know.jpg",
+    "bigcover": "https://cdn.neowin.com/news/images/uploaded/2024/01/1706742231_coverimage.jpg",
+    "category": "Ubisoft"
+  },
+  {
+    "id": "4",
+    "title": "Marvel's Wolverine",
+    "developer": "Insomniac Games",
+    "preco": "Anunciado",
+    "console": ["PS5"],
+    "cover": "https://gaming-cdn.com/images/products/13543/orig/marvel-s-wolverine-ps5-playstation-5-jogo-playstation-store-cover.jpg?v=1703064633",
+    "bigcover": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/02/02/marvels-wolverine-insomniac-game.jpeg",
+    "category": "Ubisoft"
+  },
+  {
+    "id": "0",
+    "title": "Final Fantasy VII Rebirth",
+    "developer": "Square Enix",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://catwithmonocle.com/wp-content/uploads/2023/12/ff7rebirth-artwork-01-1920x1080-1.jpg",
+    "bigcover": "https://wallpapercg.com/download/final-fantasy-vii-rebirth-4k-wallpaper--18762.jpg",
+    "category": "EA"
+  },
+  {
+    "id": "1",
+    "title": "Rise of the Ronin",
+    "developer": "Koei Tecmo",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://blog.playstation.com/tachyon/2023/12/c69c6628fa27bd853a8774cc26aae34ba970231e.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_rise_of_the_ronin_01_1920x1080.jpg",
+    "category": "EA"
+  },
+  {
+    "id": "2",
+    "title": "Stellar Blade",
+    "developer": "Shift Up",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://blog.playstation.com/tachyon/2024/01/6090803d73cfbc10cea24487001790b7f555c9b3-scaled.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://i.pinimg.com/originals/b7/ca/92/b7ca923d7a3a32effb462653e9edeb24.webp",    
+    "category": "EA"
+  },
+  {
+    "id": "3",
+    "title": "Death Stranding 2: On The Beach",
+    "developer": "Kojima Productions",
+    "preco": "Anunciado",
+    "console": ["PS5"],
+    "cover": "https://m.economictimes.com/thumb/msid-107370432,width-1600,height-900,resizemode-4,imgsize-68196/death-stranding-2-on-the-beach-all-you-may-want-to-know.jpg",
+    "bigcover": "https://cdn.neowin.com/news/images/uploaded/2024/01/1706742231_coverimage.jpg",
+    "category": "EA"
+  },
+  {
+    "id": "4",
+    "title": "Marvel's Wolverine",
+    "developer": "Insomniac Games",
+    "preco": "Anunciado",
+    "console": ["PS5"],
+    "cover": "https://gaming-cdn.com/images/products/13543/orig/marvel-s-wolverine-ps5-playstation-5-jogo-playstation-store-cover.jpg?v=1703064633",
+    "bigcover": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/02/02/marvels-wolverine-insomniac-game.jpeg",
+    "category": "EA"
+  },
+  {
+    "id": "0",
+    "title": "Final Fantasy VII Rebirth",
+    "developer": "Square Enix",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://catwithmonocle.com/wp-content/uploads/2023/12/ff7rebirth-artwork-01-1920x1080-1.jpg",
+    "bigcover": "https://wallpapercg.com/download/final-fantasy-vii-rebirth-4k-wallpaper--18762.jpg",
+    "category": "Capcom"
+  },
+  {
+    "id": "1",
+    "title": "Rise of the Ronin",
+    "developer": "Koei Tecmo",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://blog.playstation.com/tachyon/2023/12/c69c6628fa27bd853a8774cc26aae34ba970231e.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_rise_of_the_ronin_01_1920x1080.jpg",
+    "category": "Capcom"
+  },
+  {
+    "id": "1",
+    "title": "Rise of the Ronin",
+    "developer": "Koei Tecmo",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://blog.playstation.com/tachyon/2023/12/c69c6628fa27bd853a8774cc26aae34ba970231e.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_rise_of_the_ronin_01_1920x1080.jpg",
+    "category": "Capcom"
+  },
+  {
+    "id": "2",
+    "title": "Stellar Blade",
+    "developer": "Shift Up",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://blog.playstation.com/tachyon/2024/01/6090803d73cfbc10cea24487001790b7f555c9b3-scaled.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://i.pinimg.com/originals/b7/ca/92/b7ca923d7a3a32effb462653e9edeb24.webp",    
+    "category": "Capcom"
+  },
+  {
+    "id": "3",
+    "title": "Death Stranding 2: On The Beach",
+    "developer": "Kojima Productions",
+    "preco": "Anunciado",
+    "console": ["PS5"],
+    "cover": "https://m.economictimes.com/thumb/msid-107370432,width-1600,height-900,resizemode-4,imgsize-68196/death-stranding-2-on-the-beach-all-you-may-want-to-know.jpg",
+    "bigcover": "https://cdn.neowin.com/news/images/uploaded/2024/01/1706742231_coverimage.jpg",
+    "category": "Ultimos lançamentos e anunciados"
+  },
+  {
+    "id": "4",
+    "title": "Marvel's Wolverine",
+    "developer": "Insomniac Games",
+    "preco": "Anunciado",
+    "console": ["PS5"],
+    "cover": "https://gaming-cdn.com/images/products/13543/orig/marvel-s-wolverine-ps5-playstation-5-jogo-playstation-store-cover.jpg?v=1703064633",
+    "bigcover": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/02/02/marvels-wolverine-insomniac-game.jpeg",
+    "category": "Capcom"
   }
 ]

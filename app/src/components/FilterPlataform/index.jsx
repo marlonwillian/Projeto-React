@@ -18,7 +18,7 @@ function FilterPlataform( {fontsize, id}) {
         : plataform == "PS4" ?
         <span
             className={styles.plataform}
-            style={{fontSize: fontsize, fontFamily: "psfont", color: "white", backgroundColor: "black", border: "0.1px solid white", borderRadius: "5px", marginTop: "10px"}}>
+            style={{fontSize: fontsize, fontFamily: "psfont", color: "white", backgroundColor: "black", boxShadow: "0px 0px 2px white", borderRadius: "5px", marginTop: "10px"}}>
                 {plataform}
         </span>
         : plataform == "XBOX X|S" ?

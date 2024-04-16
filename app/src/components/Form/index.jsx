@@ -3,7 +3,7 @@ import jogo from "../../json/playstation.json"
 import FilterPlataform from "../FilterPlataform";
 import React, { useState } from 'react';
 
-function Form(id) {
+function Form({ id }) {
     const [valorSelecionado, setValorSelecionado] = useState('');
     const opcoes = ['Edição Padrão | R$ 349,90', 'Edição Deluxe | R$ 399,90'];
     
@@ -13,10 +13,10 @@ function Form(id) {
 
     return (
         <div className={styles.description}>
-            <h2>{jogo[0].title}</h2>
-            <h5>Insomniac Games</h5>
+            <h2>{jogo[parseInt(id)].title}</h2>
+            <h5>{jogo[parseInt(id)].developer}</h5>
             <form className={styles.edition}>
-                {/* <FilterPlataform id={id} fontsize="13px"/> */}
+                <FilterPlataform id={id} fontsize="13px"/>
                 <div>
                     <hr/>
                     {opcoes.map(opcao => (

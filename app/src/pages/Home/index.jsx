@@ -26,16 +26,16 @@ function Home() {
     return (
         <section className={styles.home}>
             <Header console="Consoles" color="black"/>
-            {/* <Menu>
-                <h1>Menu</h1>
-            </Menu> */}
-            <Banner img={"https://www.notebookcheck.info/fileadmin/Notebooks/News/_nc4/shadow-of-the-erdtree.jpg"}>
+            <Banner 
+                height="90vh"
+                bgposition="center"
+                img={"https://www.notebookcheck.info/fileadmin/Notebooks/News/_nc4/shadow-of-the-erdtree.jpg"}>
                 <Carrossel />
             </Banner>
             <Container>
                 { categories.map((category, index) =>
                     <Category title={category} category={category} key={index} >
-                        {filterCategory(index).map(jogo => <Card title={jogo.title} id={jogo.id} key={jogo.id} />)}
+                        {filterCategory(index).map(jogo => <Card title={jogo.title} id={jogo.id} price={jogo.preco} color="#061a36" img={jogo.cover} key={jogo.id} />)}
                     </Category>
                 )}
             </Container>
