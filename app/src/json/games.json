@@ -1,0 +1,507 @@
+[
+  {
+    "id": "0",
+    "title": "Final Fantasy VII Rebirth",
+    "developer": "Square Enix",
+    "preco": [349.90, 399.90],
+    "console": ["PS5"],
+    "cover": "https://catwithmonocle.com/wp-content/uploads/2023/12/ff7rebirth-artwork-01-1920x1080-1.jpg",
+    "bigcover": "https://wallpapercg.com/download/final-fantasy-vii-rebirth-4k-wallpaper--18762.jpg",
+    "category": "Lançamentos e anunciados"
+  },
+  {
+    "id": "1",
+    "title": "Dragon's Dogma 2",
+    "developer": "Capcom",
+    "preco": [349.90, 399.90],
+    "console": ["PS5", "XBOX X|S", "STEAM"],
+    "cover": "https://www.dragonsdogma.com/2/assets/images/common/share.png",
+    "bigcover": "https://external-preview.redd.it/Wpf_osr8trsr88KTITvz-VatowDxNRiWEekGZd9LJRo.jpg?auto=webp&s=aa96bb601dd8050cec78a8a004db040a2649c934",
+    "category": "Lançamentos e anunciados"
+  },
+  {
+    "id": "2",
+    "title": "Rise of the Ronin",
+    "developer": "Koei Tecmo",
+    "preco": [349.90, 399.90],
+    "console": ["PS5"],
+    "cover": "https://blog.playstation.com/tachyon/2023/12/c69c6628fa27bd853a8774cc26aae34ba970231e.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_rise_of_the_ronin_01_1920x1080.jpg",
+    "category": "Lançamentos e anunciados"
+  }, 
+  {
+    "id": "3",
+    "title": "The Outlast Trials",
+    "developer": "Red Barrels Studio",
+    "preco": [214.90, 264.90],
+    "console": ["PS5", "XBOX X|S", "STEAM"],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1304930/capsule_616x353.jpg?t=1709677975",
+    "bigcover": "https://image.api.playstation.com/vulcan/ap/rnd/202312/0517/e85792b9f320d81bfe561372d430f7b2c19a80fba073b16a.png",    
+    "category": "Lançamentos e anunciados"
+  },
+  {
+    "id": "4",
+    "title": "Alone in The Dark",
+    "developer": "THQ Nordic",
+    "preco": [299.90, 349.90],
+    "console": ["PS5", "XBOX X|S", "STEAM"],
+    "cover": "https://img.odcdn.com.br/wp-content/uploads/2024/03/imagem_2024-03-25_160415294.png",
+    "bigcover": "https://pics.filmaffinity.com/Alone_in_the_Dark-778212983-large.jpg",
+    "category": "Lançamentos e anunciados"
+  },
+  {
+    "id": "5",
+    "title": "Red Dead Redemption",
+    "developer": "Rockstar Games",
+    "preco": "R$ 349,90",
+    "console": ["PS4", "XBOX", "Nintendo"],
+    "cover": "https://gaming-cdn.com/images/products/7047/orig/red-dead-redemption-pc-jogo-cover.jpg?v=1705660598",
+    "bigcover": "https://miro.medium.com/v2/resize:fit:3840/1*LaPn84NHzldtvIy-favx8Q.jpeg",
+    "category": "Rockstar Games"
+  },
+  {
+    "id": "6",
+    "title": "Red Dead Redemption 2",
+    "developer": "Rockstar Games",
+    "preco": "R$ 349,90",
+    "console": ["PS4", "XBOX", "STEAM"],
+    "cover": "https://rocket-chainsaw.b-cdn.net/wp-content/uploads/2018/05/Red-Dead-Redemption-2-New-Logo.jpg",
+    "bigcover": "https://img.hype.games/cdn/635eed3e-ba6f-4cb7-9685-5c6ce64e1e0fRed-Dead-Redemption-2-Cover.jpg",    
+    "category": "Rockstar Games"
+  },
+  {
+    "id": "7",
+    "title": "Grand Theft Auto: The Trilogy",
+    "developer": "Insomniac Games",
+    "preco": 299.90,
+    "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "cover": "https://cdn2.unrealengine.com/egs-grandtheftautothetrilogythedefinitiveedition-rockstargames-s1-2560x1440-26130472112f.jpg",
+    "bigcover": "https://wallpapercave.com/wp/wp10151664.png",
+    "category": "Rockstar Games"
+  },
+  {
+    "id": "8",
+    "title": "Grand Theft Auto V",
+    "developer": "Rockstar Games",
+    "preco": [299.90, 349.90],
+    "console": ["PS5", "PS4", "XBOX X|S", "XBOX", "STEAM"],
+    "cover": "https://sahebkhabar.ir/hermes/vigiato/vigiato-395931.jpg?ts=1688588374000",
+    "bigcover": "https://images6.alphacoders.com/421/421640.jpg",
+    "category": "Rockstar Games"
+  },
+  {
+    "id": "9",
+    "title": "Grand Theft Auto VI",
+    "developer": "Rockstar Games",
+    "preco": "Anunciado",
+    "console": ["PS5", "XBOX X|S"],
+    "cover": "https://staticg.sportskeeda.com/editor/2023/12/baa66-17020247909947-1920.jpg",
+    "bigcover": "https://staticg.sportskeeda.com/editor/2023/12/baa66-17020247909947-1920.jpg",
+    "category": "Rockstar Games"
+  },
+  {
+    "id": "10",
+    "title": "DARK SOULS™: REMASTERED",
+    "developer": "From Software",
+    "preco": 179.90,
+    "console": ["PS4", "XBOX", "STEAM"],
+    "cover": "https://catwithmonocle.com/wp-content/uploads/2023/12/ff7rebirth-artwork-01-1920x1080-1.jpg",
+    "bigcover": "https://wallpapercg.com/download/final-fantasy-vii-rebirth-4k-wallpaper--18762.jpg",
+    "category": "From Software"
+  },
+  {
+    "id": "11",
+    "title": "DARK SOULS™ II: Scholar of the First Sin",
+    "developer": "From Software",
+    "preco": 133.99,
+    "console": ["PS4", "XBOX", "STEAM"],
+    "cover": "https://blog.playstation.com/tachyon/2023/12/c69c6628fa27bd853a8774cc26aae34ba970231e.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_rise_of_the_ronin_01_1920x1080.jpg",
+    "category": "From Software"
+  },
+  {
+    "id": "12",
+    "title": "DARK SOULS™ III",
+    "developer": "From Software",
+    "preco": 249.99,
+    "console": ["PS4", "XBOX", "STEAM"],
+    "cover": "https://blog.playstation.com/tachyon/2024/01/6090803d73cfbc10cea24487001790b7f555c9b3-scaled.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://i.pinimg.com/originals/b7/ca/92/b7ca923d7a3a32effb462653e9edeb24.webp",    
+    "category": "From Software"
+  },
+  {
+    "id": "13",
+    "title": "Sekiro™: Shadows Die Twice - Edição Jogo do Ano",
+    "developer": "From Software",
+    "preco": 274.90,
+    "console": ["PS4", "XBOX", "STEAM"],
+    "cover": "https://m.economictimes.com/thumb/msid-107370432,width-1600,height-900,resizemode-4,imgsize-68196/death-stranding-2-on-the-beach-all-you-may-want-to-know.jpg",
+    "bigcover": "https://cdn.neowin.com/news/images/uploaded/2024/01/1706742231_coverimage.jpg",
+    "category": "From Software"
+  },
+  {
+    "id": "14",
+    "title": "ELDEN RING: Shadow of the Erdtree Edition",
+    "developer": "From Software",
+    "preco": 399.50,
+    "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "cover": "https://gaming-cdn.com/images/products/13543/orig/marvel-s-wolverine-ps5-playstation-5-jogo-playstation-store-cover.jpg?v=1703064633",
+    "bigcover": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/02/02/marvels-wolverine-insomniac-game.jpeg",
+    "category": "From Software"
+  },
+  {
+    "id": "15",
+    "title": "Watch Dogs 2",
+    "developer": "Ubisoft",
+    "preco": [199.00, 239.99],
+    "console": ["PS4", "XBOX", "STEAM"],
+    "cover": "https://catwithmonocle.com/wp-content/uploads/2023/12/ff7rebirth-artwork-01-1920x1080-1.jpg",
+    "bigcover": "https://wallpapercg.com/download/final-fantasy-vii-rebirth-4k-wallpaper--18762.jpg",
+    "category": "Ubisoft"
+  },
+  {
+    "id": "16",
+    "title": "Assassin's Creed® Mirage",
+    "developer": "Ubisoft",
+    "preco": [239.90, 299.90],
+    "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "cover": "https://blog.playstation.com/tachyon/2023/12/c69c6628fa27bd853a8774cc26aae34ba970231e.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_rise_of_the_ronin_01_1920x1080.jpg",
+    "category": "Ubisoft"
+  },
+  {
+    "id": "17",
+    "title": "The Crew™ Motorfest",
+    "developer": "Ubisoft",
+    "preco": [299.90, 379.00],
+    "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "cover": "https://blog.playstation.com/tachyon/2024/01/6090803d73cfbc10cea24487001790b7f555c9b3-scaled.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://i.pinimg.com/originals/b7/ca/92/b7ca923d7a3a32effb462653e9edeb24.webp",    
+    "category": "Ubisoft"
+  },
+  {
+    "id": "18",
+    "title": "Prince of Persia™: The Lost Crown",
+    "developer": "Ubisoft",
+    "preco": [239.90, 299.90],
+    "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM", "Nintendo"],
+    "cover": "https://m.economictimes.com/thumb/msid-107370432,width-1600,height-900,resizemode-4,imgsize-68196/death-stranding-2-on-the-beach-all-you-may-want-to-know.jpg",
+    "bigcover": "https://cdn.neowin.com/news/images/uploaded/2024/01/1706742231_coverimage.jpg",
+    "category": "Ubisoft"
+  },
+  {
+    "id": "19",
+    "title": "Star Wars Outlaws",
+    "developer": "Ubisoft",
+    "preco": [349.90, 399.50],
+    "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "cover": "https://gaming-cdn.com/images/products/13543/orig/marvel-s-wolverine-ps5-playstation-5-jogo-playstation-store-cover.jpg?v=1703064633",
+    "bigcover": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/02/02/marvels-wolverine-insomniac-game.jpeg",
+    "category": "Ubisoft"
+  },
+  {
+    "id": "20",
+    "title": "EA FC 24",
+    "developer": "EA",
+    "preco": [349.90, 399.50],
+    "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "cover": "https://catwithmonocle.com/wp-content/uploads/2023/12/ff7rebirth-artwork-01-1920x1080-1.jpg",
+    "bigcover": "https://wallpapercg.com/download/final-fantasy-vii-rebirth-4k-wallpaper--18762.jpg",
+    "category": "EA"
+  },
+  {
+    "id": "21",
+    "title": "Dead Space",
+    "developer": "EA",
+    "preco": [338.90, 398.90],
+    "console": ["PS5", "XBOX X|S", "STEAM"],
+    "cover": "https://blog.playstation.com/tachyon/2023/12/c69c6628fa27bd853a8774cc26aae34ba970231e.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_rise_of_the_ronin_01_1920x1080.jpg",
+    "category": "EA"
+  },
+  {
+    "id": "22",
+    "title": "STAR WARS Jedi: Survivor™",
+    "developer": "EA",
+    "preco": [349.90, 399.50],
+    "console": ["PS5", "XBOX X|S", "STEAM"],
+    "cover": "https://blog.playstation.com/tachyon/2024/01/6090803d73cfbc10cea24487001790b7f555c9b3-scaled.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://i.pinimg.com/originals/b7/ca/92/b7ca923d7a3a32effb462653e9edeb24.webp",    
+    "category": "EA"
+  },
+  {
+    "id": "23",
+    "title": "Need for Speed™ Unbound",
+    "developer": "EA",
+    "preco": [338.90, 398.90],
+    "console": ["PS5", "XBOX X|S", "STEAM"],
+    "cover": "https://m.economictimes.com/thumb/msid-107370432,width-1600,height-900,resizemode-4,imgsize-68196/death-stranding-2-on-the-beach-all-you-may-want-to-know.jpg",
+    "bigcover": "https://cdn.neowin.com/news/images/uploaded/2024/01/1706742231_coverimage.jpg",
+    "category": "EA"
+  },
+  {
+    "id": "24",
+    "title": "F1® 24",
+    "developer": "EA",
+    "preco": [349.90, 399.50],
+    "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "cover": "https://gaming-cdn.com/images/products/13543/orig/marvel-s-wolverine-ps5-playstation-5-jogo-playstation-store-cover.jpg?v=1703064633",
+    "bigcover": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/02/02/marvels-wolverine-insomniac-game.jpeg",
+    "category": "EA"
+  },
+  {
+    "id": "25",
+    "title": "RESIDENT EVIL 7 biohazard",
+    "developer": "Capcom",
+    "preco": [99.50, 164.90],
+    "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "cover": "https://catwithmonocle.com/wp-content/uploads/2023/12/ff7rebirth-artwork-01-1920x1080-1.jpg",
+    "bigcover": "https://wallpapercg.com/download/final-fantasy-vii-rebirth-4k-wallpaper--18762.jpg",
+    "category": "Capcom"
+  },
+  {
+    "id": "26",
+    "title": "Resident Evil Village",
+    "developer": "Capcom",
+    "preco": [184.50, 229.50],
+    "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "cover": "https://m.economictimes.com/thumb/msid-107370432,width-1600,height-900,resizemode-4,imgsize-68196/death-stranding-2-on-the-beach-all-you-may-want-to-know.jpg",
+    "bigcover": "https://cdn.neowin.com/news/images/uploaded/2024/01/1706742231_coverimage.jpg",
+    "category": "Capcom"
+  },
+  {
+    "id": "27",
+    "title": "Resident Evil 4",
+    "developer": "Capcom",
+    "preco": [199.50, 249.50],
+    "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "cover": "https://gaming-cdn.com/images/products/13543/orig/marvel-s-wolverine-ps5-playstation-5-jogo-playstation-store-cover.jpg?v=1703064633",
+    "bigcover": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/02/02/marvels-wolverine-insomniac-game.jpeg",
+    "category": "Capcom"
+  },
+  {
+    "id": "28",
+    "title": "MONSTER HUNTER: WORLD™",
+    "developer": "Capcom",
+    "preco": [83.50, 199.50],
+    "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "cover": "https://blog.playstation.com/tachyon/2023/12/c69c6628fa27bd853a8774cc26aae34ba970231e.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_rise_of_the_ronin_01_1920x1080.jpg",
+    "category": "Capcom"
+  },
+  {
+    "id": "29",
+    "title": "Dragon's Dogma: Dark Arisen",
+    "developer": "Capcom",
+    "preco": [149.99],
+    "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "cover": "https://blog.playstation.com/tachyon/2024/01/6090803d73cfbc10cea24487001790b7f555c9b3-scaled.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://i.pinimg.com/originals/b7/ca/92/b7ca923d7a3a32effb462653e9edeb24.webp",    
+    "category": "Capcom"
+  },
+
+
+  
+  { 
+    "id": "30",
+    "title": "Final Fantasy VII Rebirth",
+    "developer": "Square Enix",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://catwithmonocle.com/wp-content/uploads/2023/12/ff7rebirth-artwork-01-1920x1080-1.jpg",
+    "bigcover": "https://wallpapercg.com/download/final-fantasy-vii-rebirth-4k-wallpaper--18762.jpg",
+    "category": "Ultimos lançamentos e anunciados"
+  },
+  {
+    "id": "31",
+    "title": "Rise of the Ronin",
+    "developer": "Koei Tecmo",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://blog.playstation.com/tachyon/2023/12/c69c6628fa27bd853a8774cc26aae34ba970231e.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_rise_of_the_ronin_01_1920x1080.jpg",
+    "category": "Ultimos lançamentos e anunciados"
+  },
+  {
+    "id": "32",
+    "title": "Stellar Blade",
+    "developer": "Shift Up",
+    "preco": "R$ 349,90",
+    "console": ["PS5"],
+    "cover": "https://blog.playstation.com/tachyon/2024/01/6090803d73cfbc10cea24487001790b7f555c9b3-scaled.jpg?resize=1088%2C612&crop_strategy=smart",
+    "bigcover": "https://i.pinimg.com/originals/b7/ca/92/b7ca923d7a3a32effb462653e9edeb24.webp",    
+    "category": "Ultimos lançamentos e anunciados"
+  },
+  {
+    "id": "33",
+    "title": "Death Stranding 2: On The Beach",
+    "developer": "Kojima Productions",
+    "preco": "Anunciado",
+    "console": ["PS5"],
+    "cover": "https://m.economictimes.com/thumb/msid-107370432,width-1600,height-900,resizemode-4,imgsize-68196/death-stranding-2-on-the-beach-all-you-may-want-to-know.jpg",
+    "bigcover": "https://cdn.neowin.com/news/images/uploaded/2024/01/1706742231_coverimage.jpg",
+    "category": "Ultimos lançamentos e anunciados"
+  },
+  {
+    "id": "34",
+    "title": "Marvel's Wolverine",
+    "developer": "Insomniac Games",
+    "preco": "Anunciado",
+    "console": ["PS5"],
+    "cover": "https://gaming-cdn.com/images/products/13543/orig/marvel-s-wolverine-ps5-playstation-5-jogo-playstation-store-cover.jpg?v=1703064633",
+    "bigcover": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/02/02/marvels-wolverine-insomniac-game.jpeg",
+    "category": "Ultimos lançamentos e anunciados"
+  },
+  {
+  
+    "id": "35",
+    "title": "The Last of Us Parte II",
+    "developer": "Naughty Dog",
+    "preco": "R$ 249,50",
+    "console": ["PS5", "PS4"],
+    "cover": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2024-01-15-151652974_kfc9.1024.jpg",
+    "bigcover": "https://blog.br.playstation.com/tachyon/sites/4/2023/11/d97a47a0e112374ccfb1d0488f8d6179d9553b7d.jpg",
+    "category": "O melhor do PlayStation Studios"
+  },
+  {
+    "id": "36",
+    "title": "God of War Ragnarök",
+    "developer": "Santa Monica Studio",
+    "preco": "R$ 199,90",
+    "console": ["PS5", "PS4"],
+    "cover": "https://jogandocasualmente.com.br/wp-content/uploads/2022/11/gow-capa.jpg",
+    "bigcover": "https://images.hdqwalls.com/wallpapers/god-of-war-ragnarok-46.jpg",
+    "category": "O melhor do PlayStation Studios"
+  },
+  {
+    "id": "37",
+    "title": "Marvel's Spider-Man 2",
+    "developer": "Insomniac Games",
+    "console": ["PS5"],
+    "cover": "https://4kwallpapers.com/images/wallpapers/marvels-spider-man-2560x1440-11609.jpeg",
+    "bigcover": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1301/ca076c20d88cabece6c6a3195fe68fbfbcff8dc5105e4df7.png",     
+    "category": "O melhor do PlayStation Studios"
+  },
+  {
+    "id": "38",
+    "title": "Death Stranding",
+    "developer": "Kojima Productions",
+    "preco": "R$ 249,50",
+    "console": ["PS5", "PS4", "STEAM"],
+    "cover": "https://cdn1.epicgames.com/offer/0a9e3c5ab6684506bd624a849ca0cf39/EGS_DeathStrandingDirectorsCut_KOJIMAPRODUCTIONS_S3_2560x1440-fe4e51f1801fba36e452aa3466625789",
+    "bigcover": "https://wallpapercg.com/download/norman-reedus-as-sam-porter-bridges-3840x2160-9857.jpg",
+    "url": "https://www.youtube.com/watch?v=M7XM597XO94",
+    "category": "O melhor do PlayStation Studios"
+  },
+  {
+    "id": "39",
+    "title": "Bloodborne",
+    "developer": "From Software",
+    "preco": "R$ 99,50",
+    "console": ["PS4"],
+    "cover": "https://steamuserimages-a.akamaihd.net/ugc/244710630325034704/291095750288C120997B83819F4FE0F30C72DBEA/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true",
+    "bigcover": "https://pbs.twimg.com/media/D57t3OsUEAEvYIU.jpg:large",
+    "category": "O melhor do PlayStation Studios"
+  },
+  {
+    "id": "40",
+    "title": "Resident Evil 2",
+    "developer": "Capcom",
+    "preco": "",
+    "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "cover": "https://s2-techtudo.glbimg.com/DkFVWjDolUbDd6dGotV6r6LvPpk=/0x0:1904x1043/600x0/smart/filters:gifv():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/b/d/yXwuJaTbyHgv5cEqZbfA/resident-evil-2-remake.png",
+    "bigcover": "https://wallpapers.com/images/hd/night-rain-resident-evil-2-remake-e26vopn1z8lb742h.jpg",
+    "category": "PS Plus"
+  },
+  {
+    "id": "41",
+    "title": "Ratchet & Clank: Em uma outra dimensão",
+    "developer": "Insomniac Games",
+    "preco": "",
+    "console": ["PS5"],
+    "cover": "https://sidequest.pt/wp-content/uploads/2021/06/ratchet-and-clank-rift-apart-ps5-art-1621336598.jpg",
+    "bigcover": "https://wallpapercave.com/wp/wp9250684.jpg",      
+    "category": "PS Plus"
+  },
+  {
+    "id": "42",
+    "title": "Demon's Souls",
+    "developer": "Bluepoint | From Software",
+    "preco": "",
+    "console": ["PS5"],
+    "cover": "https://reservoircreative.studio/app/uploads/2021/11/demonssouls_desktop.jpg",
+    "bigcover": "https://wallpapercave.com/wp/wp12749676.jpg",
+    "category": "PS Plus"
+  },
+  {
+    "id": "43",
+    "title": "Returnal",
+    "developer": "Housemarque",
+    "preco": "",
+    "console": ["PS5"],
+    "cover": "https://gmedia.playstation.com/is/image/SIEPDC/returnal-keyart-01-ps5-en-25feb21?$facebook$",
+    "bigcover": "https://images7.alphacoders.com/113/1130004.jpg",
+    "category": "PS Plus"
+  },
+  {
+  
+    "id": "44",
+    "title": "Life is Strange",
+    "developer": "Square Enix",
+    "preco": "",
+    "console": ["PS4", "XBOX", "Nintendo", "STEAM"],
+    "cover": "https://cdn.akamai.steamstatic.com/steam/apps/319630/capsule_616x353.jpg?t=1662395426",
+    "bigcover": "https://images3.alphacoders.com/665/665803.jpg",
+    "category": "PS Plus"
+  },
+  {
+    "id": "45",
+    "title": "10 reais",
+    "developer": "Resident Evil 2",
+    "preco": "",
+    "console": ["PS5"],
+    "cover": "https://i.ytimg.com/vi/MzH6BI6P4Uo/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
+    "bigcover": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1301/ca076c20d88cabece6c6a3195fe68fbfbcff8dc5105e4df7.png",
+    "category": "Gift Cards"
+  },
+  {
+    "id": "46",
+    "title": "30 Reais",
+    "developer": "Resident Evil 2",
+    "preco": "",
+    "console": ["PS5"],
+    "cover": "https://i.ytimg.com/vi/wjXYCrxRWqc/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
+    "bigcover": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1301/ca076c20d88cabece6c6a3195fe68fbfbcff8dc5105e4df7.png",
+    "category": "Gift Cards"
+  },
+  {
+    "id": "47",
+    "title": "50 Reais",
+    "developer": "Resident Evil 2",
+    "preco": "",
+    "console": ["PS5"],
+    "cover": "https://i.ytimg.com/vi/MzH6BI6P4Uo/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
+    "bigcover": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1301/ca076c20d88cabece6c6a3195fe68fbfbcff8dc5105e4df7.png",
+    "category": "Gift Cards"
+  },
+  {
+    "id": "48",
+    "title": "100 Reais",
+    "developer": "Resident Evil 2",
+    "preco": "",
+    "console": ["PS5"],
+    "cover": "https://i.ytimg.com/vi/wjXYCrxRWqc/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
+    "bigcover": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1301/ca076c20d88cabece6c6a3195fe68fbfbcff8dc5105e4df7.png",
+    "category": "Gift Cards"
+  },
+  {
+    "id": "49",
+    "title": "300 Reais",
+    "developer": "Resident Evil 2",
+    "preco": "",
+    "console": ["PS5"],
+    "cover": "https://i.ytimg.com/vi/wjXYCrxRWqc/maxresdefault.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjiySFcj2ANPuhxMzgYaonZFtBUw",
+    "bigcover": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1301/ca076c20d88cabece6c6a3195fe68fbfbcff8dc5105e4df7.png",
+    "category": "Gift Cards"
+  }
+]

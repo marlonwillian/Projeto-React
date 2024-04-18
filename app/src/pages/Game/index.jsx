@@ -2,7 +2,7 @@ import styles from "./Game.module.css";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Banner from "../../components/Banner";
-import jogos from "../../json/playstation.json";
+import jogos from "../../json/games.json";
 import Form from "../../components/Form";
 import { useParams } from "react-router-dom";
 

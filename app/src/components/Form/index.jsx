@@ -1,5 +1,5 @@
 import styles from "./Form.module.css";
-import jogo from "../../json/playstation.json"
+import jogo from "../../json/games.json"
 import FilterPlataform from "../FilterPlataform";
 import React, { useState } from 'react';
 

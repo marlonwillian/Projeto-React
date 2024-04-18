@@ -3,8 +3,7 @@ import Header from "../../components/Header";
 import Banner from "../../components/Banner";
 import Container from "../../components/Container";
 import Footer from "../../components/Footer";
-// import image from "./playstation-banner.jpg";
-import jogos from "../../json/playstation.json";
+import jogos from "../../json/games.json";
 import Category from "../../components/Category";
 import Card from "../../components/Card";
 

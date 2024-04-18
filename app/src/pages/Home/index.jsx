@@ -6,16 +6,16 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import styles from "./Home.module.css";
 import Category from "../../components/Category";
-import jogos from "../../json/home.json";
+import jogos from "../../json/games.json";
 import Menu from "../../components/Menu";
 
 const categories = [
     "Lançamentos e anunciados",
     "Rockstar Games",
+    "From Software",
     "Ubisoft",
     "EA",
-    "Capcom",
-    "From Software"
+    "Capcom"
 ]
 
 function filterCategory(id) {

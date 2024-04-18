@@ -1,5 +1,5 @@
 import styles from "./FilterPlataform.module.css";
-import jogo from "../../json/playstation.json";
+import jogo from "../../json/games.json";
 
 function FilterPlataform( {fontsize, id}) {
     const consoles = ['PS5', 'PS4', 'Xbox Series', 'Xbox One', 'Nintendo Switch', 'PC'];
