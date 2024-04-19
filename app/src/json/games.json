@@ -104,9 +104,9 @@
     "title": "DARK SOULS™: REMASTERED",
     "developer": "From Software",
     "preco": 179.90,
-    "console": ["PS4", "XBOX", "STEAM"],
-    "cover": "https://catwithmonocle.com/wp-content/uploads/2023/12/ff7rebirth-artwork-01-1920x1080-1.jpg",
-    "bigcover": "https://wallpapercg.com/download/final-fantasy-vii-rebirth-4k-wallpaper--18762.jpg",
+    "console": ["PS4", "XBOX", "Nintendo", "STEAM"],
+    "cover": "https://fanatical.imgix.net/product/original/fbc395cc-a07d-441e-bb43-eb00fd7d8b33.jpeg?auto=compress,format&w=870&fit=crop&h=489",
+    "bigcover": "https://images2.alphacoders.com/895/895681.jpg",
     "category": "From Software"
   },
   {
@@ -115,8 +115,8 @@
     "developer": "From Software",
     "preco": 133.99,
     "console": ["PS4", "XBOX", "STEAM"],
-    "cover": "https://blog.playstation.com/tachyon/2023/12/c69c6628fa27bd853a8774cc26aae34ba970231e.jpg?resize=1088%2C612&crop_strategy=smart",
-    "bigcover": "https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_rise_of_the_ronin_01_1920x1080.jpg",
+    "cover": "https://images.greenmangaming.com/1ea0b74aa7c340fbaa39d579b0eb09d6/1165171f7cea4015bdd1c8c798faf7ea.jpg",
+    "bigcover": "https://image.api.playstation.com/vulcan/img/rnd/202011/0204/hVVJBjSMFF4QXhsQBtjruJbg.png",
     "category": "From Software"
   },
   {
@@ -125,18 +125,18 @@
     "developer": "From Software",
     "preco": 249.99,
     "console": ["PS4", "XBOX", "STEAM"],
-    "cover": "https://blog.playstation.com/tachyon/2024/01/6090803d73cfbc10cea24487001790b7f555c9b3-scaled.jpg?resize=1088%2C612&crop_strategy=smart",
-    "bigcover": "https://i.pinimg.com/originals/b7/ca/92/b7ca923d7a3a32effb462653e9edeb24.webp",    
+    "cover": "https://m.media-amazon.com/images/I/91rTxm40jwL.jpg",
+    "bigcover": "https://images5.alphacoders.com/609/609173.jpg",    
     "category": "From Software"
   },
   {
     "id": "13",
-    "title": "Sekiro™: Shadows Die Twice - Edição Jogo do Ano",
+    "title": "Sekiro™: Shadows Die Twice",
     "developer": "From Software",
     "preco": 274.90,
     "console": ["PS4", "XBOX", "STEAM"],
-    "cover": "https://m.economictimes.com/thumb/msid-107370432,width-1600,height-900,resizemode-4,imgsize-68196/death-stranding-2-on-the-beach-all-you-may-want-to-know.jpg",
-    "bigcover": "https://cdn.neowin.com/news/images/uploaded/2024/01/1706742231_coverimage.jpg",
+    "cover": "https://support.activision.com/resource/1553213708000/Sekiro_Content_sidebanner",
+    "bigcover": "https://i.pinimg.com/originals/ca/0d/ad/ca0dad026f6bc16dfc3cb5f565aeaf31.jpg",
     "category": "From Software"
   },
   {
@@ -145,8 +145,8 @@
     "developer": "From Software",
     "preco": 399.50,
     "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
-    "cover": "https://gaming-cdn.com/images/products/13543/orig/marvel-s-wolverine-ps5-playstation-5-jogo-playstation-store-cover.jpg?v=1703064633",
-    "bigcover": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/02/02/marvels-wolverine-insomniac-game.jpeg",
+    "cover": "https://store-images.s-microsoft.com/image/apps.36506.14297527683701288.fd49042a-b1dd-4c8b-a7d7-d348f2656d57.ad3ad9a2-d631-4bea-a967-069cee35ad30?q=90&w=480&h=270",
+    "bigcover": "https://cdn.vox-cdn.com/thumbor/FvQU1qExMQadYpfGFX60U1p1dFo=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/25297591/elden_ring_shadow_erdtree_details.jpg",
     "category": "From Software"
   },
   {

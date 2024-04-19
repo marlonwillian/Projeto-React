@@ -27,9 +27,10 @@ function Home() {
         <section className={styles.home}>
             <Header console="Consoles" color="black"/>
             <Banner 
-                height="90vh"
+                height="95vh"
                 bgposition="center"
-                img={"https://www.notebookcheck.info/fileadmin/Notebooks/News/_nc4/shadow-of-the-erdtree.jpg"}>
+                bgcolor="blue"
+                >
                 <Carrossel />
             </Banner>
             <Container>
