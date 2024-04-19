@@ -27,7 +27,7 @@ function Home() {
         <section className={styles.home}>
             <Header console="Consoles" color="black"/>
             <Banner 
-                height="95vh"
+                height="105vh"
                 bgposition="center"
                 bgcolor="blue"
                 >
