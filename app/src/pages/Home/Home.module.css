@@ -1,0 +1,9 @@
+/* style={{ width: "250px", position: "absolute", textAlign: "center"}} */
+
+.title {
+    position: absolute;
+}
+
+.title > img {
+    width: 350px;
+}

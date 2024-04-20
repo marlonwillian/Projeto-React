@@ -21,8 +21,12 @@ function filterCategory(id) {
 function Playstation() {
     return (
         <section className="styles.section">
-            <Header console={<i class="fa-brands fa-playstation"></i>} color="#08459a"/>
-            <Banner img="https://preview.redd.it/the-new-playstation-studios-banner-who-can-spot-dreams-v0-nsy12gkrmdt81.jpg?auto=webp&s=66d3a29499ae8e4659ce4e0d0b34c7b69bed1d5a">
+            <Header console={<i class="fa-brands fa-playstation"></i>} color="#08459a" shadow="#000000fe 5px 3px 8px"/>
+            <Banner 
+                img="https://preview.redd.it/the-new-playstation-studios-banner-who-can-spot-dreams-v0-nsy12gkrmdt81.jpg?auto=webp&s=66d3a29499ae8e4659ce4e0d0b34c7b69bed1d5a"
+                height="105vh"
+                
+            >
                 <h1 className={styles.title}><span class="fa-brands fa-playstation"></span> PlayStation</h1>
             </Banner>
             <Container color="#08264f">

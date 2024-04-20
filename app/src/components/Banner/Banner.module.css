@@ -4,6 +4,6 @@
     background-size: cover;
     color: white;
     padding-top: 70px;
-    margin-top: -1px; 
     text-align: center;
+    z-index: 1;
 }

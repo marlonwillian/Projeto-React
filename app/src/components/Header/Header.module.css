@@ -7,8 +7,8 @@
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
-    box-shadow: #000000fe 5px 3px 8px;
-    background-color: #08264f;
+    /* box-shadow: #000000fe 5px 3px 8px; */
+    background-color: #00000000;
 }
 
 .header > nav {
