@@ -7,6 +7,7 @@ import Header from "../../components/Header";
 import styles from "./Home.module.css";
 import Category from "../../components/Category";
 import jogos from "../../json/games.json";
+import { Link } from "react-router-dom";
 
 const categories = [
     "Lançamentos e anunciados",
@@ -21,6 +22,14 @@ function filterCategory(id) {
     return jogos.filter(jogo => jogo.category === categories[id])
 }
 
+function getRandomInt (min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min 
+}
+
+const number = getRandomInt(0, 44);
+
 function Home() {
     return (
         <section className={styles.home}>
@@ -29,16 +38,16 @@ function Home() {
                 height="100vh"
                 bgposition="center"
                 bgcolor="black"
-                img={jogos[29].bigcover}
+                img={jogos[number].bigcover}
             >
                 <div 
                     className={styles.title} 
-                    style={{ left: jogos[29].position, transform: `translate(-${jogos[29].position})`}}>
-                    <img src="https://images.squarespace-cdn.com/content/v1/5f8c58e8028e082422fb73b5/4e776c63-9ec5-447b-885e-91fe89431db1/ff7_rebirth_W.png?format=500w"/> 
-                    <button>Já Disponível</button>
+                    style={{ left: jogos[number].position, transform: `translate(-${jogos[number].position})`}}>
+                    <img src={jogos[number].imgTitle} style={{ width: "350px" }}/> 
+                    <Link to={`/jogo/${number}`}><button>Já Disponível</button></Link>
                 </div>
                 <Container 
-                    background="linear-gradient(0deg, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 65%, rgba(0,0,0,0.499124649859944) 90%, rgba(0,0,0,0.303046218487395) 95%, rgba(0,0,0,0) 100%)"
+                    background="linear-gradient(0deg, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 65%, rgba(0, 0, 0, 0.740) 90%, rgba(0, 0, 0, 0.450) 95%, rgba(0,0,0,0) 100%)"
                     marginTop="58vh"
                 >
                     <Carrossel/>
