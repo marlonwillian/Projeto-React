@@ -33,7 +33,7 @@ const number = getRandomInt(0, 44);
 function Home() {
     return (
         <section className={styles.home}>
-            <Header console="Consoles" color="#00000000"/>
+            <Header console="Consoles"/>
             <Banner 
                 height="100vh"
                 bgposition="center"
@@ -44,7 +44,7 @@ function Home() {
                     className={styles.title} 
                     style={{ left: jogos[number].position, transform: `translate(-${jogos[number].position})`}}>
                     <img src={jogos[number].imgTitle} style={{ width: "350px" }}/> 
-                    <Link to={`/jogo/${number}`}><button>Já Disponível</button></Link>
+                    <Link to={`/jogo/${number}`}><button className={styles.button}>{typeof(jogos[number].preco) == "string" ? "Em breve" : "Já disponível" }</button></Link>
                 </div>
                 <Container 
                     background="linear-gradient(0deg, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 65%, rgba(0, 0, 0, 0.740) 90%, rgba(0, 0, 0, 0.450) 95%, rgba(0,0,0,0) 100%)"
@@ -53,7 +53,7 @@ function Home() {
                     <Carrossel/>
                 </Container>
             </Banner>
-            <Container paddingTop="255px">
+            <Container paddingTop="255px" background="black">
                 { categories.map((category, index) =>
                     <Category title={category} category={category} key={index} >
                         {filterCategory(index).map(jogo => <Card title={jogo.title} id={jogo.id} price={jogo.preco} color="#061a36" img={jogo.cover} key={jogo.id} />)}

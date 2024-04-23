@@ -29,7 +29,7 @@ function Playstation() {
             >
                 <h1 className={styles.title}><span class="fa-brands fa-playstation"></span> PlayStation</h1>
             </Banner>
-            <Container color="#08264f">
+            <Container background="#08264f">
                 { categories.map((category, index) =>
                     <Category title={category} category={category} key={index} >
                         {filterCategory(index).map(jogo => <Card title={jogo.title} id={jogo.id} price={jogo.preco} color="#061a36" img={jogo.cover} key={jogo.id} />)}

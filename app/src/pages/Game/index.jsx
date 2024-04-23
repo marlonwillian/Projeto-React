@@ -14,7 +14,7 @@ function Game() {
 
     return (
         <section>
-            <Header console="Consoles" color="transparent" shadow="none"/>
+            <Header console="Consoles" shadow="none"/>
             <Banner 
                 img={jogos[jogo.id].bigcover} 
                 height="150vh"

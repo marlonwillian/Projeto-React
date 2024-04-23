@@ -1,5 +1,6 @@
 .header {
-    position: absolute;
+    position: fixed;
+    background-color: #00000000;
     color: white;
     top: 0;
     width: 100%;
@@ -7,31 +8,17 @@
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
-    /* box-shadow: #000000fe 5px 3px 8px; */
-    background-color: #00000000;
+    z-index: 10;
+    transition: background-color 0.6s ease;
+}
+
+header.scrolled {
+    background-color: #001F3F;
+    box-shadow: 0 2px 5px #000000dc
 }
 
 .header > nav {
     text-shadow: 0 -1px 2px #000000,0 1px 2px #000000,-1px 0 2px #000000,1px 0 2px #000000;
-}
-
-.consoles {
-    display: grid;
-    position: absolute;
-    background-color: white;
-    margin-top: 55px;
-    height: 150px;
-    width: 150px;
-    border-top: 4px solid black;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    text-shadow: none;
-}
-
-.consoles a {
-    color: black;
-    padding: 10px;
-    text-decoration: none;
 }
 
 .nav1 a{
@@ -77,30 +64,31 @@
     .consoles {
         display: grid;
     }
-
-    .consoles a{
-        font-size: 15px;
-    }
 }
 
 .consoles {
     display: none;
     position: absolute;
     background-color: white;
+    border-radius: 3px;
+    background-color: white;
     height: 170px;
-    width: 150px;
+    width: 224px;
     margin-top: 19px;
-    border-top: 4px solid black;
+    padding: 5px;
+    /* border-top: 4px solid black;
     border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    z-index: 1;
-    left: 550px;
+    border-bottom-right-radius: 5px; */
+    text-shadow: none;
+    
 }
 
 .consoles a {
     color: black;
     padding: 10px;
     text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
 }
 
 .ps_link:hover {
