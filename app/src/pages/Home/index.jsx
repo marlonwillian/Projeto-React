@@ -7,6 +7,7 @@ import Header from "../../components/Header";
 import styles from "./Home.module.css";
 import Category from "../../components/Category";
 import jogos from "../../json/games.json";
+import SearchGames from "../../components/SearchGames";
 import { Link } from "react-router-dom";
 
 const categories = [
