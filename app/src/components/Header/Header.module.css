@@ -60,19 +60,98 @@
     cursor: pointer;
 }
 
+
+.test {
+    display: grid;
+    position: absolute;
+    background-color: white;
+    border-radius: 3px;
+    background-color: white;
+    height: 170px;
+    width: 224px;
+    padding: 5px;
+    margin-top: 19px;
+    text-shadow: none;
+}
+
+.consoles {
+    display: grid;
+    position: absolute;
+    background-color: white;
+    border-radius: 3px;
+    background-color: white;
+    height: 170px;
+    width: 224px;
+    margin-top: 19px;
+    padding: 5px;
+    text-shadow: none;
+    box-shadow: -10px 10px 6px #00000082;
+    border: 1px solid #000000e1;
+}
+
+.consoles a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.ps_link:hover {
+    color: #0a58cd;
+    background-color: #0000001d;
+}
+
+.ni_link:hover {
+    color: red;
+    background-color: #0000001d;
+}
+
+.xb_link:hover {
+    color: green;
+    background-color: #0000001d;
+}
+
 @keyframes down {
     from {
+      margin-top: 0px;
       opacity: 0;
-      transform: translateY(-20px);
+      display: none;
     }
     to {
+      margin-top: 19px;
       opacity: 1;
-      transform: translateY(0);
+      display: grid;
     }
-  }
+}
 
-.menu {
-    animation: down 0.5 ease-in forwards;
+@keyframes up {
+    from {
+      margin-top: 19px;
+    }
+    to {
+      margin-top: 0px;
+      opacity: 0;
+      display: none;
+    }
+}
+
+.down {
+    animation: down 0.5s forwards;
+}
+
+.up {
+    animation: up 0.5s forwards;
+}
+
+.searchBar {
+    background-color: #000000ba;
+    border: none;
+    box-shadow: 0px 0px 2px white;
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+    text-overflow: ellipsis;
 }
 
 @keyframes increase {
@@ -81,7 +160,7 @@
       opacity: 0;
     }
     to {
-      width: 200px;
+      width: 250px;
       opacity: 1;
     }
 }

@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom"
 import styles from "./Header.module.css"
-import MenuConsoles from "../MenuConsoles";
+import NintendoIcon from "../NintendoIcon";
+import SearchCard from "../SearchCard";
 
 function Header({ console, color, shadow }) {
     const [scrolled, setScrolled] = useState(false);
@@ -9,9 +10,14 @@ function Header({ console, color, shadow }) {
     const [showComponent, setComponent] = useState(false);
 
     function searchBar() {
-        return <input type="text" className={
-            showSearch ? styles.show : styles.hide
-        } />
+        return <input 
+                    type="text"
+                    placeholder="Buscar" 
+                    className={`
+                        ${styles.searchBar} 
+                        ${showSearch ? styles.show : styles.hide}
+                    `}
+                />
     }
 
     useEffect(() => {
@@ -36,28 +42,23 @@ function Header({ console, color, shadow }) {
                 <Link to="/"><i class="fa-solid fa-house"></i></Link>
             </nav>
             <nav className={styles.nav}>
-                {
-                    showComponent ?
-                        <a className={styles.a_con} onClick={() => setComponent(false)}>
-                            <i style={{ marginRight: "10px" }}>
-                                {console}
-                            </i>
-                            <span className={styles.seta} >
-                                <i className="fa-solid fa-chevron-down fa-fade"></i>
-                            </span>
-                            <MenuConsoles className={styles.menu}/>
-                        </a>
-                        :
-                        <a className={styles.a_con} onClick={() => setComponent(true)}>
-                            <i style={{ marginRight: "10px" }}>
-                                {console}
-                            </i>
-                            <span className={styles.seta}>
-                                <i className="fa-solid fa-chevron-down"></i>
-                            </span>
-                            
-                        </a>
-                }
+                <a className={styles.a_con} onClick={() => setComponent(!showComponent)}>
+                    <i style={{ marginRight: "10px" }}>
+                        {console}
+                    </i>
+                    <span className={styles.seta}>
+                        <i className={`fa-solid fa-chevron-down ${showComponent ? "fa-fade" : ""}`}></i>
+                    </span>
+                    <nav 
+                        className={`
+                            ${styles.consoles} 
+                            ${showComponent ? styles.down : styles.up}
+                        `}>
+                        <Link to="/playstation" className={styles.ps_link}><i class="fa-brands fa-playstation"></i> PlayStation</Link>
+                        <Link to="/nintendo" className={styles.ni_link}><NintendoIcon/> Nintendo</Link>
+                        <Link to="/xbox" className={styles.xb_link}><i class="fa-brands fa-xbox"></i> Xbox</Link>
+                    </nav>
+                </a>
                 <a>
                     {
                         showSearch ?

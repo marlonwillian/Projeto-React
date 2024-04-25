@@ -9,6 +9,7 @@ import Category from "../../components/Category";
 import jogos from "../../json/games.json";
 import SearchGames from "../../components/SearchGames";
 import { Link } from "react-router-dom";
+import SearchCard from "../../components/SearchCard";
 
 const categories = [
     "Lançamentos e anunciados",
@@ -41,11 +42,25 @@ function Home() {
                 bgcolor="black"
                 img={jogos[number].bigcover}
             >
+                <SearchCard/>
                 <div 
                     className={styles.title} 
-                    style={{ left: jogos[number].position, transform: `translate(-${jogos[number].position})`}}>
-                    <img src={jogos[number].imgTitle} style={{ width: "350px" }}/> 
-                    <Link to={`/jogo/${number}`}><button className={styles.button}>{typeof(jogos[number].preco) == "string" ? "Em breve" : "Já disponível" }</button></Link>
+                    style={{ 
+                        left: jogos[number].position, 
+                        transform: `translate(-${jogos[number].position})`
+                    }}>
+                    <img 
+                        src={jogos[number].imgTitle} 
+                        style={{ width: "350px" }}
+                    /> 
+                    <Link to={`/jogo/${number}`}>
+                        <button className={styles.button}>
+                            {
+                                typeof(jogos[number].preco) == "string" ? 
+                                "Em breve" : "Já disponível" 
+                            }
+                        </button>
+                    </Link>
                 </div>
                 <Container 
                     background="linear-gradient(0deg, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 65%, rgba(0, 0, 0, 0.740) 90%, rgba(0, 0, 0, 0.450) 95%, rgba(0,0,0,0) 100%)"
