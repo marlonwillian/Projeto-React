@@ -9,10 +9,10 @@
     justify-content: space-around;
     padding-top: 15px;
     z-index: 10;
-    transition: background-color 0.6s ease;
+    transition: background-color 0.6s;
 }
 
-header.scrolled {
+.scrolled {
     background-color: #001F3F;
     box-shadow: 0 2px 5px #000000dc
 }
@@ -39,7 +39,7 @@ header.scrolled {
 
 
 .nav {
-    padding-top: 5px;
+    padding-top: 4px;
 }
 
 .nav a{
@@ -57,55 +57,55 @@ header.scrolled {
 
 .a_con {
     color: white;
-    transition: 5s ease;
+    cursor: pointer;
 }
 
-.a_con:hover {
-    .consoles {
-        display: grid;
+@keyframes down {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.menu {
+    animation: down 0.5 ease-in forwards;
+}
+
+@keyframes increase {
+    from {
+      width: 0;
+      opacity: 0;
+    }
+    to {
+      width: 200px;
+      opacity: 1;
     }
 }
 
-.consoles {
-    display: none;
-    position: absolute;
-    background-color: white;
-    border-radius: 3px;
-    background-color: white;
-    height: 170px;
-    width: 224px;
-    margin-top: 19px;
-    padding: 5px;
-    /* border-top: 4px solid black;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px; */
-    text-shadow: none;
-    
+@keyframes decrease {
+    from {
+      width: 200px;
+    }
+    to {
+      width: 0px;
+      display: none;
+    }
+}
+  
+.show {
+    animation: increase 0.5s ease-in forwards;
+    margin-right: 15px;
 }
 
-.consoles a {
-    color: black;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 17px;
-    border-radius: 5px;
+.hide {
+    animation: decrease 0.2s ease-in forwards;
+    margin-right: 15px;
 }
-
-.ps_link:hover {
-    color: #0a58cd;
-    background-color: #0000001d;
-}
-
-.ni_link:hover {
-    color: red;
-    background-color: #0000001d;
-}
-
-.xb_link:hover {
-    color: green;
-    background-color: #0000001d;
-}
-
+  
 .nav3 a{
     text-decoration: none;
     color: white;
