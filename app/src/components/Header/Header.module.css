@@ -60,20 +60,6 @@
     cursor: pointer;
 }
 
-
-.test {
-    display: grid;
-    position: absolute;
-    background-color: white;
-    border-radius: 3px;
-    background-color: white;
-    height: 170px;
-    width: 224px;
-    padding: 5px;
-    margin-top: 19px;
-    text-shadow: none;
-}
-
 .consoles {
     display: grid;
     position: absolute;
@@ -151,6 +137,7 @@
     color: white;
     padding: 10px;
     font-size: 13px;
+    border-radius: 5px;
     text-overflow: ellipsis;
 }
 

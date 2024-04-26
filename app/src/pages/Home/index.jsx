@@ -42,7 +42,6 @@ function Home() {
                 bgcolor="black"
                 img={jogos[number].bigcover}
             >
-                <SearchCard/>
                 <div 
                     className={styles.title} 
                     style={{ 

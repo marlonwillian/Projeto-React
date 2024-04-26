@@ -1,22 +1,29 @@
 import styles from "./GameList.module.css";
-import Card from "../Card";
+import SearchCard from "../SearchCard";
 
-function VideoList({ videos, emptyHeading }) {
-    const count = videos.length
-    let heading = emptyHeading
-    if(count > 0) {
-        const noun = count > 1 ? 'jogos' : 'jogo'
-        heading = `${count} ${noun}`
-    }
-
+function GameList({ jogos }) {
     return (
         <>
-            <h2>{heading}</h2>
-            <section className={styles.videos}>
-                { videos.map((video) => <Card id={video.id} key={video.id} /> )}
-            </section>
+            <i 
+                className={`fa-solid fa-caret-up ${styles.arrow}`} 
+                style={{ display: jogos == 0 ? "none" : "block" }}>
+            </i>
+            <div 
+                className={styles.searchCard} 
+                style={{ display: jogos == 0 ? "none" : "block" }}
+            >
+                {   
+                    jogos.map((jogo) =>
+                    <SearchCard
+                        id={jogo.id}
+                        title={jogo.title}
+                        price={jogo.preco}
+                        img={jogo.cover}
+                    />) 
+                }
+            </div>
         </>
     );
 }
 
-export default VideoList;
+export default GameList;

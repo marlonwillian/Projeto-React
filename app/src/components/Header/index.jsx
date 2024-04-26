@@ -2,21 +2,30 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom"
 import styles from "./Header.module.css"
 import NintendoIcon from "../NintendoIcon";
-import SearchCard from "../SearchCard";
+import SearchGames from "../SearchGames";
+import jogos from "../../json/games.json";
 
 function Header({ console, color, shadow }) {
+    // Hook para Scroll
     const [scrolled, setScrolled] = useState(false);
+
+    // Hook para pesquisas
     const [showSearch, setSearch] = useState(false);
+    const [searchText, setSearchText] = useState("");
+
+    // Hook para menus
     const [showComponent, setComponent] = useState(false);
 
     function searchBar() {
         return <input 
-                    type="text"
+                    type="search"
                     placeholder="Buscar" 
                     className={`
                         ${styles.searchBar} 
                         ${showSearch ? styles.show : styles.hide}
                     `}
+                    value={searchText}
+                    onChange={e => setSearchText(e.target.value)}
                 />
     }
 
@@ -64,7 +73,11 @@ function Header({ console, color, shadow }) {
                         showSearch ?
                             <i>
                                 {searchBar()}
-                                <i class="fa-solid fa-x" style={{ cursor: "pointer" }} onClick={() => setSearch(false)}></i>
+                                <i class="fa-solid fa-caret-left" style={{ cursor: "pointer" }} onClick={() => setSearch(false)}></i>
+                                <SearchGames 
+                                    jogos={jogos} 
+                                    text={searchText} 
+                                />
                             </i>
                             :
                             <i>
