@@ -63,12 +63,12 @@ function Home() {
                 </div>
                 <Container 
                     background="linear-gradient(0deg, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 65%, rgba(0, 0, 0, 0.740) 90%, rgba(0, 0, 0, 0.450) 95%, rgba(0,0,0,0) 100%)"
-                    marginTop="58vh"
+                    marginTop="60vh"
                 >
                     <Carrossel/>
                 </Container>
             </Banner>
-            <Container paddingTop="255px" background="black">
+            <Container paddingTop="360px" background="black">
                 { categories.map((category, index) =>
                     <Category title={category} category={category} key={index} >
                         {filterCategory(index).map(jogo => <Card title={jogo.title} id={jogo.id} price={jogo.preco} color="#061a36" img={jogo.cover} key={jogo.id} />)}

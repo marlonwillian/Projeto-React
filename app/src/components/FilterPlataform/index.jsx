@@ -1,8 +1,10 @@
 import styles from "./FilterPlataform.module.css";
 import jogo from "../../json/games.json";
 
-function FilterPlataform( {fontsize, id}) {
-    const consoles = ['PS5', 'PS4', 'Xbox Series', 'Xbox One', 'Nintendo Switch', 'PC'];
+function FilterPlataform( {id, fontsize}) {
+    const consoles = [
+        'PS5', 'PS4', 'Xbox Series', 'Xbox One', 'Nintendo Switch', 'PC'
+    ];
     
     function filterPlataform(index) {
         return jogo[id].console.filter(jogo => jogo.console === consoles[index])
@@ -13,13 +15,13 @@ function FilterPlataform( {fontsize, id}) {
         <span
             className={styles.plataform}
             style={{fontSize: fontsize, fontFamily: "psfont", color: "black", backgroundColor: "white", borderRadius: "5px", marginTop: "10px"}}>
-                {plataform}
+                <span>{plataform}</span>
         </span>
         : plataform == "PS4" ?
         <span
             className={styles.plataform}
             style={{fontSize: fontsize, fontFamily: "psfont", color: "white", backgroundColor: "black", boxShadow: "0px 0px 2px white", borderRadius: "5px", marginTop: "10px"}}>
-                {plataform}
+                <span>{plataform}</span>
         </span>
         : plataform == "XBOX X|S" ?
         <span
@@ -34,7 +36,7 @@ function FilterPlataform( {fontsize, id}) {
         </span> : plataform == "Nintendo" ?
         <span
             className={styles.plataform}
-            style={{fontSize: fontsize, fontFamily: "nintendofont", fontWeight: "100", color: "white", backgroundColor: "red", padding: "10x"}}>
+            style={{fontSize: fontsize, fontFamily: "nintendofont", fontWeight: "100", color: "white", backgroundColor: "red", padding: "6px"}}>
                 <span className={styles.nintendo}>{plataform}</span>
         </span> : plataform == "STEAM" ?
         <span
