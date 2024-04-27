@@ -3,7 +3,7 @@ import GameList from "../GameList/index.jsx";
 function SearchGames({ jogos, text }) {
     function removeAccent(text){       
         text = text.replace(/'/g, '')
-        text = text.replace(/-/g, '')
+        text = text.replace(/-/g, ' ')
         return text               
     }
 
