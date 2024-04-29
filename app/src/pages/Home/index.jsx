@@ -24,10 +24,15 @@ function filterCategory(id) {
     return jogos.filter(jogo => jogo.category === categories[id])
 }
 
-function getRandomInt (min, max) {
+function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min 
+}
+
+function convertPrice(price) {
+    price = price.toLocaleString('pt-br', {minimumFractionDigits: 2});
+    return price
 }
 
 const number = getRandomInt(0, 44);
@@ -70,8 +75,26 @@ function Home() {
             </Banner>
             <Container paddingTop="360px" background="black">
                 { categories.map((category, index) =>
-                    <Category title={category} category={category} key={index} >
-                        {filterCategory(index).map(jogo => <Card title={jogo.title} id={jogo.id} price={jogo.preco} color="#061a36" img={jogo.cover} key={jogo.id} />)}
+                    <Category 
+                        title={category} 
+                        category={category} 
+                        key={index} 
+                    >
+                        {
+                            filterCategory(index).map(jogo => 
+                                <Card 
+                                    title={jogo.title} 
+                                    id={jogo.id} 
+                                    price={
+                                        typeof(jogo.preco) == "object" 
+                                        ? convertPrice(jogo.preco[0]) : convertPrice(jogo.preco)
+                                    } 
+                                    color="#061a36" 
+                                    img={jogo.cover} 
+                                    key={jogo.id} 
+                                />
+                            )
+                        }
                     </Category>
                 )}
             </Container>

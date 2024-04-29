@@ -17,44 +17,11 @@
     color: white;
 }
 
-.btn {
-    text-align: left;
-    background-color: #000000;
-    width: auto;
-    margin-top: 480px;
-    border-radius: 0px;
-    font-size: 15px;
-    box-shadow: 0px 0px 2px white;
-    padding-left: 2px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-left: 50px;
-} 
-
-.btn > span {
-    margin-right: 15px;
-    font-size: 20px;
-}
-
-.btn > i {
-    font-size: 20px;
-}
-
-.discount {
-    background-color: #008000ba;
-    color: white;
-    padding: 3px;
-    border-radius: 2px;
-    margin-left: 1.5px;
-}
-
 .plataforms {
+    display: flex;
     width: auto;
+    align-items: self-end;
     float: right;
     margin-top: 485px;
     margin-right: 25px;
-}
-
-.plataforms > span {
-    margin-bottom: 50px;
 }

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./Card.module.css";
 import FilterPlataform from "../FilterPlataform";
+import CartButton from "../CartButton";
 
 function Card({ id, title, price, color, img }) {
   return (
@@ -16,13 +17,9 @@ function Card({ id, title, price, color, img }) {
             {`${title}`}
           </span>
           <div className={styles.div_plataforms}>
-            <FilterPlataform fontsize="7px" id={`${id}`} />
+            <FilterPlataform fontsize="7px" id={`${id}`} onlylogo="true" nintendosize="20px" steamsize="20px"/>
           </div>
-          <button className={styles.btn}>
-            <span className={styles.discount}>-50%</span>
-            <span>{ `${price}` }</span>
-            <i class="fa-solid fa-cart-plus"></i>
-          </button>
+          <CartButton margintop="30px" price={price}/>
         </div>
       </Link>
     </section>

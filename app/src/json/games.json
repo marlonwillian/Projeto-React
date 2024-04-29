@@ -126,6 +126,7 @@
     "position": "20%",
     "developer": "From Software",
     "preco": 179.90,
+    "discount": 50,
     "console": ["PS4", "XBOX", "Nintendo", "STEAM"],
     "cover": "https://fanatical.imgix.net/product/original/fbc395cc-a07d-441e-bb43-eb00fd7d8b33.jpeg?auto=compress,format&w=870&fit=crop&h=489",
     "bigcover": "https://images2.alphacoders.com/895/895681.jpg",

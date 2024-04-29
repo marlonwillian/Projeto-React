@@ -3,12 +3,13 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: left;
+    
 }
 
 .card {
     width: 250px;
-    height: 377px;
-    max-height: 400px;
+    height: auto;
+    margin-inline: 10px;
     border-radius: 8px;
 }
 
@@ -37,7 +38,7 @@
 .div_plataforms {
     align-items: self-end;
     width: 100%;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .link {
@@ -48,13 +49,13 @@
     text-align: left;
     background-color: #000000;
     width: auto;
+    height: auto;
     border-radius: 0px;
-    font-size: 15px;
+    font-size: 15px;         
     box-shadow: 0px 0px 2px white;
-    padding-left: 2px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin-top: 30px;
     margin-bottom: 15px;
+    padding: 5px;
 } 
 
 .btn > span {
@@ -64,12 +65,14 @@
 
 .btn > i {
     font-size: 20px;
+    margin-right: 5px;
 }
 
 .discount {
     background-color: #008000ba;
     color: white;
-    padding: 3px;
+    padding: 5px;
     border-radius: 2px;
     margin-left: 1.5px;
+    width: 100%;
 }
