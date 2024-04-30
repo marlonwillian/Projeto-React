@@ -5,7 +5,7 @@ import NintendoIcon from "../NintendoIcon";
 import SearchGames from "../SearchGames";
 import jogos from "../../json/games.json";
 
-function Header({ console, color, shadow }) {
+function Header({ console, color, colorScrolled, shadow }) {
     // Hook para Scroll
     const [scrolled, setScrolled] = useState(false);
 
@@ -46,7 +46,7 @@ function Header({ console, color, shadow }) {
     }, []);
 
     return (
-        <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`} style={{ backgroundColor: color, boxShadow: shadow }}>
+        <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`} style={{ backgroundColor: scrolled ? colorScrolled : color, boxShadow: shadow }}>
             <nav className={styles.nav1}>
                 <Link to="/"><i class="fa-solid fa-house"></i></Link>
             </nav>
@@ -64,7 +64,7 @@ function Header({ console, color, shadow }) {
                             ${showComponent ? styles.down : styles.up}
                         `}>
                         <Link to="/playstation" className={styles.ps_link}><i class="fa-brands fa-playstation"></i> PlayStation</Link>
-                        <Link to="/nintendo" className={styles.ni_link}><NintendoIcon/> Nintendo</Link>
+                        <Link to="/nintendo" className={styles.ni_link}><NintendoIcon marginBottom="2"/> Nintendo</Link>
                         <Link to="/xbox" className={styles.xb_link}><i class="fa-brands fa-xbox"></i> Xbox</Link>
                     </nav>
                 </a>

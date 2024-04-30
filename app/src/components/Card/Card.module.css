@@ -38,41 +38,9 @@
 .div_plataforms {
     align-items: self-end;
     width: 100%;
-    /* margin-bottom: 30px; */
+    padding: 8px;
 }
 
 .link {
     text-decoration: none;
-}
-
-.btn {
-    text-align: left;
-    background-color: #000000;
-    width: auto;
-    height: auto;
-    border-radius: 0px;
-    font-size: 15px;         
-    box-shadow: 0px 0px 2px white;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    padding: 5px;
-} 
-
-.btn > span {
-    margin-right: 15px;
-    font-size: 20px;
-}
-
-.btn > i {
-    font-size: 20px;
-    margin-right: 5px;
-}
-
-.discount {
-    background-color: #008000ba;
-    color: white;
-    padding: 5px;
-    border-radius: 2px;
-    margin-left: 1.5px;
-    width: 100%;
 }

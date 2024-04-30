@@ -87,8 +87,9 @@ function Home() {
                                     id={jogo.id} 
                                     price={
                                         typeof(jogo.preco) == "object" 
-                                        ? convertPrice(jogo.preco[0]) : convertPrice(jogo.preco)
-                                    } 
+                                        ? jogo.preco[0] : jogo.preco
+                                    }
+                                    discount={jogo.discount}
                                     color="#061a36" 
                                     img={jogo.cover} 
                                     key={jogo.id} 

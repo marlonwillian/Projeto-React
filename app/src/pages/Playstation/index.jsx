@@ -11,7 +11,6 @@ const categories = [
     "Ultimos lançamentos e anunciados",
     "O melhor do PlayStation Studios",
     "PS Plus",
-    "Gift Cards"
 ]
 
 function filterCategory(id) {
@@ -32,7 +31,21 @@ function Playstation() {
             <Container background="#08264f">
                 { categories.map((category, index) =>
                     <Category title={category} category={category} key={index} >
-                        {filterCategory(index).map(jogo => <Card title={jogo.title} id={jogo.id} price={jogo.preco} color="#061a36" img={jogo.cover} key={jogo.id} />)}
+                        {
+                            filterCategory(index).map(jogo => 
+                                <Card 
+                                    title={jogo.title} 
+                                    id={jogo.id} 
+                                    price={
+                                        typeof(jogo.preco) == "object" 
+                                        ? jogo.preco[0] : jogo.preco
+                                    }
+                                    discount={jogo.discount}
+                                    color="#061a36" 
+                                    img={jogo.cover} 
+                                    key={jogo.id} 
+                                />)
+                        }
                     </Category>
                 )}
             </Container>

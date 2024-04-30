@@ -1,0 +1,13 @@
+@font-face {
+    font-family: xbox-font;
+    src: url(./font/xboxfont.ttf);
+}
+
+.title {
+    font-family: xbox-font;
+    font-size: 100px;
+    margin-top: 466px;
+    padding-top: 50px;
+    background-color: #000000b0;
+    height: 230px;
+}

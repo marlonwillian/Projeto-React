@@ -54,7 +54,7 @@ function FilterPlataform( {id, onlylogo, fontsize, nintendosize, steamsize}) {
                     </span>
                 </span>
         </span> : plataform == "Nintendo" ?
-        onlylogo ? <i style={{marginBottom: "4px", marginRight: "5px", paddingTop: "0px", fontSize: nintendosize}}><NintendoIcon/></i>:
+        onlylogo ? <i style={{marginBottom: "4px", marginRight: "5px", paddingTop: "0px", fontSize: nintendosize, color: "red"}}><NintendoIcon marginBottom="0"/></i>:
         <span
             className={styles.plataform}
             style={{fontSize: fontsize, fontFamily: "nintendofont", fontWeight: "100", color: "white", backgroundColor: "red", padding: "6px"}}>

@@ -41,9 +41,9 @@ function Carrossel() {
                                     <CartButton
                                         margintop="480px"
                                         marginleft="50px"
-                                        price={typeof(jogos[number[0]].preco) == "object"
-                                            ? convertPrice(jogos[number[0]].preco[0]) : convertPrice(jogos.preco)}
-                                        discount={jogos[number[0]].discount}/>
+                                        price={typeof(jogos[number[0]].preco) == "object" ? 
+                                        jogos[number[0]].preco[0] : jogos[number[0]].preco}
+                                    />
                                 </i>
                                 <div className={styles.plataforms}>
                                     <FilterPlataform
@@ -74,9 +74,10 @@ function Carrossel() {
                                     <CartButton
                                         margintop="480px"
                                         marginleft="50px"
-                                        price={typeof(jogos[number[1]].preco) == "object"
-                                            ? convertPrice(jogos[number[1]].preco[0]) : convertPrice(jogos[number[1]].preco)}
-                                        discount={jogos[number[1]].discount}/>
+                                        price={
+                                            typeof(jogos[number[1]].preco) == "object" ? jogos[number[1]].preco[0] : jogos[number[1]].preco
+                                        }
+                                    />
                                 </i>
                                 <div className={styles.plataforms}>
                                     <FilterPlataform
@@ -107,9 +108,12 @@ function Carrossel() {
                                     <CartButton
                                         margintop="480px"
                                         marginleft="50px"
-                                        price={typeof(jogos[number[2]].preco) == "object"
-                                            ? convertPrice(jogos[number[2]].preco[0]) : convertPrice(jogos[number[2]].preco)}
-                                        discount={jogos[number[2]].discount}/>
+                                        price={
+                                            typeof(jogos[number[2]].preco) == "object" ? 
+                                            jogos[number[2]].preco[0] : jogos[number[2]].preco
+                                        }
+                                        discount={jogos[number[2]].discount}
+                                    />
                                 </i>
                                 <div className={styles.plataforms}>
                                     <FilterPlataform
@@ -140,9 +144,11 @@ function Carrossel() {
                                     <CartButton
                                         margintop="480px"
                                         marginleft="50px"
-                                        price={typeof(jogos[number[3]].preco) == "object"
-                                            ? convertPrice(jogos[number[3]].preco[0]) : convertPrice(jogos[number[3]].preco)}
-                                        discount={jogos[number[3]].discount}/>
+                                        price={
+                                            typeof(jogos[number[3]].preco) == "object" ? 
+                                            jogos[number[3]].preco[0] : jogos[number[3]].preco
+                                        }
+                                    />
                                 </i>
                                 <div className={styles.plataforms}>
                                     <FilterPlataform

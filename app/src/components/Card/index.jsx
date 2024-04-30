@@ -3,7 +3,7 @@ import styles from "./Card.module.css";
 import FilterPlataform from "../FilterPlataform";
 import CartButton from "../CartButton";
 
-function Card({ id, title, price, color, img }) {
+function Card({ id, title, price, discount, color, img }) {
   return (
     <section className={styles.section}>
       <Link className={styles.link} to={`/jogo/${id}`}>
@@ -19,7 +19,7 @@ function Card({ id, title, price, color, img }) {
           <div className={styles.div_plataforms}>
             <FilterPlataform fontsize="7px" id={`${id}`} onlylogo="true" nintendosize="20px" steamsize="20px"/>
           </div>
-          <CartButton margintop="30px" price={price}/>
+          <CartButton margintop="60px" price={price} discount={discount}/>
         </div>
       </Link>
     </section>

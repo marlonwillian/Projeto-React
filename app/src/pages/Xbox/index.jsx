@@ -8,10 +8,9 @@ import Category from "../../components/Category";
 import Card from "../../components/Card";
 
 const categories = [
-    "O melhor do PlayStation Studios",
-    "Ultimos lançamentos e anunciados",
-    "PS Plus",
-    "Gift Cards"
+    "O melhor da Xbox Game Studios",
+    "Jogos em lançamentos e anunciados",
+    "Game Pass"
 ]
 
 function filterCategory(id) {
@@ -21,18 +20,35 @@ function filterCategory(id) {
 function Xbox() {
     return (
         <section className="styles.section">
-            <Header console={<span class="fa-brands fa-xbox"></span>} color="green"/>
-            <Banner>
-                <h1>Xbox</h1>
+            <Header console={<i class="fa-brands fa-xbox"></i>} colorScrolled="green"/>
+            <Banner
+                img="https://pixelz.cc/wp-content/uploads/2023/09/halo-infinite-master-chief-uhd-4k-wallpaper.jpg"
+                height="105vh"
+            >
+                <h1 className={styles.title}><span class="fa-brands fa-xbox"></span> XBOX</h1>
             </Banner>
-            <Container>
-                { categories.map((category, index) =>
+            <Container background="#016001">
+                {categories.map((category, index) =>
                     <Category title={category} category={category} key={index} >
-                        {filterCategory(index).map(jogo => <Card title={jogo.title} id={jogo.id} key={jogo.id} />)}
+                        {
+                            filterCategory(index).map(jogo =>
+                                <Card
+                                    title={jogo.title}
+                                    id={jogo.id}
+                                    price={
+                                        typeof (jogo.preco) == "object"
+                                            ? jogo.preco[0] : jogo.preco
+                                    }
+                                    discount={jogo.discount}
+                                    color="black"
+                                    img={jogo.cover}
+                                    key={jogo.id}
+                                />)
+                        }
                     </Category>
                 )}
             </Container>
-            <Footer/>
+            <Footer color="green" />
         </section>
     )
 }
