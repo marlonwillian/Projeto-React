@@ -4,6 +4,8 @@ import styles from "./Header.module.css"
 import NintendoIcon from "../NintendoIcon";
 import SearchGames from "../SearchGames";
 import jogos from "../../json/games.json";
+import GameList from "../GameList";
+import { useCartContext } from "../../context/Cart";
 
 function Header({ console, color, colorScrolled, shadow }) {
     // Hook para Scroll
@@ -15,6 +17,9 @@ function Header({ console, color, colorScrolled, shadow }) {
 
     // Hook para menus
     const [showComponent, setComponent] = useState(false);
+
+    // context
+    const { inCart } = useCartContext()
 
     function searchBar() {
         return <input 
@@ -93,7 +98,27 @@ function Header({ console, color, colorScrolled, shadow }) {
                 </a>
             </nav>
             <nav className={styles.nav3}>
-                <Link to="https://github.com/marlonwillian" target="_blank"><i class="fa-solid fa-user"></i></Link>
+                <a className={styles.a_cart}>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span className={styles.quantidade}>0</span>
+                    <nav 
+                        className={`
+                            ${styles.cart} 
+                            
+                        `}
+                    >   
+                        { 
+                            <GameList 
+                                jogos={inCart} 
+                                arrow="false" 
+                                width="400px" 
+                                height="300px"/> 
+                        }
+                    </nav>
+                    {/* <div className={styles.resumo}>
+                        
+                    </div> */}
+                </a>
             </nav>
         </header>
     );

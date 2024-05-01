@@ -171,19 +171,46 @@
     animation: decrease 0.2s ease-in forwards;
     margin-right: 15px;
 }
-  
-.nav3 a{
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-    padding-inline: 18px;
-    transition: 0.2s;
-}
 
-.nav3 a:hover {
-    color: lightblue;
+.nav3 {
+    background-color: #00000099;
+    height: 36px;
+    padding-inline: 15px;
+    border-radius: 5px;
+}
+  
+.a_cart {
+    text-decoration: none;
 }
 
 .nav3 i {
-    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    transition: 0.2s;
+    font-size: 20px;
+}
+
+.quantidade {
+    font-size: 20px;
+    margin-left: 30px;
+    color: white;
+}
+
+.cart {
+    position: absolute;
+    margin-top: 10px;
+    right: 20%;
+    transform: translate(-20%);
+    background-color: black;
+}
+
+.resumo {
+    position: absolute;
+    margin-top: 320px;
+    right: 5.4%;
+    transform: translate(-5.4%);
+    width: 400px;
+    height: 80px;
+    background-color: black;
 }

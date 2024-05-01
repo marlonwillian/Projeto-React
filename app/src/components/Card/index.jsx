@@ -4,10 +4,14 @@ import FilterPlataform from "../FilterPlataform";
 import CartButton from "../CartButton";
 
 function Card({ id, title, price, discount, color, img }) {
+  const anularLink = (e) => {
+    e.stopPropagation(); // Impede a propagação do evento de clique
+  };
+
   return (
     <section className={styles.section}>
-      <Link className={styles.link} to={`/jogo/${id}`}>
-        <div className={styles.card} style={{ backgroundColor: color }}>
+      <div className={styles.card} style={{ backgroundColor: color }}>
+        <Link className={styles.link} to={`/jogo/${id}`}>
           <img
             src={img}
             alt="Capa"
@@ -16,12 +20,12 @@ function Card({ id, title, price, discount, color, img }) {
           <span className={styles.title}>
             {`${title}`}
           </span>
-          <div className={styles.div_plataforms}>
-            <FilterPlataform fontsize="7px" id={`${id}`} onlylogo="true" nintendosize="20px" steamsize="20px"/>
-          </div>
-          <CartButton margintop="60px" price={price} discount={discount}/>
+        </Link>
+        <div className={styles.div_plataforms}>
+          <FilterPlataform fontsize="7px" id={`${id}`} onlylogo="true" nintendosize="20px" steamsize="20px" />
         </div>
-      </Link>
+        <CartButton margintop="60px" price={price} discount={discount} id={id} />
+      </div>
     </section>
   );
 }
