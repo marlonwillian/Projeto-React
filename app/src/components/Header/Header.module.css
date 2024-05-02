@@ -177,6 +177,7 @@
     height: 36px;
     padding-inline: 15px;
     border-radius: 5px;
+    cursor: pointer;
 }
   
 .a_cart {
@@ -191,7 +192,7 @@
     font-size: 20px;
 }
 
-.quantidade {
+.qtd {
     font-size: 20px;
     margin-left: 30px;
     color: white;
@@ -200,17 +201,7 @@
 .cart {
     position: absolute;
     margin-top: 10px;
-    right: 20%;
-    transform: translate(-20%);
-    background-color: black;
-}
-
-.resumo {
-    position: absolute;
-    margin-top: 320px;
-    right: 5.4%;
-    transform: translate(-5.4%);
-    width: 400px;
-    height: 80px;
+    right: 15%;
+    transform: translate(-15%);
     background-color: black;
 }

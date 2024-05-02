@@ -18,21 +18,36 @@ function Header({ console, color, colorScrolled, shadow }) {
     // Hook para menus
     const [showComponent, setComponent] = useState(false);
 
+    // Hook para o carrinho
+    const [showCart, setCart] = useState(false);
+
     // context
     const { inCart } = useCartContext()
 
     function searchBar() {
-        return <input 
-                    type="search"
-                    placeholder="Buscar" 
-                    className={`
+        return <input
+            type="search"
+            placeholder="Buscar"
+            className={`
                         ${styles.searchBar} 
                         ${showSearch ? styles.show : styles.hide}
                     `}
-                    value={searchText}
-                    onChange={e => setSearchText(e.target.value)}
-                />
+            value={searchText}
+            onChange={e => setSearchText(e.target.value)}
+        />
     }
+
+    function showGameList() {
+        return <div>
+                    <GameList
+                        jogos={inCart}
+                        cart="true"
+                        width="400px"
+                        height="300px"
+                    />
+                </div>
+    }
+
 
     useEffect(() => {
         const handleScroll = () => {
@@ -63,13 +78,13 @@ function Header({ console, color, colorScrolled, shadow }) {
                     <span className={styles.seta}>
                         <i className={`fa-solid fa-chevron-down ${showComponent ? "fa-fade" : ""}`}></i>
                     </span>
-                    <nav 
+                    <nav
                         className={`
                             ${styles.consoles} 
                             ${showComponent ? styles.down : styles.up}
                         `}>
                         <Link to="/playstation" className={styles.ps_link}><i class="fa-brands fa-playstation"></i> PlayStation</Link>
-                        <Link to="/nintendo" className={styles.ni_link}><NintendoIcon marginBottom="2"/> Nintendo</Link>
+                        <Link to="/nintendo" className={styles.ni_link}><NintendoIcon marginBottom="2" /> Nintendo</Link>
                         <Link to="/xbox" className={styles.xb_link}><i class="fa-brands fa-xbox"></i> Xbox</Link>
                     </nav>
                 </a>
@@ -79,9 +94,10 @@ function Header({ console, color, colorScrolled, shadow }) {
                             <i>
                                 {searchBar()}
                                 <i class="fa-solid fa-caret-left" style={{ cursor: "pointer" }} onClick={() => setSearch(false)}></i>
-                                <SearchGames 
-                                    jogos={jogos} 
-                                    text={searchText} 
+                                <SearchGames
+                                    jogos={jogos}
+                                    text={searchText}
+                                    cart="false"
                                 />
                             </i>
                             :
@@ -98,27 +114,13 @@ function Header({ console, color, colorScrolled, shadow }) {
                 </a>
             </nav>
             <nav className={styles.nav3}>
-                <a className={styles.a_cart}>
+                <a className={styles.a_cart} onClick={showCart ? () => setCart(false) : () => setCart(true)}>
                     <i class="fa-solid fa-cart-shopping"></i>
-                    <span className={styles.quantidade}>0</span>
-                    <nav 
-                        className={`
-                            ${styles.cart} 
-                            
-                        `}
-                    >   
-                        { 
-                            <GameList 
-                                jogos={inCart} 
-                                arrow="false" 
-                                width="400px" 
-                                height="300px"/> 
-                        }
-                    </nav>
-                    {/* <div className={styles.resumo}>
-                        
-                    </div> */}
+                    <span className={styles.qtd}>{inCart.length}</span>
                 </a>
+                <div className={styles.cart}>
+                    {showCart && inCart.length != 0 ? showGameList("block") : null}
+                </div>
             </nav>
         </header>
     );

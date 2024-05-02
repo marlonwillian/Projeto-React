@@ -42,3 +42,8 @@
 .title {
     font-weight: bold;
 }
+
+.resumo {
+    background-color: white;
+    height: 100px;
+}

@@ -2,19 +2,17 @@ import styles from "./SearchCard.module.css";
 import { Link } from "react-router-dom";
 import jogos from "../../json/games.json"
 
-function SearchCard({ cart, id, title, price, img }) {
-    console.log(id)
-
+function SearchCard({ id }) {
     return (
         <Link className={styles.link} to={`/jogo/${id}`}>
             <div className={styles.searchGame}>
                 <img 
-                    src={cart ? jogos[id].cover : img}
+                    src={jogos[id].cover}
                     alt="título do jogo"
                 />
                 <div className={styles.info}>
-                    <span className={styles.title}>{title}</span>
-                    <span className={styles.price}>{price}</span>
+                    <span className={styles.title}>{jogos[id].title}</span>
+                    <span className={styles.price}>{jogos[id].preco}</span>
                 </div>
             </div>
         </Link>
