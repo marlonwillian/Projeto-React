@@ -6,13 +6,18 @@
 .link:hover {
     text-shadow: none;
     color: black;
+
+    i {
+        color: black;
+        /* background-color: black; */
+    }
 }
 
 .searchGame {
     display: flex;
     justify-content: flex-start;
     width: 100%;
-    background-color: rgba(128, 128, 128, 0);
+    background-color: #80808000;
     padding: 5px;
     text-align: left;
     transition: 0.3s ease-in;
@@ -41,9 +46,24 @@
 
 .title {
     font-weight: bold;
+    margin-bottom: 5px;
 }
 
-.resumo {
-    background-color: white;
-    height: 100px;
+.discount {
+    background-color: #008000ba;
+    color: white;
+    padding: 2px;
+    border-radius: 2px;
+    margin-right: 5px;
+    width: 100%;
+}
+
+.noDiscount {
+    text-decoration: line-through;
+}
+
+.delete {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 350px;
 }

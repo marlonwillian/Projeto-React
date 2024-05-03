@@ -1,12 +1,9 @@
 import { useCartContext } from "../../context/Cart";
 import styles from "./CartButton.module.css";
 
+export const convertPrice = (price) => price = price.toLocaleString('pt-br', {minimumFractionDigits: 2});
+
 function CartButton({margintop, marginleft, discount, price, id}) {
-    function convertPrice(price) {
-        price = price.toLocaleString('pt-br', {minimumFractionDigits: 2});
-        return price
-    }
-    
     let desconto = discount/100
     desconto = desconto * price  
     let newPrice = price - desconto
@@ -25,7 +22,7 @@ function CartButton({margintop, marginleft, discount, price, id}) {
                 typeof(discount) == "number" ? <span className={styles.discount}> -{discount}% </span> : null
             }
             <i class={`${icone}`}></i>
-            <span>{ typeof(discount) == "number" ? `${convertPrice(newPrice)}` : `${convertPrice(price)}`}</span>
+            <span>R$ {typeof(discount) == "number" ? `${convertPrice(newPrice)}` : `${convertPrice(price)}`}</span>
         </button>
     );
 }

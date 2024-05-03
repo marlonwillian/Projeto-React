@@ -4,10 +4,6 @@ import FilterPlataform from "../FilterPlataform";
 import CartButton from "../CartButton";
 
 function Card({ id, title, price, discount, color, img }) {
-  const anularLink = (e) => {
-    e.stopPropagation(); // Impede a propagação do evento de clique
-  };
-
   return (
     <section className={styles.section}>
       <div className={styles.card} style={{ backgroundColor: color }}>
