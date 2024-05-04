@@ -34,7 +34,7 @@ function Carrossel() {
                             borderradius="5px"
                             paddingtop="0px"
                             textalign="left"
-                            img={jogos[number[0]].cover}
+                            img={jogos[43].cover}
                         >
                             <div className={styles.gameinfo}>
                                 <i className={styles.btn}>

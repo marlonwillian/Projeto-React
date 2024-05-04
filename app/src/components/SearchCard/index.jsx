@@ -79,7 +79,6 @@ function SearchCard({ id, cart }) {
                                 <span>R$ {convertPrice(jogos[id].preco[0])}</span> 
                                 : 
                                 <span>R$ {convertPrice(jogos[id].preco)}</span>
-
                             }
                         </span>
                     </div>

@@ -4,16 +4,23 @@ import games from "../../json/games.json";
 import { convertPrice } from "../CartButton";
 
 function GameList({ jogos, cart, display, width, height }) {
+    let discount = 0;
     let total = 0;
 
     jogos.map((jogo) => 
-    typeof(games[jogo.id].preco) == "object" 
-    && typeof(games[jogo.id].discount) != "number"
-    ? 
-    total += games[jogo.id].preco[0] : total += games[jogo.id].preco 
-    : typeof(games[jogo.id].preco) == "object" 
-    && typeof(games[jogo.id].discount) != "number" ?
-    total += games[jogo.id].preco - (games[jogo.id].preco[0] * (games[jogo.id].discount/100)))
+        typeof(games[jogo.id].preco) == "object" 
+        && typeof(games[jogo.id].discount) == "number" ? 
+        total += games[jogo.id].preco[0] - (games[jogo.id].preco[0] * (games[jogo.id].discount/100)) 
+        : 
+        typeof(games[jogo.id].preco) == "number" 
+        && typeof(games[jogo.id].discount) == "number" ? 
+        total += games[jogo.id].preco - (games[jogo.id].preco * (games[jogo.id].discount/100))
+        :
+        typeof (games[jogo.id].preco) == "object" ? 
+        total += games[jogo.id].preco[0]
+        : 
+        total += games[jogo.id].preco
+    )
 
     return (
         <>

@@ -1,7 +1,7 @@
 import { useCartContext } from "../../context/Cart";
 import styles from "./CartButton.module.css";
 
-export const convertPrice = (price) => price = price.toLocaleString('pt-br', {minimumFractionDigits: 2});
+export const convertPrice = (price) => Number(price).toFixed(2).replace('.', ',');
 
 function CartButton({margintop, marginleft, discount, price, id}) {
     let desconto = discount/100

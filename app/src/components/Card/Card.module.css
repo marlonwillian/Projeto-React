@@ -47,6 +47,9 @@
 }
 
 .link {
+    text-overflow: ellipsis;
+    color: white;
+    overflow: hidden;
     text-decoration: none;
     z-index: 1;
 }
