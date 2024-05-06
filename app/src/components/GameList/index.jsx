@@ -4,7 +4,6 @@ import games from "../../json/games.json";
 import { convertPrice } from "../CartButton";
 
 function GameList({ jogos, cart, display, width, height }) {
-    let discount = 0;
     let total = 0;
 
     jogos.map((jogo) => 

@@ -22,12 +22,12 @@
     height: 145px;
     border-radius: 8px;
     margin-bottom: 15px;
-    box-shadow: 0px 4px 6px black;
+    box-shadow: 0px 5px 6px black;
     transition: 0.5s linear;
 }
 
 .cover:hover {
-    box-shadow: 0px 0px 5px white;
+    box-shadow: 0px 2px 5px white;
 }
 
 .title {

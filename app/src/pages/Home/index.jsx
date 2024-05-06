@@ -45,16 +45,16 @@ function Home() {
                 height="100vh"
                 bgposition="center"
                 bgcolor="black"
-                img={jogos[number].bigcover}
+                img={jogos[50].bigcover}
             >
                 <div 
                     className={styles.title} 
                     style={{ 
-                        left: jogos[number].position, 
-                        transform: `translate(-${jogos[number].position})`
+                        left: jogos[50].position, 
+                        transform: `translate(-${jogos[50].position})`
                     }}>
                     <img 
-                        src={jogos[number].imgTitle} 
+                        src={jogos[50].imgTitle} 
                         style={{ width: "350px" }}
                     /> 
                     <Link to={`/jogo/${number}`}>
@@ -73,8 +73,7 @@ function Home() {
                     <Carrossel/>
                 </Container>
             </Banner>
-            <Container paddingTop="360px" background="black">
-                { categories.map((category, index) =>
+            <Container paddingTop="360px" background="black">48                { categories.map((category, index) =>
                     <Category 
                         title={category} 
                         category={category} 

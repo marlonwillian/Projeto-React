@@ -46,7 +46,7 @@ function SearchCard({ id, cart }) {
                                     >
                                         {
                                             convertPrice(
-                                                jogos[id].preco - (jogos[id].preco[0] * (jogos[id].discount/100))
+                                                jogos[id].preco[0] - (jogos[id].preco[0] * (jogos[id].discount/100))
                                             )
                                         }
                                     </i>
