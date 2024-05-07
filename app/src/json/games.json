@@ -630,6 +630,18 @@
   },
   {
     "id": "50",
+    "title": "Metroid Prime™ Remastered",
+    "imgTitle": "https://cdn2.steamgriddb.com/logo_thumb/9b86ec1dbee9403799e446f76ded4b78.png",
+    "position": "80%",
+    "developer": "Nintendo",
+    "preco": 199.00,
+    "console": ["Nintendo"],
+    "cover": "https://www.adrenaline.com.br/wp-content/uploads/2023/02/metroid-prime-remastered.jpg",
+    "bigcover": "https://i.redd.it/my-full-edit-of-the-metroid-prime-remastered-artwork-with-v0-a6sqsmdb6wnc1.jpg?width=4800&format=pjpg&auto=webp&s=4a98cc3f6be98a276e3b708f3d74b85e8cd50b96",
+    "category": "Ultimos lançamentos"
+  },
+  {
+    "id": "51",
     "title": "The Legend of Zelda™️️️️️️️: Tears of The Kingdom",
     "imgTitle": "https://zelda.nintendo.com/tears-of-the-kingdom/_images/game/logo-shadow.png",
     "position": "85%",
@@ -639,5 +651,108 @@
     "cover": "https://cdn.wccftech.com/wp-content/uploads/2023/05/WCCFzeldatearsofthekingdom8.jpg",
     "bigcover": "https://images5.alphacoders.com/131/1315150.jpg",
     "category": "Ultimos lançamentos"
+  },
+  {
+    "id": "52",
+    "title": "Pikmin™ 4",
+    "imgTitle": "https://upload.wikimedia.org/wikipedia/fr/0/0a/Pikmin_4_logo.png",
+    "position": "50%",
+    "developer": "Nintendo",
+    "preco": 299.00,
+    "console": ["Nintendo"],
+    "cover": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000005308/73d6767c3ecf68f10cd0061bfe5e52a2d70b72f698a60433badac1399a10d863",
+    "bigcover": "https://wallpapercave.com/wp/wp2212914.jpg",
+    "category": "Ultimos lançamentos"
+  },
+  {
+    "id": "53",
+    "title": "Super Mario Bros.™ Wonder",
+    "imgTitle": "https://upload.wikimedia.org/wikipedia/commons/3/36/Super_Mario_Bros._Wonder_Logo.png",
+    "position": "50%",
+    "developer": "Nintendo",
+    "preco": 299.00,
+    "console": ["Nintendo"],
+    "cover": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/analisis-super-mario-bros-wonder-3198058.jpg?tf=1200x675",
+    "bigcover": "https://catwithmonocle.com/wp-content/uploads/2023/11/smb-wonder-artwork-01-1920x1080-1.jpg",
+    "category": "Ultimos lançamentos"
+  },
+  {
+    "id": "54",
+    "title": "Super Mario RPG™",
+    "imgTitle": "https://upload.wikimedia.org/wikipedia/commons/4/46/Super_Mario_RPG_Logo.png",
+    "position": "50%",
+    "developer": "Nintendo",
+    "preco": 299.00,
+    "console": ["Nintendo"],
+    "cover": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000068683/fe4afe940b0e707798332e86f0af56cdbde48da59dc37cdfb8d59febb88ac72a",
+    "bigcover": "https://images6.alphacoders.com/134/1340237.png",
+    "category": "Ultimos lançamentos"
+  },
+
+
+
+  {
+    "id": "55",
+    "title": "Forza Horizon 5",
+    "imgTitle": "https://cdn.freelogovectors.net/wp-content/uploads/2023/01/forza-horizon-5-logo-freelogovectors.net_.png",
+    "position": "10%",
+    "developer": "Microsoft Game Studios",
+    "preco": 249.00,
+    "discount": 50,
+    "console": ["XBOX", "XBOX X|S", "STEAM"],
+    "cover": "https://i0.wp.com/xxboxnews.blob.core.windows.net/prod/sites/8/2021/11/ForzaHorizon5_KeyArt_Horiz_RGB_Final.jpg?fit=1920%2C1080&ssl=1",
+    "bigcover": "https://images3.alphacoders.com/118/1180539.jpg",
+    "category": "O melhor da Xbox Game Studios"
+  },
+  {
+    "id": "56",
+    "title": "Gears 5",
+    "imgTitle": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/NicePng_gears-png_177831.png/640px-NicePng_gears-png_177831.png",
+    "position": "90%",
+    "developer": "Microsoft Game Studios",
+    "preco": 299.00,
+    "discount": 79,
+    "console": ["XBOX", "XBOX X|S", "STEAM"],
+    "cover": "https://i2-prod.dailystar.co.uk/tech/gaming/article19437393.ece/ALTERNATES/s1200d/0_Gears-5-review.jpg",
+    "bigcover": "https://images.hdqwalls.com/download/gears-5-5k-pc-2048x1152.jpg",
+    "category": "O melhor da Xbox Game Studios"
+  },
+  {
+    "id": "57",
+    "title": "Halo Infinite",
+    "imgTitle": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Halo_Infinite_logo.svg/1280px-Halo_Infinite_logo.svg.png",
+    "position": "10%",
+    "developer": "Microsoft Game Studios",
+    "preco": 299.00,
+    "console": ["XBOX", "XBOX X|S", "STEAM"],
+    "cover": "https://seasonedgaming.com/wp-content/uploads/2020/07/Infinite-Cover.jpg",
+    "bigcover": "https://rare-gallery.com/mocahbig/1377432-master-chief-halo-infinite-game-4k-pc-wallpaper.jpg",
+    "category": "O melhor da Xbox Game Studios"
+  },
+  {
+    "id": "58",
+    "title": "Ori and the Blind Forest",
+    "imgTitle": "https://cdn2.steamgriddb.com/logo/d123141180647a764278488cfd2f7569.png",
+    "position": "17%",
+    "developer": "Microsoft Game Studios",
+    "preco": 99.95,
+    "discount": 75,
+    "console": ["XBOX", "XBOX X|S", "STEAM", "Nintendo"],
+    "cover": "https://i.ytimg.com/vi/cklw-Yu3moE/maxresdefault.jpg",
+    "bigcover": "https://i.pinimg.com/originals/78/fe/b8/78feb810f3ff86cc322d8b830e865fe8.jpg",
+    "category": "O melhor da Xbox Game Studios"
+  },
+  {
+    "id": "59",
+    "title": "Quantum Break",
+    "imgTitle": "https://cdn2.steamgriddb.com/logo/90b8e8eca90756905bf80c293ae6a50a.png",
+    "position": "15%",
+    "developer": "Microsoft Game Studios",
+    "preco": 69.95,
+    "discount": 66,
+    "console": ["XBOX", "XBOX X|S", "STEAM"],
+    "cover": "https://4.bp.blogspot.com/-hnE8UQK5TQM/Vv5IOomtrkI/AAAAAAAAKsE/CBCE7MOjADsUGhQPGUXpL0BRvnsvsqTyw/s1600/quantum-break-capa.png",
+    "bigcover": "https://www.centralxbox.com.br/wp-content/uploads/2019/04/quantum-break-xbox.jpg",
+    "category": "O melhor da Xbox Game Studios"
   }
 ]

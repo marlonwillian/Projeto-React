@@ -35,7 +35,7 @@ function convertPrice(price) {
     return price
 }
 
-const number = getRandomInt(0, 44);
+const number = getRandomInt(0, 54);
 
 function Home() {
     return (
@@ -45,16 +45,16 @@ function Home() {
                 height="100vh"
                 bgposition="center"
                 bgcolor="black"
-                img={jogos[50].bigcover}
+                img={jogos[59].bigcover}
             >
                 <div 
                     className={styles.title} 
                     style={{ 
-                        left: jogos[50].position, 
-                        transform: `translate(-${jogos[50].position})`
+                        left: jogos[59].position, 
+                        transform: `translate(-${jogos[59].position})`
                     }}>
                     <img 
-                        src={jogos[50].imgTitle} 
+                        src={jogos[59].imgTitle} 
                         style={{ width: "350px" }}
                     /> 
                     <Link to={`/jogo/${number}`}>

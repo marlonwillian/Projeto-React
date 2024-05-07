@@ -19,7 +19,7 @@ function convertPrice(price) {
     return price
 }
 
-const number = [getRandomInt(0, 44), getRandomInt(0, 44), getRandomInt(0, 44),getRandomInt(0, 44)];
+const number = [getRandomInt(0, 54), getRandomInt(0, 54), getRandomInt(0, 54),getRandomInt(0, 54)];
 
 function Carrossel() {
     return (
@@ -34,7 +34,7 @@ function Carrossel() {
                             borderradius="5px"
                             paddingtop="0px"
                             textalign="left"
-                            img={jogos[43].cover}
+                            img={jogos[number[0]].cover}
                         >
                             <div className={styles.gameinfo}>
                                 <i className={styles.btn}>
