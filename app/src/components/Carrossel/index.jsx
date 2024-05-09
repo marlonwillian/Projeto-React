@@ -19,7 +19,7 @@ function convertPrice(price) {
     return price
 }
 
-const number = [getRandomInt(0, 54), getRandomInt(0, 54), getRandomInt(0, 54),getRandomInt(0, 54)];
+const number = [getRandomInt(0, 69), getRandomInt(0, 69), getRandomInt(0, 69),getRandomInt(0, 69)];
 
 function Carrossel() {
     return (

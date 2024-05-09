@@ -11,7 +11,7 @@
     position: absolute;
     width: 500px;
     height: 400px;
-    background-color: #000000;
+    background-color: #100f0f;
     border-top: 0.5px solid #ffffff5a;
     border-left: 0.5px solid #ffffff5a;
     border-right: 0.5px solid #ffffff5a;
@@ -34,7 +34,7 @@
     border-bottom: 0.5px solid #ffffff5a;
     left: 50%;
     transform: translate(-50%);
-    background-color: black;
+    background-color: #100f0f;
     z-index: 10;
 }
 

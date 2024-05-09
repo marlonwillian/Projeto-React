@@ -7,9 +7,7 @@ import Header from "../../components/Header";
 import styles from "./Home.module.css";
 import Category from "../../components/Category";
 import jogos from "../../json/games.json";
-import SearchGames from "../../components/SearchGames";
 import { Link } from "react-router-dom";
-import SearchCard from "../../components/SearchCard";
 
 const categories = [
     "Lançamentos e anunciados",
@@ -24,7 +22,7 @@ function filterCategory(id) {
     return jogos.filter(jogo => jogo.category === categories[id])
 }
 
-function getRandomInt(min, max) {
+export function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min 
@@ -35,7 +33,7 @@ function convertPrice(price) {
     return price
 }
 
-const number = getRandomInt(0, 54);
+const number = getRandomInt(0, 69);
 
 function Home() {
     return (
@@ -45,16 +43,16 @@ function Home() {
                 height="100vh"
                 bgposition="center"
                 bgcolor="black"
-                img={jogos[69].bigcover}
+                img={jogos[number].bigcover}
             >
                 <div 
                     className={styles.title} 
                     style={{ 
-                        left: jogos[69].position, 
-                        transform: `translate(-${jogos[69].position})`
+                        left: jogos[number].position, 
+                        transform: `translate(-${jogos[number].position})`
                     }}>
                     <img 
-                        src={jogos[69].imgTitle} 
+                        src={jogos[number].imgTitle} 
                         style={{ width: "350px" }}
                     /> 
                     <Link to={`/jogo/${number}`}>
@@ -73,7 +71,8 @@ function Home() {
                     <Carrossel/>
                 </Container>
             </Banner>
-            <Container paddingTop="360px" background="black">48                { categories.map((category, index) =>
+            <Container paddingTop="360px" background="black">
+                {categories.map((category, index) =>
                     <Category 
                         title={category} 
                         category={category} 
@@ -89,7 +88,7 @@ function Home() {
                                         ? jogo.preco[0] : jogo.preco
                                     }
                                     discount={jogo.discount}
-                                    color="#061a36" 
+                                    
                                     img={jogo.cover} 
                                     key={jogo.id} 
                                 />
@@ -98,7 +97,7 @@ function Home() {
                     </Category>
                 )}
             </Container>
-            <Footer color="black"/>
+            <Footer color="#100f0f"/>
         </section>
     );
 }

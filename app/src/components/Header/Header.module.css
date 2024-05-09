@@ -13,7 +13,7 @@
 }
 
 .scrolled {
-    background-color: #001F3F;
+    background-color: #100f0f;
     box-shadow: 0 2px 5px #000000dc
 }
 
@@ -170,6 +170,10 @@
 .hide {
     animation: decrease 0.2s ease-in forwards;
     margin-right: 15px;
+}
+
+.a_pc {
+    color: white;
 }
 
 .nav3 {

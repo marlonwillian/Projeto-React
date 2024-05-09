@@ -29,9 +29,9 @@ function Header({ console, color, colorScrolled, shadow }) {
             type="search"
             placeholder="Buscar"
             className={`
-                        ${styles.searchBar} 
-                        ${showSearch ? styles.show : styles.hide}
-                    `}
+                ${styles.searchBar} 
+                ${showSearch ? styles.show : styles.hide}
+            `}
             value={searchText}
             onChange={e => setSearchText(e.target.value)}
         />
@@ -83,9 +83,18 @@ function Header({ console, color, colorScrolled, shadow }) {
                             ${styles.consoles} 
                             ${showComponent ? styles.down : styles.up}
                         `}>
-                        <Link to="/playstation" className={styles.ps_link}><i class="fa-brands fa-playstation"></i> PlayStation</Link>
-                        <Link to="/nintendo" className={styles.ni_link}><NintendoIcon marginBottom="2" /> Nintendo</Link>
-                        <Link to="/xbox" className={styles.xb_link}><i class="fa-brands fa-xbox"></i> Xbox</Link>
+                        <Link 
+                            to="/playstation" className={styles.ps_link}>
+                            <i class="fa-brands fa-playstation"></i> PlayStation
+                        </Link>
+                        <Link 
+                            to="/nintendo" className={styles.ni_link}>
+                            <NintendoIcon marginBottom="2"/> Nintendo
+                        </Link>
+                        <Link 
+                            to="/xbox" className={styles.xb_link}>
+                            <i class="fa-brands fa-xbox"></i> Xbox
+                        </Link>
                     </nav>
                 </a>
                 <a>
@@ -109,12 +118,15 @@ function Header({ console, color, colorScrolled, shadow }) {
                             </i>
                     }
                 </a>
-                <a className={styles.a_pc}>
-                    <span><i class="fa-solid fa-chevron-down"></i></span> PC
-                </a>
+                <Link to="/pc" className={styles.a_pc}>
+                    PC Gaming
+                </Link>
             </nav>
             <nav className={styles.nav3}>
-                <a className={styles.a_cart} onClick={showCart ? () => setCart(false) : () => setCart(true)}>
+                <a 
+                    className={styles.a_cart} 
+                    onClick={showCart ? () => setCart(false) : () => setCart(true)}
+                >
                     <i class="fa-solid fa-cart-shopping"></i>
                     <span className={styles.qtd}>{inCart.length}</span>
                 </a>

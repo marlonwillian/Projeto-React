@@ -25,7 +25,9 @@ function Xbox() {
                 img="https://pixelz.cc/wp-content/uploads/2023/09/halo-infinite-master-chief-uhd-4k-wallpaper.jpg"
                 height="105vh"
             >
-                <h1 className={styles.title}><span class="fa-brands fa-xbox"></span> XBOX</h1>
+                <div className={styles.plataformDiv}>
+                    <h1 className={styles.title}><span class="fa-brands fa-xbox"></span> XBOX</h1>
+                </div>
             </Banner>
             <Container background="#016001">
                 {categories.map((category, index) =>

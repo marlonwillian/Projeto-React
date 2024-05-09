@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: left;
-    
 }
 
 .card {
@@ -11,6 +10,9 @@
     height: auto;
     margin-inline: 10px;
     border-radius: 8px;
+    background-color: #100f0f;
+    border-top: 1px solid #ffffff6e;
+    border-bottom: 1px solid #ffffff6e;
 }
 
 .card p {
@@ -23,11 +25,13 @@
     border-radius: 8px;
     margin-bottom: 15px;
     box-shadow: 0px 5px 6px black;
-    transition: 0.5s linear;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.5s;
 }
 
 .cover:hover {
-    box-shadow: 0px 2px 5px white;
+    border-bottom: 1px solid #ffffff6e;
 }
 
 .title {

@@ -1,6 +1,7 @@
 .link {
     display: contents;
     color: white;
+    transition: 0.0s ease;
 }
 
 .link:hover {
@@ -9,7 +10,6 @@
 
     i {
         color: black;
-        /* background-color: black; */
     }
 }
 
@@ -20,13 +20,13 @@
     background-color: #80808000;
     padding: 5px;
     text-align: left;
-    transition: 0.3s ease-in;
+    transition: 0.3s ease;
     cursor: pointer;
     border-radius: 1px;
 }
 
 .searchGame:hover {
-    background-color: white;
+    background-color: #ddd2d2;
 }
 
 .searchGame img {
