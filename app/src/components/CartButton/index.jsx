@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useCartContext } from "../../context/Cart";
 import styles from "./CartButton.module.css";
 
@@ -10,19 +11,34 @@ function CartButton({margintop, marginleft, discount, price, id}) {
 
     const { inCart, addCart } = useCartContext()
     const noCart = inCart.some((cart) => cart.id === id)
-    const icone = noCart ? "fa-solid fa-cart-arrow-down" : "fa-solid fa-cart-plus"
-
+    const icone = noCart ? "fa-solid fa-xmark" : "fa-solid fa-cart-plus"
+    
     return (
         <button 
             className={styles.btn} 
             style={{ marginTop: margintop, marginLeft: marginleft}}
-            onClick={() => addCart({id})}
+            onClick={typeof(price) == "number" ? () => addCart({id}) : null}
         >
             {
-                typeof(discount) == "number" ? <span className={styles.discount}> -{discount}% </span> : null
+                typeof(discount) == "number" ? 
+                <span className={styles.discount}> -{discount}% </span> : null
             }
-            <i class={`${icone}`}></i>
-            <span>R$ {typeof(discount) == "number" ? `${convertPrice(newPrice)}` : `${convertPrice(price)}`}</span>
+            {
+                typeof(price) == "number" ?
+                <>
+                    <span className={styles.price}>
+                        R$ {
+                            typeof(discount) == "number" ? 
+                            `${convertPrice(newPrice)}` : `${convertPrice(price)}`
+                        }
+                    </span>
+                    <i class={`${icone}`} style={{color: noCart ? "red" : "white"}}></i>
+                </> 
+                : 
+                <Link to={`/jogo/${id}`}>
+                    <span style={{padding: "5px"}}>Anunciado</span>
+                </Link>
+            }
         </button>
     );
 }

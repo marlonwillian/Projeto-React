@@ -29,7 +29,10 @@ function GameList({ jogos, cart, display, width, height }) {
             </i>
             <div 
                 className={styles.searchCard} 
-                style={{ display: jogos == 0 || cart == "true" ? "none" : "block", display: display, width: width, height: height }}
+                style={{ 
+                    display: jogos == 0 || cart == "true" ? "none" : "block", 
+                    display: display, width: width, height: height 
+                }}
             >
                 {   
                     jogos.map((jogo) => 

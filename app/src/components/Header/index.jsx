@@ -119,7 +119,7 @@ function Header({ console, color, colorScrolled, shadow }) {
                     }
                 </a>
                 <Link to="/pc" className={styles.a_pc}>
-                    PC Gaming
+                    PC
                 </Link>
             </nav>
             <nav className={styles.nav3}>

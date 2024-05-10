@@ -31,7 +31,9 @@ function Form({ id }) {
                         </label>
                     ))}
                     <hr/>
-                    <button type="submit">Adicionar ao carrinho</button>
+                    <button type="submit" className={styles.submitButton}>
+                        Adicionar ao carrinho
+                    </button>
                 </div>
             </form>
             {console.log(parseInt(id))}
