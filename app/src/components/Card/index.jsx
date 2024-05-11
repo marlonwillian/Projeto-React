@@ -20,7 +20,7 @@ function Card({ id, title, price, discount, color, img }) {
         <div className={styles.div_plataforms}>
           <FilterPlataform fontsize="7px" id={`${id}`} onlylogo="true" nintendosize="20px" steamsize="20px" />
         </div>
-        <CartButton margintop="60px" price={price} discount={discount} id={id} />
+        <CartButton margintop="60px" price={price} discount={discount} id={id}/>
       </div>
     </section>
   );

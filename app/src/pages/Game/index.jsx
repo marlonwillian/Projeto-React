@@ -15,8 +15,18 @@ import livre from "./img/livre.png";
 function Game() {
     const params = useParams()
     const jogo = jogos.find((jogo) => { return jogo.id === params.id })
-    console.log(jogo.id)
     // if(!video) { return <PageNotFound/>}
+
+    const ratingsImages = {
+        "dez": dez,
+        "doze": doze,
+        "quatorze": quatorze,
+        "dezeseis": dezeseis,
+        "dezoito": dezoito,
+        "livre": livre
+    };
+
+    const image = ratingsImages[jogo.rating];
 
     return (
         <section>
@@ -30,7 +40,11 @@ function Game() {
                 <Form id={jogo.id} />
                 <section className={styles.gameInfo}>
                     <div className={styles.gameDetails}>
-                        <span className={styles.age}><img src={dezoito} style={{width: "70px"}}/></span><br />
+                        <span 
+                            className={styles.age}
+                        >
+                            <img src={image} style={{width: "70px"}}/>
+                        </span><br/>
                         <span>
                             <i
                                 class="fa-solid fa-microphone-lines"
@@ -38,7 +52,7 @@ function Game() {
                             ></i>
                             Voz em PT-BR:
                             <span style={{ marginLeft: "84px" }}>Não</span>
-                            <br />
+                            <br/>
                         </span>
                         <span>
                             <i
@@ -58,8 +72,13 @@ function Game() {
                             <span style={{ marginLeft: "133px" }}>Ação, Aventura</span></span>
                         <br />
                         <span>
-                            <i class="fa-solid fa-calendar-check" style={{ marginRight: "19px" }}></i>
-                            Lançamento:<span style={{ marginLeft: "97px" }}>2025</span>
+                            <i 
+                                class="fa-solid fa-calendar-check" 
+                                style={{ marginRight: "19px"}}
+                            >
+                            </i>
+                            Lançamento:
+                            <span style={{ marginLeft: "97px" }}>2025</span>
                         </span>
                     </div>
                     <div className={styles.rightInfo}>

@@ -7,6 +7,9 @@
     "developer": "Square Enix",
     "preco": [349.90, 399.90],
     "console": ["PS5"],
+    "info": ["Não", "Sim", "RPG", "29/02/2024"],
+    "online": "1 Jogador",
+    "rating": "quatorze",
     "cover": "https://img.asmedia.epimg.net/resizer/v2/UDSICW5LJRDRTA6X4PG3FH3T64.jpg?auth=da022ed3eef539abbd48865720b51e8cebe3ef04ac33b7f86737f07a18b81a57&width=1472&height=828&smart=true",
     "bigcover": "https://wallpapercg.com/download/final-fantasy-vii-rebirth-4k-wallpaper--18762.jpg",
     "category": "Lançamentos e anunciados"
@@ -19,6 +22,9 @@
     "position": "18%",
     "preco": [349.90, 399.90],
     "console": ["PS5", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, RPG", "22/03/2024"],
+    "online": "1 Jogador",
+    "rating": "dezeseis",
     "cover": "https://www.dragonsdogma.com/2/assets/images/common/share.png",
     "bigcover": "https://external-preview.redd.it/Wpf_osr8trsr88KTITvz-VatowDxNRiWEekGZd9LJRo.jpg?auto=webp&s=aa96bb601dd8050cec78a8a004db040a2649c934",
     "category": "Lançamentos e anunciados"
@@ -31,6 +37,9 @@
     "developer": "Koei Tecmo",
     "preco": [349.90, 399.90],
     "console": ["PS5"],
+    "info": ["Sim", "Sim", "Ação, Aventura", "22/03/2024"],
+    "online": "1 Jogador",
+    "rating": "dezeseis",
     "cover": "https://blog.playstation.com/tachyon/2023/12/c69c6628fa27bd853a8774cc26aae34ba970231e.jpg?resize=1088%2C612&crop_strategy=smart",
     "bigcover": "https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_rise_of_the_ronin_01_1920x1080.jpg",
     "category": "Lançamentos e anunciados"
@@ -43,6 +52,9 @@
     "developer": "Red Barrels Studio",
     "preco": [214.90, 264.90],
     "console": ["PS5", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
+    "rating": "dezeseis",
     "cover": "https://cdn.akamai.steamstatic.com/steam/apps/1304930/capsule_616x353.jpg?t=1709677975",
     "bigcover": "https://image.api.playstation.com/vulcan/ap/rnd/202312/0517/e85792b9f320d81bfe561372d430f7b2c19a80fba073b16a.png",    
     "category": "Lançamentos e anunciados"
@@ -55,6 +67,9 @@
     "developer": "THQ Nordic",
     "preco": [299.90, 349.90],
     "console": ["PS5", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Aventura, Terror", "20/03/2024"],
+    "online": "1 Jogador",
+    "rating": "dezoito",
     "cover": "https://psxbrasil.com.br/wp-content/uploads/2023/05/Alone-in-the-Dark-Showcase_05-25-23_Top.jpg",
     "bigcover": "https://wallpapercg.com/download/alone-in-the-dark-3840x2160-16302.jpg",
     "category": "Lançamentos e anunciados"
@@ -68,6 +83,9 @@
     "preco": 249.50,
     "discount": 20,
     "console": ["PS4", "XBOX", "Nintendo"],
+    "info": ["Não", "Sim", "Ação", "Remastered: 17/08/2023 | Original: 18/05/2010"],
+    "online": "1 Jogador",
+    "rating": "dezoito",
     "cover": "https://gaming-cdn.com/images/products/7047/orig/red-dead-redemption-pc-jogo-cover.jpg?v=1705660598",
     "bigcover": "https://miro.medium.com/v2/resize:fit:3840/1*LaPn84NHzldtvIy-favx8Q.jpeg",
     "category": "Rockstar Games"
@@ -81,6 +99,9 @@
     "preco": 248.90,
     "discount": 67,
     "console": ["PS4", "XBOX", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "26/10/2018"],
+    "online": "2",
+    "rating": "dezoito",
     "cover": "https://rocket-chainsaw.b-cdn.net/wp-content/uploads/2018/05/Red-Dead-Redemption-2-New-Logo.jpg",
     "bigcover": "https://wallpapercg.com/download/red-dead-redemption-2-wallpaper-cowboys--17928.jpg",    
     "category": "Rockstar Games"
@@ -94,6 +115,9 @@
     "preco": 299.90,
     "discount": 50,
     "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação", "11/11/2021"],
+    "online": "1 Jogador",
+    "rating": "dezoito",
     "cover": "https://cdn2.unrealengine.com/egs-grandtheftautothetrilogythedefinitiveedition-rockstargames-s1-2560x1440-26130472112f.jpg",
     "bigcover": "https://i.redd.it/w0n7em07das71.png",
     "category": "Rockstar Games"
@@ -107,6 +131,9 @@
     "preco": 299.90,
     "discount": 50,
     "console": ["PS5", "PS4", "XBOX X|S", "XBOX", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "17/09/2013"],
+    "online": "2",
+    "rating": "dezoito",
     "cover": "https://sahebkhabar.ir/hermes/vigiato/vigiato-395931.jpg?ts=1688588374000",
     "bigcover": "https://4kwallpapers.com/images/wallpapers/gta-5-grand-theft-3840x2160-10749.jpg",
     "category": "Rockstar Games"
@@ -119,6 +146,9 @@
     "developer": "Rockstar Games",
     "preco": "Anunciado",
     "console": ["PS5", "XBOX X|S"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
+    "rating": "dezoito",
     "cover": "https://staticg.sportskeeda.com/editor/2023/12/baa66-17020247909947-1920.jpg",
     "bigcover": "https://i.redd.it/y1mic3i5yh4c1.png",
     "category": "Rockstar Games"
@@ -132,6 +162,9 @@
     "preco": 179.90,
     "discount": 50,
     "console": ["PS4", "XBOX", "Nintendo", "STEAM"],
+    "info": ["Não", "Sim", "Ação, RPG", "25/05/2018"],
+    "online": "2",
+    "rating": "quatorze",
     "cover": "https://cdn.mos.cms.futurecdn.net/MjWkJYHCqUm6ZpzHa2RzZ5-1200-80.jpg",
     "bigcover": "https://images2.alphacoders.com/895/895681.jpg",
     "category": "From Software"
@@ -145,6 +178,9 @@
     "preco": 133.99,
     "discount": 50,
     "console": ["PS4", "XBOX", "STEAM"],
+    "info": ["Não", "Sim", "Ação, RPG", "07/04/2015"],
+    "online": "2",
+    "rating": "dezeseis",
     "cover": "https://gaming-cdn.com/images/products/697/orig/dark-souls-ii-scholar-of-the-first-sin-pc-jogo-steam-cover.jpg?v=1703155906",
     "bigcover": "https://image.api.playstation.com/vulcan/img/rnd/202011/0204/hVVJBjSMFF4QXhsQBtjruJbg.png",
     "category": "From Software"
@@ -158,6 +194,9 @@
     "preco": 249.99,
     "discount": 50,
     "console": ["PS4", "XBOX", "STEAM"],
+    "info": ["Não", "Sim", "Ação, RPG", "12/04/2016"],
+    "online": "2",
+    "rating": "quatorze",
     "cover": "https://m.media-amazon.com/images/I/91rTxm40jwL.jpg",
     "bigcover": "https://images5.alphacoders.com/609/609173.jpg",    
     "category": "From Software"
@@ -170,6 +209,9 @@
     "developer": "From Software",
     "preco": 274.90,
     "console": ["PS4", "XBOX", "STEAM"],
+    "info": ["Não", "Sim", "Ação, RPG", "22/03/2019"],
+    "online": "1 Jogador",
+    "rating": "dezoito",
     "cover": "https://support.activision.com/resource/1553213708000/Sekiro_Content_sidebanner",
     "bigcover": "https://i.pinimg.com/originals/ca/0d/ad/ca0dad026f6bc16dfc3cb5f565aeaf31.jpg",
     "category": "From Software"
@@ -182,6 +224,9 @@
     "developer": "From Software",
     "preco": 399.50,
     "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, RPG", "Jogo Base: 25/02/2022 | DLC: 21/06/2024"],
+    "online": "2",
+    "rating": "dezeseis",
     "cover": "https://assets.nuuvem.com/image/upload/t_product_sharing_banner/v1/products/618420307c3eff0021fa197f/sharing_images/zsjxfslvhnvpoodz06va.jpg",
     "bigcover": "https://cdn.vox-cdn.com/thumbor/FvQU1qExMQadYpfGFX60U1p1dFo=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/25297591/elden_ring_shadow_erdtree_details.jpg",
     "category": "From Software"
@@ -195,6 +240,9 @@
     "preco": [199.00, 239.99],
     "discount": 70,
     "console": ["PS4", "XBOX", "STEAM"],
+    "info": ["Sim", "Sim", "Ação, Aventura", "15/11/2016"],
+    "online": "2",
+    "rating": "dezoito",
     "cover": "https://miro.medium.com/v2/resize:fit:1200/1*1EUBe5H26TOwVxDXlBfGjg.jpeg",
     "bigcover": "https://c.wallhere.com/photos/bf/53/Watch_Dogs_Watch_Dogs_2_pistol_video_games_drone_hacking_standing_phone-1927539.jpg!d",
     "category": "Ubisoft"
@@ -207,6 +255,9 @@
     "developer": "Ubisoft",
     "preco": [239.90, 299.90],
     "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Sim", "Sim", "Ação, Aventura", "04/10/2023"],
+    "online": "1 Jogador",
+    "rating": "dezeseis",
     "cover": "https://i0.wp.com/insider-gaming.com/wp-content/uploads/2023/01/assassins-creed-mirage-cover-top.png?fit=1920%2C1080&ssl=1",
     "bigcover": "https://image.api.playstation.com/vulcan/ap/rnd/202304/2714/92a7017693d8155b2838cb6cf7ec19320dc563bf059b8547.jpg",
     "category": "Ubisoft"
@@ -220,6 +271,9 @@
     "preco": [329.90, 379.90],
     "discount": 50,
     "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Corrida", "13/09/2023"],
+    "online": "2",
+    "rating": "doze",
     "cover": "https://4kwallpapers.com/images/walls/thumbs_2t/11730.jpg",
     "bigcover": "https://wallpapercave.com/wp/wp12822952.jpg",    
     "category": "Ubisoft"
@@ -233,6 +287,9 @@
     "preco": [239.90, 299.90],
     "discount": 40,
     "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM", "Nintendo"],
+    "info": ["Não", "Sim", "Ação", "18/01/2024"],
+    "online": "1 Jogador",
+    "rating": "doze",
     "cover": "https://thecosmiccircus.com/wp-content/uploads/2023/11/PoP-Lost-Crown-Announced_06-08-23.png",
     "bigcover": "https://images7.alphacoders.com/134/1348561.jpeg",
     "category": "Ubisoft"
@@ -245,6 +302,9 @@
     "developer": "Ubisoft",
     "preco": [349.90, 399.50],
     "console": ["PS5", "XBOX X|S", "STEAM"],
+    "info": ["Sim", "Sim", "Aventura", "30/08/2024"],
+    "online": "1 Jogador",
+    "rating": "quatorze",
     "cover": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5Rmy8w4e4mlCugxsmI7ow6/c57cab3aa52ed0d55fbff4920a785d77/swo-keyart-thumbnail-960x540.jpg",
     "bigcover": "https://images.hdqwalls.com/wallpapers/star-wars-outlaws-aa.jpg",
     "category": "Ubisoft"
@@ -257,6 +317,9 @@
     "developer": "EA",
     "preco": [349.90, 399.50],
     "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Sim", "Sim", "Esportes", "29/09/2023"],
+    "online": "2",
+    "rating": "livre",
     "cover": "https://sm.ign.com/ign_in/screenshot/default/ea-sports-fc-2024_phpw.jpg",
     "bigcover": "https://www.pixel4k.com/wp-content/uploads/2023/12/ea-sports-fc-24-game-3840x2160_1703839918.jpg",
     "category": "EA"
@@ -270,6 +333,9 @@
     "preco": [338.90, 398.90],
     "discount": 60,
     "console": ["PS5", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Terror", "27/01/2023"],
+    "online": "1 Jogador",
+    "rating": "dezoito",
     "cover": "https://t2.tudocdn.net/642014?w=1920",
     "bigcover": "https://gagadget.com/media/uploads/dedik3.jpg",
     "category": "EA"
@@ -283,6 +349,8 @@
     "preco": [349.90, 399.50],
     "discount": 55,
     "console": ["PS5", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://lumiere-a.akamaihd.net/v1/images/sw-jedi-survivor-key-art-1080x1080_c38222d5.jpeg?region=0,0,1080,607",
     "bigcover": "https://images8.alphacoders.com/129/1292495.jpg",    
     "category": "EA"
@@ -295,6 +363,8 @@
     "developer": "EA",
     "preco": [338.90, 398.90],
     "console": ["PS5", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://www.escapistmagazine.com/wp-content/uploads/2022/10/need-for-speed-unbound.jpg?fit=1280%2C720",
     "bigcover": "https://images3.alphacoders.com/127/1278569.jpg",
     "category": "EA"
@@ -307,6 +377,8 @@
     "developer": "EA",
     "preco": [349.90, 399.50],
     "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://cdn.racinggames.gg/images/ncavvykf/racinggames/1344299c5ac049a4560c2865357529cc9683de71-1920x1080.jpg?rect=0,36,1920,1008&w=1200&h=630&auto=format",
     "bigcover": "https://www.overtake.gg/attachments/ea-sports-f1-24-artwork-jpg.746968/",
     "category": "EA"
@@ -320,6 +392,8 @@
     "preco": [99.50, 164.90],
     "discount": 60,
     "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://scifijubilee.files.wordpress.com/2017/01/resident-evil-7-biohazard-poster-art.jpg",
     "bigcover": "https://wallpapercave.com/wp/wp2074008.jpg",
     "category": "Capcom"
@@ -333,6 +407,8 @@
     "preco": [184.50, 229.50],
     "discount": 60,
     "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://cafecomgeeks.com/wp-content/uploads/2021/05/share.png",
     "bigcover": "https://store-images.s-microsoft.com/image/apps.35395.14058209360422392.fa0c92e9-db47-4980-a2d8-75abf87f0312.0a8333bd-13b6-4a5d-b8ba-8fd571a4a3c3?mode=scale&q=90&h=720&w=1280&background=%23FFFFFF",
     "category": "Capcom"
@@ -346,6 +422,8 @@
     "preco": [199.50, 249.50],
     "discount": 50,
     "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://w0.peakpx.com/wallpaper/215/917/HD-wallpaper-resident-evil-4-2023-gaming-poster.jpg",
     "bigcover": "https://image.api.playstation.com/vulcan/ap/rnd/202210/0712/eIWVvJ1lPGytwBoxR67Ycqm0.png",
     "category": "Capcom"
@@ -359,6 +437,8 @@
     "preco": [83.50, 199.50],
     "discount": 50,
     "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://t.ctcdn.com.br/Nj2y1rY3L0yh2Zgros-SMuWFN4k=/1024x576/smart/i325730.png",
     "bigcover": "https://images3.alphacoders.com/107/1070888.jpg",
     "category": "Capcom"
@@ -372,6 +452,8 @@
     "preco": [149.99],
     "discount": 83,
     "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/software/switch/70010000009788/8e48851526632bc824e75fa5aacc52a75b2e8053af4d464c0052d47fb52f694f",
     "bigcover": "https://images2.alphacoders.com/240/240532.jpg",    
     "category": "Capcom"
@@ -387,6 +469,8 @@
     "developer": "Square Enix",
     "preco": [349.90, 399.90],
     "console": ["PS5"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://catwithmonocle.com/wp-content/uploads/2023/12/ff7rebirth-artwork-01-1920x1080-1.jpg",
     "bigcover": "https://wallpapercg.com/download/final-fantasy-vii-rebirth-4k-wallpaper--18762.jpg",
     "category": "Ultimos lançamentos e anunciados"
@@ -399,6 +483,8 @@
     "developer": "Koei Tecmo",
     "preco": [349.90, 399.90],
     "console": ["PS5"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://blog.playstation.com/tachyon/2023/12/c69c6628fa27bd853a8774cc26aae34ba970231e.jpg?resize=1088%2C612&crop_strategy=smart",
     "bigcover": "https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_rise_of_the_ronin_01_1920x1080.jpg",
     "category": "Ultimos lançamentos e anunciados"
@@ -411,6 +497,8 @@
     "developer": "Shift Up",
     "preco": [349.90, 399.50],
     "console": ["PS5"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://blog.playstation.com/tachyon/2024/01/6090803d73cfbc10cea24487001790b7f555c9b3-scaled.jpg?resize=1088%2C612&crop_strategy=smart",
     "bigcover": "https://i.pinimg.com/originals/b7/ca/92/b7ca923d7a3a32effb462653e9edeb24.webp",    
     "category": "Ultimos lançamentos e anunciados"
@@ -423,6 +511,8 @@
     "developer": "Kojima Productions",
     "preco": [349.90, 399.50],
     "console": ["PS5"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://m.economictimes.com/thumb/msid-107370432,width-1600,height-900,resizemode-4,imgsize-68196/death-stranding-2-on-the-beach-all-you-may-want-to-know.jpg",
     "bigcover": "https://cdn.neowin.com/news/images/uploaded/2024/01/1706742231_coverimage.jpg",
     "category": "Ultimos lançamentos e anunciados"
@@ -435,6 +525,8 @@
     "position": "10%",
     "preco": [349.90, 399.50],
     "console": ["PS5"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://gaming-cdn.com/images/products/13543/orig/marvel-s-wolverine-ps5-playstation-5-jogo-playstation-store-cover.jpg?v=1703064633",
     "bigcover": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/02/02/marvels-wolverine-insomniac-game.jpeg",
     "category": "Ultimos lançamentos e anunciados"
@@ -448,6 +540,8 @@
     "developer": "Naughty Dog",
     "preco": 249.50,
     "console": ["PS5", "PS4"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://sm.ign.com/t/ign_br/screenshot/default/imagem-2024-01-15-151652974_kfc9.1024.jpg",
     "bigcover": "https://blog.br.playstation.com/tachyon/sites/4/2023/11/d97a47a0e112374ccfb1d0488f8d6179d9553b7d.jpg",
     "category": "O melhor do PlayStation Studios"
@@ -461,6 +555,8 @@
     "preco": [349.90, 399.50],
     "discount": 43,
     "console": ["PS5", "PS4"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://jogandocasualmente.com.br/wp-content/uploads/2022/11/gow-capa.jpg",
     "bigcover": "https://images.hdqwalls.com/wallpapers/god-of-war-ragnarok-46.jpg",
     "category": "O melhor do PlayStation Studios"
@@ -473,6 +569,8 @@
     "developer": "Insomniac Games",
     "preco": [349.90, 399.50],
     "console": ["PS5"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://4kwallpapers.com/images/wallpapers/marvels-spider-man-2560x1440-11609.jpeg",
     "bigcover": "https://www.xtrafondos.com/wallpapers/resoluciones/23/marvels-spider-man-2_2560x1440_12036.jpg",     
     "category": "O melhor do PlayStation Studios"
@@ -486,6 +584,8 @@
     "preco": [249.50, 299.90],
     "discount": 50,
     "console": ["PS5", "PS4", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://cdn1.epicgames.com/offer/0a9e3c5ab6684506bd624a849ca0cf39/EGS_DeathStrandingDirectorsCut_KOJIMAPRODUCTIONS_S3_2560x1440-fe4e51f1801fba36e452aa3466625789",
     "bigcover": "https://wallpapercg.com/download/norman-reedus-as-sam-porter-bridges-3840x2160-9857.jpg",
     "url": "https://www.youtube.com/watch?v=M7XM597XO94",
@@ -499,6 +599,8 @@
     "developer": "From Software",
     "preco": [99.50, 174.50],
     "console": ["PS4"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://steamuserimages-a.akamaihd.net/ugc/244710630325034704/291095750288C120997B83819F4FE0F30C72DBEA/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true",
     "bigcover": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2021/01/bloodborne-2202475.jpg",
     "category": "O melhor do PlayStation Studios"
@@ -512,6 +614,8 @@
     "preco": [199.50, 207.90],
     "discount": 75,
     "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://jogoveio.com.br/wp-content/uploads/2023/08/thumb-re2-remake.jpg",
     "bigcover": "https://wallpapers.com/images/hd/night-rain-resident-evil-2-remake-e26vopn1z8lb742h.jpg",
     "category": "PS Plus"
@@ -524,6 +628,8 @@
     "developer": "Insomniac Games",
     "preco": [349.90, 399.50],
     "console": ["PS5"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://cdn1.epicgames.com/offer/046aeb7098b94ac3961dad6c5dbe68c0/EGS_RatchetClankRiftApart_InsomniacGames_S1_2560x1440-aea43afcad407b14673456322e63a01b",
     "bigcover": "https://sidequest.pt/wp-content/uploads/2021/06/ratchet-and-clank-rift-apart-ps5-art-1621336598.jpg",      
     "category": "PS Plus"
@@ -536,6 +642,8 @@
     "developer": "Bluepoint | From Software",
     "preco": [349.90, 399.50],
     "console": ["PS5"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://reservoircreative.studio/app/uploads/2021/11/demonssouls_desktop.jpg",
     "bigcover": "https://wallpapercave.com/wp/wp12749676.jpg",
     "category": "PS Plus"
@@ -548,6 +656,8 @@
     "developer": "Housemarque",
     "preco": [349.90, 399.50],
     "console": ["PS5"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://meups.com.br/wp-content/uploads/2022/06/Returnal.jpg",
     "bigcover": "https://images7.alphacoders.com/113/1130004.jpg",
     "category": "PS Plus"
@@ -561,6 +671,8 @@
     "developer": "Square Enix",
     "preco": 104.90,
     "console": ["PS4", "XBOX", "Nintendo", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://cdn.akamai.steamstatic.com/steam/apps/319630/capsule_616x353.jpg?t=1662395426",
     "bigcover": "https://images3.alphacoders.com/665/665803.jpg",
     "category": "PS Plus"
@@ -576,6 +688,8 @@
     "developer": "Nintendo",
     "preco": 299.00,
     "console": ["Nintendo"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000000025/7137262b5a64d921e193653f8aa0b722925abc5680380ca0e18a5cfd91697f58",
     "bigcover": "https://wallpapercave.com/wp/wp3277308.jpg",
     "category": "As franquias mais amadas"
@@ -588,6 +702,8 @@
     "developer": "Nintendo",
     "preco": 299.00,
     "console": ["Nintendo"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://www.showmetech.com.br/wp-content/uploads//2017/10/H2x1_NSwitch_SuperMarioOdyssey-1920x1000.jpg",
     "bigcover": "https://images2.alphacoders.com/865/thumb-1920-865468.jpg",
     "category": "As franquias mais amadas"
@@ -600,6 +716,8 @@
     "developer": "Nintendo",
     "preco": 299.00,
     "console": ["Nintendo"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://gamingbolt.com/wp-content/uploads/2019/04/super-mario-maker-2.jpg",
     "bigcover": "https://wallpapercave.com/wp/wp4418063.jpg",
     "category": "As franquias mais amadas"
@@ -612,6 +730,8 @@
     "developer": "Nintendo",
     "preco": 299.00,
     "console": ["Nintendo"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000012332/ac4d1fc9824876ce756406f0525d50c57ded4b2a666f6dfe40a6ac5c3563fad9",
     "bigcover": "https://wallpapers.com/images/hd/smash-bros-ultimate-game-characters-q0xv02gv84kcw30i.jpg",
     "category": "As franquias mais amadas"
@@ -624,6 +744,8 @@
     "developer": "Nintendo",
     "preco": 299.00,
     "console": ["Nintendo"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000027619/9989957eae3a6b545194c42fec2071675c34aadacd65e6b33fdfe7b3b6a86c3a",
     "bigcover": "https://www.xtrafondos.com/en/descargar.php?id=6557&resolucion=2560x1440",
     "category": "As franquias mais amadas"
@@ -636,6 +758,8 @@
     "developer": "Nintendo",
     "preco": 199.00,
     "console": ["Nintendo"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://www.adrenaline.com.br/wp-content/uploads/2023/02/metroid-prime-remastered.jpg",
     "bigcover": "https://i.redd.it/my-full-edit-of-the-metroid-prime-remastered-artwork-with-v0-a6sqsmdb6wnc1.jpg?width=4800&format=pjpg&auto=webp&s=4a98cc3f6be98a276e3b708f3d74b85e8cd50b96",
     "category": "Ultimos lançamentos"
@@ -648,6 +772,8 @@
     "developer": "Nintendo",
     "preco": 357.99,
     "console": ["Nintendo"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://cdn.wccftech.com/wp-content/uploads/2023/05/WCCFzeldatearsofthekingdom8.jpg",
     "bigcover": "https://images5.alphacoders.com/131/1315150.jpg",
     "category": "Ultimos lançamentos"
@@ -660,6 +786,8 @@
     "developer": "Nintendo",
     "preco": 299.00,
     "console": ["Nintendo"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000005308/73d6767c3ecf68f10cd0061bfe5e52a2d70b72f698a60433badac1399a10d863",
     "bigcover": "https://wallpapercave.com/wp/wp2212914.jpg",
     "category": "Ultimos lançamentos"
@@ -672,6 +800,8 @@
     "developer": "Nintendo",
     "preco": 299.00,
     "console": ["Nintendo"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/analisis-super-mario-bros-wonder-3198058.jpg?tf=1200x675",
     "bigcover": "https://catwithmonocle.com/wp-content/uploads/2023/11/smb-wonder-artwork-01-1920x1080-1.jpg",
     "category": "Ultimos lançamentos"
@@ -684,6 +814,8 @@
     "developer": "Nintendo",
     "preco": 299.00,
     "console": ["Nintendo"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000068683/fe4afe940b0e707798332e86f0af56cdbde48da59dc37cdfb8d59febb88ac72a",
     "bigcover": "https://images6.alphacoders.com/134/1340237.png",
     "category": "Ultimos lançamentos"
@@ -700,6 +832,8 @@
     "preco": 249.00,
     "discount": 50,
     "console": ["XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://i0.wp.com/xxboxnews.blob.core.windows.net/prod/sites/8/2021/11/ForzaHorizon5_KeyArt_Horiz_RGB_Final.jpg?fit=1920%2C1080&ssl=1",
     "bigcover": "https://images3.alphacoders.com/118/1180539.jpg",
     "category": "O melhor da Xbox Game Studios"
@@ -713,6 +847,8 @@
     "preco": 299.00,
     "discount": 79,
     "console": ["XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://i2-prod.dailystar.co.uk/tech/gaming/article19437393.ece/ALTERNATES/s1200d/0_Gears-5-review.jpg",
     "bigcover": "https://images.hdqwalls.com/download/gears-5-5k-pc-2048x1152.jpg",
     "category": "O melhor da Xbox Game Studios"
@@ -725,6 +861,8 @@
     "developer": "343 Industries",
     "preco": 299.00,
     "console": ["XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://seasonedgaming.com/wp-content/uploads/2020/07/Infinite-Cover.jpg",
     "bigcover": "https://rare-gallery.com/mocahbig/1377432-master-chief-halo-infinite-game-4k-pc-wallpaper.jpg",
     "category": "O melhor da Xbox Game Studios"
@@ -738,6 +876,8 @@
     "preco": 99.95,
     "discount": 75,
     "console": ["XBOX", "XBOX X|S", "STEAM", "Nintendo"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://i.ytimg.com/vi/cklw-Yu3moE/maxresdefault.jpg",
     "bigcover": "https://i.pinimg.com/originals/78/fe/b8/78feb810f3ff86cc322d8b830e865fe8.jpg",
     "category": "O melhor da Xbox Game Studios"
@@ -751,6 +891,8 @@
     "preco": 69.95,
     "discount": 66,
     "console": ["XBOX", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://4.bp.blogspot.com/-hnE8UQK5TQM/Vv5IOomtrkI/AAAAAAAAKsE/CBCE7MOjADsUGhQPGUXpL0BRvnsvsqTyw/s1600/quantum-break-capa.png",
     "bigcover": "https://www.centralxbox.com.br/wp-content/uploads/2019/04/quantum-break-xbox.jpg",
     "category": "O melhor da Xbox Game Studios"
@@ -764,6 +906,8 @@
     "preco": 149.50,
     "discount": 30,
     "console": ["XBOX X|S", "STEAM", "PS5"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://i.ytimg.com/vi/IeeeitOzNPw/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gEygUMA8=&rs=AOn4CLCjch13ReTvHEcg-EIJrSlRJ1n9Mw",
     "bigcover": "https://images8.alphacoders.com/132/1326420.jpeg",
     "category": "Jogos em lançamentos e anunciados"
@@ -776,6 +920,8 @@
     "developer": "Turn 10",
     "preco": [299.00, 449.00],
     "console": ["XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://cdn.mos.cms.futurecdn.net/ZKpPfKPPeDayr3aDKVhhfn-1200-80.jpg",
     "bigcover": "https://cdn.suwalls.com/wallpapers/games/forza-motorsport-5-21234-1920x1080.jpg",
     "category": "Jogos em lançamentos e anunciados"
@@ -788,6 +934,8 @@
     "developer": "Bethesda Softworks",
     "preco": [299.00, 429.00],
     "console": ["XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://cdn.mos.cms.futurecdn.net/Xyph6dvBi9oydZYwPdcP4C.jpg",
     "bigcover": "https://preview.redd.it/new-official-starfield-wallpaper-from-bethesda-v0-gryc86s5ivjb1.jpg?auto=webp&s=8ec53faed81a1c71ce60609047b45ced21b1083c",
     "category": "Jogos em lançamentos e anunciados"
@@ -800,6 +948,8 @@
     "developer": "Microsoft Game Studios",
     "preco": "Anunciado",
     "console": ["XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://senuassaga.com/opengraph-image.png?5bc11765fd0129ec",
     "bigcover": "https://wallpapercg.com/download/senuas-saga-hellblade-ii--17610.jpeg",
     "category": "Jogos em lançamentos e anunciados"
@@ -812,6 +962,8 @@
     "developer": "Bethesda Softworks",
     "preco": "Anunciado",
     "console": ["XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://preview.redd.it/first-poster-for-the-new-indiana-jones-game-and-he-looks-v0-gpssn84ci9dc1.jpeg?auto=webp&s=2d9ec94d7f5721b2368ba37297e19fbfd7d465a2",
     "bigcover": "https://cdn.mos.cms.futurecdn.net/d4RuRPLJHfAyUJiusHpZem.jpg",
     "category": "Jogos em lançamentos e anunciados"
@@ -824,6 +976,8 @@
     "developer": "NEOWIZ",
     "preco": [299.90, 349.90],
     "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://www.well-played.com.au/wp-content/uploads/2023/09/Lies-of-P-Header.jpg",
     "bigcover": "https://images.hdqwalls.com/download/lies-of-p-2023-fn-3840x2160.jpg",
     "category": "Game Pass"
@@ -836,6 +990,8 @@
     "developer": "SEGA",
     "preco": [349.90, 449.00],
     "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://i.pinimg.com/originals/0d/75/8e/0d758eb0537ee54af7584eb14db999c4.jpg",
     "bigcover": "https://images3.alphacoders.com/908/908928.jpg",
     "category": "Game Pass"
@@ -849,6 +1005,8 @@
     "preco": 199.50,
     "discount": 80,
     "console": ["PS4", "XBOX", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://cdn1.epicgames.com/offer/5891aa5c4c6f4aabbf555a679e02cfb9/EGS_TheEvilWithin2_TangoGameworks_S1_2560x1440-c87f377e1990d84a98db5fb4836af9a9",
     "bigcover": "https://images.alphacoders.com/112/1129419.jpg",
     "category": "Game Pass"
@@ -861,6 +1019,8 @@
     "developer": "Bethesda Softworks",
     "preco": [99.50, 199.50],
     "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://cdn-ext.fanatical.com/production/product/1280x720/7a06bb40-75a6-4e7c-a419-aa432a2217ec.jpg",
     "bigcover": "https://images5.alphacoders.com/605/thumb-1920-605364.png",
     "category": "Game Pass"
@@ -874,6 +1034,8 @@
     "preco": 59.99,
     "discount": 79,
     "console": ["PS4", "XBOX", "STEAM"],
+    "info": ["Não", "Sim", "Ação, Aventura", "2025"],
+    "online": "2",
     "cover": "https://img.hype.games/cdn/b874b2a3-a2cf-45df-941f-c920452a9bb8bak-cover.jpg",
     "bigcover": "https://i.pinimg.com/originals/3a/58/39/3a5839b4f47c63d19ff8f30906d6d733.jpg",
     "category": "Game Pass"
