@@ -5,7 +5,8 @@ import React, { useState } from 'react';
 
 function Form({ id }) {
     const [valorSelecionado, setValorSelecionado] = useState('');
-    const opcoes = ['Edição Padrão | R$ 349,90', 'Edição Deluxe | R$ 399,90'];
+    const opcoes = jogo[id].preco;
+    console.log(typeof(opcoes))
     
     const handleChange = (event) => {
         setValorSelecionado(event.target.value);
@@ -19,17 +20,20 @@ function Form({ id }) {
                 <FilterPlataform id={id} fontsize="13px"/>
                 <div>
                     <hr/>
-                    {opcoes.map(opcao => (
-                        <label key={opcao} checked>
-                            <input
-                                type="radio"
-                                value={opcao}
-                                checked={valorSelecionado === opcao}
-                                onChange={handleChange}
-                            />
-                            {opcao}
-                        </label>
-                    ))}
+                    {
+                        typeof(opcoes) == "object" ?
+                            opcoes.map(opcao => (
+                                <label key={opcao} checked>
+                                    <input
+                                        type="radio"
+                                        value={opcao}
+                                        checked={valorSelecionado === opcao}
+                                        onChange={handleChange}
+                                    />
+                                    {opcao}
+                                </label> 
+                            )) : <span className={styles.price}>{jogo[id].preco}</span>
+                    }
                     <hr/>
                     <button type="submit" className={styles.submitButton}>
                         Adicionar ao carrinho

@@ -40,19 +40,19 @@ function Game() {
                 <Form id={jogo.id} />
                 <section className={styles.gameInfo}>
                     <div className={styles.gameDetails}>
-                        <span 
+                        <span
                             className={styles.age}
                         >
-                            <img src={image} style={{width: "70px"}}/>
-                        </span><br/>
+                            <img src={image} style={{ width: "70px" }} />
+                        </span><br />
                         <span>
                             <i
                                 class="fa-solid fa-microphone-lines"
                                 style={{ marginRight: "21px" }}
                             ></i>
                             Voz em PT-BR:
-                            <span style={{ marginLeft: "84px" }}>Não</span>
-                            <br/>
+                            <span style={{ marginLeft: "84px" }}>{jogo.info[0]}</span>
+                            <br />
                         </span>
                         <span>
                             <i
@@ -60,7 +60,7 @@ function Game() {
                                 style={{ marginRight: "14px" }}
                             ></i>
                             Legendas em PT-BR:
-                            <span style={{ marginLeft: "32px" }}>Sim</span>
+                            <span style={{ marginLeft: "32px" }}>{jogo.info[1]}</span>
                             <br />
                         </span>
                         <span>
@@ -69,24 +69,38 @@ function Game() {
                                 style={{ marginRight: "11px" }}
                             ></i>
                             Gêneros:
-                            <span style={{ marginLeft: "133px" }}>Ação, Aventura</span></span>
+                            <span style={{ marginLeft: "133px" }}>{jogo.info[2]}</span></span>
                         <br />
                         <span>
-                            <i 
-                                class="fa-solid fa-calendar-check" 
-                                style={{ marginRight: "19px"}}
+                            <i
+                                class="fa-solid fa-calendar-check"
+                                style={{ marginRight: "19px" }}
                             >
                             </i>
                             Lançamento:
-                            <span style={{ marginLeft: "97px" }}>2025</span>
+                            <span style={{ marginLeft: "97px" }}>{jogo.info[3]}</span>
                         </span>
                     </div>
                     <div className={styles.rightInfo}>
-                        <div className={styles.onlineInfo}>
-                            <span styles={{ paddingBottom: "1px" }}>1 Jogador</span>
-                            <hr className={styles.linha} />
-                            <span>Jogo Online</span>
-                        </div>
+                        {
+                            jogo.online == "2" ?
+                                <div className={styles.onlineInfo}>
+                                    <span styles={{ paddingBottom: "1px" }}>1 Jogador</span>
+                                    <hr className={styles.linha} />
+                                    <span>Jogo Online</span>
+                                </div>
+                            : jogo.online == "3" ?
+                                <div className={styles.onlineInfo}>
+                                    <span styles={{ paddingBottom: "1px" }}>
+                                        1 Jogador/Cooperativo
+                                    </span>
+                                    <hr className={styles.linha} />
+                                    <span>Jogo Online</span>
+                                </div>
+                            : <div className={styles.onlineInfo}>
+                                <span styles={{ paddingBottom: "1px" }}>{jogo.online}</span>
+                            </div>
+                        }
                     </div>
                 </section>
             </Banner>
