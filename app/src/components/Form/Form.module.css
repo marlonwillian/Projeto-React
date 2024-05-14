@@ -20,25 +20,27 @@
     text-align: left;
     padding-top: 10px;
     padding-left: 100px;
-    max-width: 800px;
+    max-width: 545px;
 }
 
 .edition div{
-    width: 500px;
-    height: 115px;
+    width: 440px;
+    height: 236px;
     font-size: 30px;
     margin-top: 10px;
     border-radius: 5px;
-    text-align: center;
+    display: grid;
+    justify-items: center;
 }
 
 hr{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .edition div label {
+    min-width: 435px;
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: 15px;
     border-radius: 5px;
     padding: 30px;
     background-color: #00000098;
@@ -48,21 +50,19 @@ hr{
 input[type="radio"] {
     width: 20px;
     height: 20px;
-    margin-right: 15px;
+    margin-right: 10px;
     transition: 1s;
 }
 
 input:checked {
-    margin-block: 25px;
+    margin-right: 15px;
 }
 
 .price {
     font-size: 30px;
     margin-top: 30px;
     border-radius: 5px;
-    padding: 30px;
-    background-color: #00000098;
-    border: 0.5px solid #ffffff5a;
+    text-align: left;
 }
 
 .submitButton {
@@ -75,6 +75,7 @@ input:checked {
     padding: 10px;
     font-size: 20px;
     transition: 0.5s ease-in;
+    margin-top: 45px;
 }
 
 .submitButton:hover {
