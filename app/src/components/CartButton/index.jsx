@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
 import { useCartContext } from "../../context/Cart";
 import styles from "./CartButton.module.css";
-import { useState } from "react";
 
 export const convertPrice = (price) => Number(price).toFixed(2).replace('.', ',');
 
-function CartButton({id, price, discount, gamePage, margintop, marginleft}) {
+function CartButton({id, price, discount, gamePage, margintop, marginleft, opacity}) {
     let desconto = discount/100
     desconto = desconto * price  
     let newPrice = price - desconto
@@ -14,14 +13,12 @@ function CartButton({id, price, discount, gamePage, margintop, marginleft}) {
     const noCart = inCart.some((cart) => cart.id === id)
     const icone = noCart ? "fa-solid fa-xmark" : "fa-solid fa-cart-plus"
 
-    const [ buy, setBuy ] = useState(noCart ? true : false);
-
     return (
         <>
             <button 
                 className={styles.btn}
                 style={{
-                    display: buy == true ? "block" : "none", 
+                    display: noCart && gamePage? "block" : "none", 
                     width: "auto", textAlign: "center", 
                     fontSize: "20px", marginRight: "30px"
                 }}
@@ -37,12 +34,12 @@ function CartButton({id, price, discount, gamePage, margintop, marginleft}) {
             </button>
             <button
                 className={styles.btn}
-                style={{ marginTop: margintop, marginLeft: marginleft}}
+                style={{ 
+                    marginTop: margintop, marginLeft: marginleft, 
+                    transition: "1.5s ease", opacity: opacity, 
+                    cursor: opacity == 0 ? "auto" : "pointer" }}
                 onClick={
-                    typeof(price) == "number" && buy == false ? 
-                    () => { addCart({id}); setBuy(true);} 
-                    : typeof(price) == "number" && buy == true ? 
-                    () => { addCart({id}); setBuy(false);} : null
+                    typeof(price) == "number" && opacity == 1 ? () => addCart({id}) : null
                 }
                 type="button"
             >

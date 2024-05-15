@@ -44,7 +44,7 @@ function Game() {
                             className={styles.age}
                         >
                             <img src={image} style={{ width: "70px" }} />
-                        </span><br />
+                        </span><br/>
                         <span>
                             <i
                                 class="fa-solid fa-microphone-lines"

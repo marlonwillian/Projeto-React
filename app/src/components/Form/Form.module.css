@@ -24,8 +24,8 @@
 }
 
 .edition div{
-    width: 440px;
-    height: 236px;
+    width: 445px;
+    height: 300px;
     font-size: 30px;
     margin-top: 10px;
     border-radius: 5px;
@@ -38,11 +38,12 @@ hr{
 }
 
 .edition div label {
-    min-width: 435px;
-    font-size: 30px;
+    min-width: 390px;
+    font-size: 25px;
     margin-top: 15px;
     border-radius: 5px;
     padding: 30px;
+    text-align: center;
     background-color: #00000098;
     border: 0.5px solid #ffffff5a;
 }
@@ -54,8 +55,11 @@ input[type="radio"] {
     transition: 1s;
 }
 
-input:checked {
-    margin-right: 15px;
+.selected {
+    background-color: #97828254;
+    padding: 8px;
+    transition: 0.8s ease;
+    border-radius: 5px;
 }
 
 .price {
