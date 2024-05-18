@@ -15,23 +15,6 @@ function CartButton({id, price, discount, gamePage, margintop, marginleft, opaci
 
     return (
         <>
-            <button 
-                className={styles.btn}
-                style={{
-                    display: noCart && gamePage? "block" : "none", 
-                    width: "auto", textAlign: "center", 
-                    fontSize: "20px", marginRight: "30px"
-                }}
-            >
-                <span style={{paddingRight: "10px"}}> 
-                    <i 
-                        class="fa-solid fa-check" 
-                        style={{marginInline: "10px", color: "green"}}
-                    >
-                    </i>
-                    Comprar
-                </span>
-            </button>
             <button
                 className={styles.btn}
                 style={{ 
@@ -39,7 +22,7 @@ function CartButton({id, price, discount, gamePage, margintop, marginleft, opaci
                     transition: "1.5s ease", opacity: opacity, 
                     cursor: opacity == 0 ? "auto" : "pointer" }}
                 onClick={
-                    typeof(price) == "number" && opacity == 1 ? () => addCart({id}) : null
+                    opacity == 1 ? () => addCart({id, price}) : null
                 }
                 type="button"
             >
@@ -62,7 +45,7 @@ function CartButton({id, price, discount, gamePage, margintop, marginleft, opaci
                     : typeof(price) == "number" || "object" && gamePage == true ?
                     <>
                         <span className={styles.price}>
-                            {noCart? "Remover" : "Adicionar ao Carrinho"}
+                            {noCart? "No Carrinho" : "Adicionar ao Carrinho"}
                         </span>
                         <i class={`${icone}`} style={{color: noCart ? "red" : "white"}}></i>
                     </>

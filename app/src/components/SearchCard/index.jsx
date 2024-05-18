@@ -4,10 +4,21 @@ import jogos from "../../json/games.json"
 import { convertPrice } from "../CartButton";
 import { useCartContext } from "../../context/Cart";
 
-function SearchCard({ id, cart }) {
+function SearchCard({ id, price, cart }) {
     const { inCart, addCart } = useCartContext()
     const noCart = inCart.some((cart) => cart.id === id)
     const icone = noCart && cart == "true" ? "fa-solid fa-x" : null
+    
+    const originalPrice = typeof(jogos[id].preco) == "number" ? jogos[id].preco : jogos[id].preco[0];
+
+    function verifyDiscount(id) {
+        const discountPrice = originalPrice - (originalPrice * (jogos[id].discount/100));
+
+        const prices = [convertPrice(originalPrice), convertPrice(discountPrice)]
+        return prices
+    }
+
+    const edition = originalPrice == price ? "Edição Padrão" : "Edição Deluxe"
 
     return (
         <>
@@ -20,65 +31,67 @@ function SearchCard({ id, cart }) {
                     <div className={styles.info}>
                         <span className={styles.title}>{jogos[id].title}</span>
                         <span className={styles.price}>
-                        {
-                            typeof (jogos[id].discount) == "number" ?
+                            {
+                                typeof (jogos[id].discount) == "number" ?
                                 <span className={styles.discount}> -{jogos[id].discount}% </span>
                                 :
                                 null
-                        }
-                        {
-                            typeof (jogos[id].preco) == "object"
-                            && typeof (jogos[id].discount) == "number" ?
-                                <span>
-                                    <i 
-                                        style={{ 
-                                            textDecoration: "line-through", 
-                                            marginRight: "5px",
-                                            fontSize: "15px" 
-                                        }}
-                                    >
-                                        {convertPrice(jogos[id].preco[0])}
-                                    </i>
-                                    <i
-                                        style={{ 
-                                            fontSize: "15px" 
-                                        }}
-                                    >
-                                        {
-                                            convertPrice(
-                                                jogos[id].preco[0] - (jogos[id].preco[0] * (jogos[id].discount/100))
-                                            )
-                                        }
-                                    </i>
-                                </span>
-                                : typeof (jogos[id].preco) == "number"
-                                && typeof (jogos[id].discount) == "number" ?
-                                    <span style={{fontSize: "10px"}}>
+                            }
+                            {
+                                cart != true ?
+
+                                    typeof (jogos[id].discount) != "number" ?
+                                        <span style={{ fontSize: "10px" }}>
+                                            <i 
+                                                style={{marginRight: "5px",fontSize: "15px"}}
+                                            >
+                                                R$ {verifyDiscount(id)[0]}
+                                            </i>
+                                        </span>
+                                    : 
+                                    <span style={{ fontSize: "10px" }}>
                                         <i 
-                                            style={{ 
-                                                textDecoration: "line-through", 
-                                                marginRight: "5px",
-                                                fontSize: "15px" 
-                                            }}
+                                            style={{marginRight: "5px",fontSize: "15px",textDecoration: "line-through"}}
                                         >
-                                            R$ {convertPrice(jogos[id].preco)}
+                                            R$ {verifyDiscount(id)[0]}
                                         </i>
-                                        <i
-                                            style={{ 
-                                                fontSize: "15px" 
-                                            }}
-                                        > 
-                                            R$ {
-                                                convertPrice(
-                                                    jogos[id].preco - (jogos[id].preco * (jogos[id].discount/100))
-                                                )
-                                            }
+                                        <i 
+                                            style={{marginRight: "5px",fontSize: "15px"}}
+                                        >
+                                            R$ {verifyDiscount(id)[1]}
                                         </i>
                                     </span>
-                                : typeof (jogos[id].preco) == "object" ? 
-                                <span>R$ {convertPrice(jogos[id].preco[0])}</span> 
-                                : 
-                                <span>R$ {convertPrice(jogos[id].preco)}</span>
+                                    
+                                : cart === true && typeof (jogos[id].discount) == "number" ?
+
+                                    <span>
+                                        <i
+                                            style={{
+                                                marginRight: "5px",
+                                                fontSize: "15px",
+                                                textDecoration: "line-through"
+                                            }}
+                                        >
+                                            R$ {convertPrice(price)}
+                                        </i>
+                                        <i style={{ fontSize: "15px" }}>
+                                            R$ {
+                                                convertPrice(
+                                                    price - (price * (jogos[id].discount / 100))
+                                                )
+                                            }
+                                        </i><br/>
+                                        <i style={{ fontSize: "15px" }}>{edition}</i>
+                                    </span>
+                                : cart === true && typeof (jogos[id].discount) != "number" ?
+                                    <span>
+                                        <i style={{ fontSize: "15px" }}>
+                                            R$ {convertPrice(price)}
+                                        </i><br/>
+                                        <i style={{ fontSize: "15px" }}>{edition}</i>
+                                    </span>
+                                : convertPrice(jogos[id].preco)
+
                             }
                         </span>
                     </div>

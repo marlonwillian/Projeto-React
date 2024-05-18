@@ -41,7 +41,7 @@ function Header({ console, color, colorScrolled, shadow }) {
         return <div>
                     <GameList
                         jogos={inCart}
-                        cart="true"
+                        cart={true}
                         width="400px"
                         height="300px"
                     />

@@ -7,6 +7,8 @@ import CartButton, { convertPrice } from "../CartButton";
 function Form({ id }) {
     const [valorSelecionado, setValorSelecionado] = useState('');
     const opcoes = jogo[id].preco;
+
+    console.log(typeof(valorSelecionado))
     
     const change = (event) => {
         setValorSelecionado(event.target.value);
@@ -45,7 +47,7 @@ function Form({ id }) {
                     <section style={{display: "inline-flex", alignItems: "flex-end"}}>
                         <CartButton
                             id={id}
-                            price={parseInt(valorSelecionado)}
+                            price={parseFloat(valorSelecionado)}
                             gamePage={true}
                             opacity={valorSelecionado == '' ? "0" : "1"}
                         />

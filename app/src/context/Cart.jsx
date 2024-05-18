@@ -24,7 +24,7 @@ export function useCartContext() {
         let newList = [...inCart]
 
         if(!repeatedCart) {
-            newList.push(newCart)
+            newList.push({id: newCart.id, price: newCart.price})
             return setCart(newList)
         }
 
