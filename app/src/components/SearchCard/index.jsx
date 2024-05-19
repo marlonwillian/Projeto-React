@@ -7,7 +7,7 @@ import { useCartContext } from "../../context/Cart";
 function SearchCard({ id, price, cart }) {
     const { inCart, addCart } = useCartContext()
     const noCart = inCart.some((cart) => cart.id === id)
-    const icone = noCart && cart == "true" ? "fa-solid fa-x" : null
+    const icone = cart == true ? "fa-solid fa-x" : null
     
     const originalPrice = typeof(jogos[id].preco) == "number" ? jogos[id].preco : jogos[id].preco[0];
 

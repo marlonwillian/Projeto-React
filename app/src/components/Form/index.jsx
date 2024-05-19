@@ -3,12 +3,14 @@ import jogo from "../../json/games.json"
 import FilterPlataform from "../FilterPlataform";
 import React, { useState } from 'react';
 import CartButton, { convertPrice } from "../CartButton";
+import { useCartContext } from "../../context/Cart";
 
 function Form({ id }) {
     const [valorSelecionado, setValorSelecionado] = useState('');
     const opcoes = jogo[id].preco;
 
-    console.log(typeof(valorSelecionado))
+    const { inCart, addCart } = useCartContext();
+    const noCart = inCart.some((cart) => cart.id === id);
     
     const change = (event) => {
         setValorSelecionado(event.target.value);
@@ -30,7 +32,7 @@ function Form({ id }) {
                                         type="radio"
                                         value={opcao}
                                         checked={valorSelecionado == opcao}
-                                        onChange={change}
+                                        onClick={change}
                                     />
                                     <span 
                                         className={
@@ -44,7 +46,7 @@ function Form({ id }) {
                             )) : <span className={styles.price}>R$ {convertPrice(jogo[id].preco)}</span>
                     }
                     <hr/>
-                    <section style={{display: "inline-flex", alignItems: "flex-end"}}>
+                    <section style={{display: "inline-flex", alignItems: "flex-end"}}> 
                         <CartButton
                             id={id}
                             price={parseFloat(valorSelecionado)}

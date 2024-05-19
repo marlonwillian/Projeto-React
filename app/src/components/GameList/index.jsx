@@ -12,7 +12,6 @@ function GameList({ jogos, cart, display, width, height }) {
         : 
         total += jogo.price
     )
-    console.log(total)
 
     return (
         <>

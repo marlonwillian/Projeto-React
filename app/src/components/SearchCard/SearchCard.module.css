@@ -2,10 +2,10 @@
     display: contents;
     color: white;
     transition: 0.0s ease;
+    text-shadow: none;
 }
 
 .link:hover {
-    text-shadow: none;
     color: black;
 
     i {

@@ -13,6 +13,8 @@ function CartButton({id, price, discount, gamePage, margintop, marginleft, opaci
     const noCart = inCart.some((cart) => cart.id === id)
     const icone = noCart ? "fa-solid fa-xmark" : "fa-solid fa-cart-plus"
 
+    console.log(price)
+
     return (
         <>
             <button

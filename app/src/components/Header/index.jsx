@@ -71,7 +71,11 @@ function Header({ console, color, colorScrolled, shadow }) {
                 <Link to="/"><i class="fa-solid fa-house"></i></Link>
             </nav>
             <nav className={styles.nav}>
-                <a className={styles.a_con} onClick={() => setComponent(!showComponent)}>
+                <a className={styles.a_con} 
+                    onClick={() => {
+                        showComponent ? setComponent(false) : setComponent(true); setCart(false); setSearch(false);
+                    }}
+                >
                     <i style={{ marginRight: "10px" }}>
                         {console}
                     </i>
@@ -113,7 +117,7 @@ function Header({ console, color, colorScrolled, shadow }) {
                             <i>
                                 {searchBar()}
                                 <i class="fa-solid fa-magnifying-glass" style={{ cursor: "pointer" }}
-                                    onClick={() => { setSearch(true) }}
+                                    onClick={() => { setSearch(true); setComponent(false); setCart(false)}}
                                 ></i>
                             </i>
                     }
@@ -125,7 +129,10 @@ function Header({ console, color, colorScrolled, shadow }) {
             <nav className={styles.nav3}>
                 <a 
                     className={styles.a_cart} 
-                    onClick={showCart ? () => setCart(false) : () => setCart(true)}
+                    onClick={
+                        showCart ? () => setCart(false) 
+                        : () => {setCart(true); setSearch(false); setComponent(false);}
+                    }
                 >
                     <i class="fa-solid fa-cart-shopping"></i>
                     <span className={styles.qtd}>{inCart.length}</span>

@@ -25,3 +25,8 @@
     margin-top: 485px;
     margin-right: 25px;
 }
+
+.btn {
+    position: absolute;
+    z-index: 99999;
+}
