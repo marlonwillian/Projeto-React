@@ -457,7 +457,7 @@
     "imgTitle": "https://www.dragonsdogma.com/1da/_asset/images/dd-logo.png",
     "position": "10%",
     "developer": "Capcom",
-    "preco": [149.99],
+    "preco": 149.99,
     "discount": 83,
     "console": ["PS4", "XBOX", "STEAM"],
     "info": ["Não", "Não", "Ação, RPG", "23/04/2013"],

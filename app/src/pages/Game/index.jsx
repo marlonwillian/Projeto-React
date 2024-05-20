@@ -38,7 +38,7 @@ function Game() {
                 margintop="-100px"
             >
                 <Form id={jogo.id} />
-                <section className={styles.gameInfo}>
+                <section className={styles.gameInfo}> // transformar em componente :)
                     <div className={styles.gameDetails}>
                         <span
                             className={styles.age}

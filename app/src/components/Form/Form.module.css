@@ -25,10 +25,9 @@
 
 .edition div{
     width: 445px;
-    height: 300px;
+    height: 100px;
     font-size: 30px;
     margin-top: 10px;
-    border-radius: 5px;
     display: grid;
     justify-items: center;
 }
@@ -48,6 +47,27 @@ hr{
     border: 0.5px solid #ffffff5a;
 }
 
+.price {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 100px;
+    max-width: 545px;
+}
+
+.price div{
+    display: grid;
+    width: 445px;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: left;
+    justify-items: center;
+    padding-top: 10px;
+}
+
+.value {
+    height: 50px;
+}
+
 input[type="radio"] {
     width: 20px;
     height: 20px;
@@ -60,13 +80,6 @@ input[type="radio"] {
     padding: 8px;
     transition: 0.8s ease;
     border-radius: 5px;
-}
-
-.price {
-    font-size: 30px;
-    margin-top: 30px;
-    border-radius: 5px;
-    text-align: left;
 }
 
 .submitButton {

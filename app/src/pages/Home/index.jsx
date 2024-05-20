@@ -88,7 +88,6 @@ function Home() {
                                         ? jogo.preco[0] : jogo.preco
                                     }
                                     discount={jogo.discount}
-                                    
                                     img={jogo.cover} 
                                     key={jogo.id} 
                                 />

@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useCartContext } from "../../context/Cart";
 import styles from "./CartButton.module.css";
+import { useEffect, useState } from "react";
 
 export const convertPrice = (price) => Number(price).toFixed(2).replace('.', ',');
 
@@ -13,7 +14,24 @@ function CartButton({id, price, discount, gamePage, margintop, marginleft, opaci
     const noCart = inCart.some((cart) => cart.id === id)
     const icone = noCart ? "fa-solid fa-xmark" : "fa-solid fa-cart-plus"
 
+    const [paginaCarregada, setPaginaCarregada] = useState(false);
+
+    const location = useLocation();
+
     console.log(price)
+
+    useEffect(() => {
+        if (
+            !isNaN(price) && noCart && paginaCarregada 
+            && location.pathname.includes('/jogo/')
+        ) {
+            addCart({id, price})
+        }
+    }, [price]);
+
+    useEffect(() => {
+        setPaginaCarregada(true);
+    }, []);
 
     return (
         <>
@@ -37,9 +55,11 @@ function CartButton({id, price, discount, gamePage, margintop, marginleft, opaci
                     typeof(price) == "number" && gamePage != true ?
                     <>
                         <span className={styles.price}>
-                            R$ {
+                            {
+                            !noCart ? 
                                 typeof(discount) == "number" ?
-                                `${convertPrice(newPrice)}` : `${convertPrice(price)}`
+                                    `R$ ${convertPrice(newPrice)}` : `R$ ${convertPrice(price)}`
+                            : "No Carrinho"
                             }
                         </span>
                         <i class={`${icone}`} style={{color: noCart ? "red" : "white"}}></i>

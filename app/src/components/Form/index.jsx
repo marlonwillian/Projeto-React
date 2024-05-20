@@ -6,24 +6,35 @@ import CartButton, { convertPrice } from "../CartButton";
 import { useCartContext } from "../../context/Cart";
 
 function Form({ id }) {
-    const [valorSelecionado, setValorSelecionado] = useState('');
     const opcoes = jogo[id].preco;
 
     const { inCart, addCart } = useCartContext();
     const noCart = inCart.some((cart) => cart.id === id);
-    
+    const checkPrice = inCart.some((cart) => cart.price === opcoes[0])
+
+    const [valorSelecionado, setValorSelecionado] = useState(
+        noCart && checkPrice ? opcoes[0] : noCart && checkPrice == false ? opcoes[1] : ""
+    );
+
     const change = (event) => {
         setValorSelecionado(event.target.value);
     };
+
+    console.log(checkPrice)
 
     return (
         <div className={styles.description}>
             <h2>{jogo[parseInt(id)].title}</h2>
             <h5>{jogo[parseInt(id)].developer}</h5>
-            <form className={styles.edition}>
+            <form className={typeof(opcoes) == "object" ? styles.edition : styles.price}>
                 <FilterPlataform id={id} fontsize="13px"/>
                 <hr/>
-                <div style={{height: valorSelecionado == '' ? "230px" : "315px", transition: "0.5s ease"}}>
+                <div style={{
+                    height: valorSelecionado == '' && typeof(opcoes) != "number" ? "230px" 
+                    : valorSelecionado != '' && typeof(opcoes) != "number" ? "315px" 
+                    : typeof(opcoes) == "number" ? "120px" : null
+                    , transition: "0.5s ease"
+                }}>
                     {
                         typeof(opcoes) == "object" ?
                             opcoes.map((opcao, index) => (
@@ -43,15 +54,15 @@ function Form({ id }) {
                                         R$ {convertPrice(opcao)} | {index === 0 ? "Edição Padrão" : "Edição Deluxe"}
                                     </span>
                                 </label> 
-                            )) : <span className={styles.price}>R$ {convertPrice(jogo[id].preco)}</span>
+                            )) : <span className={styles.value}>R$ {convertPrice(jogo[id].preco)}</span>
                     }
-                    <hr/>
-                    <section style={{display: "inline-flex", alignItems: "flex-end"}}> 
+                    <hr style={{display: typeof(opcoes) == "object" ? "block" : "none"}}/>
+                    <section style={{alignItems: "flex-end"}}> 
                         <CartButton
                             id={id}
                             price={parseFloat(valorSelecionado)}
                             gamePage={true}
-                            opacity={valorSelecionado == '' ? "0" : "1"}
+                            opacity={valorSelecionado == '' && typeof(opcoes) == "object" ? "0" : "1"}
                         />
                     </section>
                 </div>
