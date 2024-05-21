@@ -20,23 +20,26 @@ function Form({ id }) {
         setValorSelecionado(event.target.value);
     };
 
-    console.log(checkPrice)
+    let desconto = jogo[id].discount/100
+    desconto = desconto * jogo[id].preco
+    let newPrice = jogo[id].preco - desconto
 
     return (
-        <div className={styles.description}>
+        <div className={styles.description} >
             <h2>{jogo[parseInt(id)].title}</h2>
             <h5>{jogo[parseInt(id)].developer}</h5>
-            <form className={typeof(opcoes) == "object" ? styles.edition : styles.price}>
-                <FilterPlataform id={id} fontsize="13px"/>
-                <hr/>
+            <form className={typeof (opcoes) == "object" ? styles.edition : styles.price}>
+                <FilterPlataform id={id} fontsize="13px" />
+                <hr />
                 <div style={{
-                    height: valorSelecionado == '' && typeof(opcoes) != "number" ? "230px" 
-                    : valorSelecionado != '' && typeof(opcoes) != "number" ? "315px" 
-                    : typeof(opcoes) == "number" ? "120px" : null
-                    , transition: "0.5s ease"
+                    height: 
+                        valorSelecionado == '' && typeof (opcoes) != "number" ? "230px"
+                        : valorSelecionado != '' && typeof (opcoes) != "number" ? "315px"
+                        : typeof (opcoes) == "number" ? "175px" : null, 
+                    transition: "0.5s ease"
                 }}>
                     {
-                        typeof(opcoes) == "object" ?
+                        typeof (opcoes) == "object" ?
                             opcoes.map((opcao, index) => (
                                 <label key={opcao} checked>
                                     <input
@@ -45,28 +48,42 @@ function Form({ id }) {
                                         checked={valorSelecionado == opcao}
                                         onClick={change}
                                     />
-                                    <span 
+                                    <span
                                         className={
                                             valorSelecionado == opcao ? styles.selected : null
                                         }
-                                        style={{padding: "5px"}}
+                                        style={{ padding: "5px" }}
                                     >
                                         R$ {convertPrice(opcao)} | {index === 0 ? "Edição Padrão" : "Edição Deluxe"}
                                     </span>
-                                </label> 
-                            )) : <span className={styles.value}>R$ {convertPrice(jogo[id].preco)}</span>
+                                </label>
+                            )) 
+                        : 
+                            <div>
+                                <span className={styles.value} >
+                                    <span 
+                                        className={styles.discount} 
+                                        style={{
+                                            display: 
+                                                typeof(jogo[id].discount) == "number" ? "block" : "none"
+                                        }}>
+                                        - {jogo[id].discount}%
+                                    </span>
+                                    R$ {typeof(jogo[id].discount) != "number" ? convertPrice(jogo[id].preco) : convertPrice(newPrice)}
+                                </span>
+                            </div>
                     }
-                    <hr style={{display: typeof(opcoes) == "object" ? "block" : "none"}}/>
-                    <section style={{alignItems: "flex-end"}}> 
+                    <hr style={{ display: typeof (opcoes) == "object" ? "block" : "none" }} />
+                    <section style={{ alignItems: "flex-end" }}>
                         <CartButton
                             id={id}
                             price={parseFloat(valorSelecionado)}
                             gamePage={true}
-                            opacity={valorSelecionado == '' && typeof(opcoes) == "object" ? "0" : "1"}
+                            opacity={valorSelecionado == '' && typeof (opcoes) == "object" ? "0" : "1"}
                         />
                     </section>
                 </div>
-                <hr/>
+                <hr />
             </form>
         </div>
     );

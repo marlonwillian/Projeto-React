@@ -65,7 +65,26 @@ hr{
 }
 
 .value {
-    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-block: 20px;
+    background-color: #5c4d4d8d;
+    padding-top: 2px;
+    padding-inline: 10px;
+    transition: 0.8s ease;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px white;
+}
+
+.discount {
+    background-color: #008000ba;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    margin-right: 10px;
+    font-size: 20px;
+    
 }
 
 input[type="radio"] {
