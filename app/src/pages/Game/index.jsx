@@ -7,13 +7,12 @@ import Form from "../../components/Form";
 import { useParams } from "react-router-dom";
 
 import GameInfo from "../../components/GameInfo";
+import { useEffect } from "react";
 
 function Game() {
     const params = useParams()
     const jogo = jogos.find((jogo) => { return jogo.id === params.id })
     // if(!video) { return <PageNotFound/>}
-
-    console.log(typeof(jogos[jogo.id].price))
 
     return (
         <section>

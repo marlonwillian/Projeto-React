@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom"
 import styles from "./Header.module.css"
 import NintendoIcon from "../NintendoIcon";
@@ -24,6 +24,12 @@ function Header({ console, color, colorScrolled, shadow }) {
     // context
     const { inCart } = useCartContext()
 
+    const refInput = useRef(null);
+
+    useEffect(() => {
+        refInput.current.focus();
+    }, [showSearch]);
+
     function searchBar() {
         return <input
             type="search"
@@ -34,18 +40,19 @@ function Header({ console, color, colorScrolled, shadow }) {
             `}
             value={searchText}
             onChange={e => setSearchText(e.target.value)}
+            ref={refInput}
         />
     }
 
     function showGameList() {
         return <div>
-                    <GameList
-                        jogos={inCart}
-                        cart={true}
-                        width="400px"
-                        height="300px"
-                    />
-                </div>
+            <GameList
+                jogos={inCart}
+                cart={true}
+                width="400px"
+                height="300px"
+            />
+        </div>
     }
 
 
@@ -71,7 +78,7 @@ function Header({ console, color, colorScrolled, shadow }) {
                 <Link to="/"><i class="fa-solid fa-house"></i></Link>
             </nav>
             <nav className={styles.nav}>
-                <a className={styles.a_con} 
+                <a className={styles.a_con}
                     onClick={() => {
                         showComponent ? setComponent(false) : setComponent(true); setCart(false); setSearch(false);
                     }}
@@ -87,15 +94,15 @@ function Header({ console, color, colorScrolled, shadow }) {
                             ${styles.consoles} 
                             ${showComponent ? styles.down : styles.up}
                         `}>
-                        <Link 
+                        <Link
                             to="/playstation" className={styles.ps_link}>
                             <i class="fa-brands fa-playstation"></i> PlayStation
                         </Link>
-                        <Link 
+                        <Link
                             to="/nintendo" className={styles.ni_link}>
-                            <NintendoIcon marginBottom="2"/> Nintendo
+                            <NintendoIcon marginBottom="2" /> Nintendo
                         </Link>
-                        <Link 
+                        <Link
                             to="/xbox" className={styles.xb_link}>
                             <i class="fa-brands fa-xbox"></i> Xbox
                         </Link>
@@ -117,7 +124,7 @@ function Header({ console, color, colorScrolled, shadow }) {
                             <i>
                                 {searchBar()}
                                 <i class="fa-solid fa-magnifying-glass" style={{ cursor: "pointer" }}
-                                    onClick={() => { setSearch(true); setComponent(false); setCart(false)}}
+                                    onClick={() => { setSearch(true); setComponent(false); setCart(false) }}
                                 ></i>
                             </i>
                     }
@@ -127,11 +134,11 @@ function Header({ console, color, colorScrolled, shadow }) {
                 </Link>
             </nav>
             <nav className={styles.nav3}>
-                <a 
-                    className={styles.a_cart} 
+                <a
+                    className={styles.a_cart}
                     onClick={
-                        showCart ? () => setCart(false) 
-                        : () => {setCart(true); setSearch(false); setComponent(false);}
+                        showCart ? () => setCart(false)
+                            : () => { setCart(true); setSearch(false); setComponent(false); }
                     }
                 >
                     <i class="fa-solid fa-cart-shopping"></i>

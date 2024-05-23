@@ -20,7 +20,7 @@
     text-align: left;
     padding-top: 10px;
     padding-left: 100px;
-    max-width: 545px;
+    max-width: 557px;
 }
 
 .edition div{
@@ -64,6 +64,28 @@ hr{
     padding-top: 10px;
 }
 
+.prevPrice1 {
+    position: absolute;
+    background-color: #008000ba;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 20px;
+    bottom: 410px;
+    left: 150px;
+}
+
+.prevPrice2 {
+    position: absolute;
+    background-color: #008000ba;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 20px;
+    bottom: 295px;
+    left: 150px;
+}
+
 .value {
     display: flex;
     align-items: center;
@@ -84,7 +106,17 @@ hr{
     border-radius: 2px;
     margin-right: 10px;
     font-size: 20px;
-    
+}
+
+.discount1 {
+    position: absolute;
+    background-color: #008000ba;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 20px;
+    bottom: 305px;
+    left: 420px;
 }
 
 input[type="radio"] {

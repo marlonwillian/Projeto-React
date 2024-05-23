@@ -37,7 +37,7 @@ function FilterPlataform( {id, onlylogo, fontsize, nintendosize, steamsize}) {
                 fontSize: fontsize, fontFamily: "xboxfont", color: "white", 
                 backgroundColor: "green", borderRadius: "2px", marginTop: "10px"
             }}>
-                <span><i class="fa-brands fa-xbox"></i> {onlylogo ? "X|S" : plataform }</span>
+                <span><i class="fa-brands fa-xbox"></i> {"X|S"}</span>
         </span> : plataform == "XBOX" ?
         <span
             className={styles.plataform}
@@ -46,7 +46,7 @@ function FilterPlataform( {id, onlylogo, fontsize, nintendosize, steamsize}) {
                 backgroundColor: "green", borderRadius: "2px", marginTop: "10px"
             }}>
                 <span>
-                    <i class="fa-brands fa-xbox"></i> {onlylogo ? "ONE" : plataform } 
+                    <i class="fa-brands fa-xbox"></i> {"ONE"} 
                     <span 
                         style={{
                             fontSize: fontsize, fontFamily: "arial", fontWeight: "500", marginLeft: "3px"

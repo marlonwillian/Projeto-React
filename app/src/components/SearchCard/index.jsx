@@ -22,7 +22,7 @@ function SearchCard({ id, price, cart }) {
 
     return (
         <>
-            <Link className={styles.link} to={`/jogo/${id}`}>
+            <Link className={styles.link} to={`/redirect/${id}`}>
                 <div className={styles.searchGame}>
                     <img
                         src={jogos[id].cover}

@@ -10,18 +10,21 @@ function Form({ id }) {
 
     const { inCart, addCart } = useCartContext();
     const noCart = inCart.some((cart) => cart.id === id);
-    const checkPrice = inCart.some((cart) => cart.price === opcoes[0])
+    let checkPrice = inCart.filter((cart) => cart.id === id).map((cart) => cart.price);
+    let price = checkPrice.filter((cart) => cart.price === opcoes[0] || opcoes[1])
 
-    const [valorSelecionado, setValorSelecionado] = useState(
-        noCart && checkPrice ? opcoes[0] : noCart && checkPrice == false ? opcoes[1] : ""
+    let [valorSelecionado, setValorSelecionado] = useState(
+        price.length > 0 ? price[0]: 0
     );
+
+    console.log(valorSelecionado)
 
     const change = (event) => {
         setValorSelecionado(event.target.value);
     };
 
     let desconto = jogo[id].discount/100
-    desconto = desconto * jogo[id].preco
+    typeof(opcoes) == "number" ? desconto = desconto * jogo[id].preco : desconto = desconto
     let newPrice = jogo[id].preco - desconto
 
     return (
@@ -54,8 +57,24 @@ function Form({ id }) {
                                         }
                                         style={{ padding: "5px" }}
                                     >
-                                        R$ {convertPrice(opcao)} | {index === 0 ? "Edição Padrão" : "Edição Deluxe"}
+                                        R$ {typeof(jogo[id].discount) != "number" ? convertPrice(opcao) : convertPrice(opcao - (opcao * desconto))} | {index === 0 ? "Edição Padrão" : "Edição Deluxe"}
                                     </span>
+                                    {
+                                        typeof(jogo[id].discount) == "number" ?
+                                            <>
+                                                <span
+                                                    className={index === 0 ? styles.prevPrice1 : styles.prevPrice2}
+                                                >
+                                                    <i style={{textDecoration: "line-through"}}>
+                                                        R$ {convertPrice(opcao)}
+                                                    </i>
+                                                </span>
+                                                <span className={styles.discount1}>
+                                                    -50%
+                                                </span>
+                                            </>
+                                        : null
+                                    }
                                 </label>
                             )) 
                         : 
