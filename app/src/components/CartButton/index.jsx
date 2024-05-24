@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 export const convertPrice = (price) => Number(price).toFixed(2).replace('.', ',');
 
-function CartButton({id, price, discount, gamePage, margintop, marginleft, opacity}) {
+function CartButton({id, price, discount, gamePage, margintop, position, bottom, marginleft, opacity}) {
     let desconto = discount/100
     desconto = desconto * price  
     let newPrice = price - desconto
@@ -36,8 +36,12 @@ function CartButton({id, price, discount, gamePage, margintop, marginleft, opaci
             <button
                 className={styles.btn}
                 style={{ 
-                    marginTop: margintop, marginLeft: marginleft, 
-                    transition: "1.5s ease", opacity: opacity, 
+                    marginTop: margintop, 
+                    bottom: bottom, 
+                    marginLeft: marginleft, 
+                    transition: "1.5s ease", 
+                    opacity: opacity,
+                    position: position, 
                     cursor: opacity == 0 ? "auto" : "pointer" }}
                 onClick={
                     opacity == 1 ? () => addCart({id, price}) : null

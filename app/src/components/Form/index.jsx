@@ -96,7 +96,9 @@ function Form({ id }) {
                     <section style={{ alignItems: "flex-end" }}>
                         <CartButton
                             id={id}
-                            price={parseFloat(valorSelecionado)}
+                            price={typeof(opcoes) == "number" ? 
+                                opcoes : parseFloat(valorSelecionado)
+                            }
                             gamePage={true}
                             opacity={valorSelecionado == '' && typeof (opcoes) == "object" ? "0" : "1"}
                         />

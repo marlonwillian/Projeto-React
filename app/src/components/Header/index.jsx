@@ -73,7 +73,12 @@ function Header({ console, color, colorScrolled, shadow }) {
     }, []);
 
     return (
-        <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`} style={{ backgroundColor: scrolled ? colorScrolled : color, boxShadow: shadow }}>
+        <header 
+            className={`${styles.header} ${scrolled ? styles.scrolled : ''}`} style={
+                { 
+                    backgroundColor: scrolled ? colorScrolled : color, boxShadow: shadow 
+                }
+            }>
             <nav className={styles.nav1}>
                 <Link to="/"><i class="fa-solid fa-house"></i></Link>
             </nav>
