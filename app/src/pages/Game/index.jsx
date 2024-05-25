@@ -8,11 +8,12 @@ import { useParams } from "react-router-dom";
 
 import GameInfo from "../../components/GameInfo";
 import { useEffect } from "react";
+import PageNotFound from "../PageNotFound";
 
 function Game() {
     const params = useParams()
     const jogo = jogos.find((jogo) => { return jogo.id === params.id })
-    // if(!video) { return <PageNotFound/>}
+    if(!jogo) { return <PageNotFound/>}
 
     return (
         <section>

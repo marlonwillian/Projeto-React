@@ -88,7 +88,7 @@ function Carrossel() {
                     <CartButton
                         id={jogos[number[1]].id}
                         price={typeof (jogos[number[1]].preco) == "object" ?
-                            jogos[number[1]].preco[1] : jogos[number[0]].preco
+                            jogos[number[1]].preco[0] : jogos[number[1]].preco
                         }
                         discount={jogos[number[1]].discount}
                         bottom="10px"
@@ -124,7 +124,7 @@ function Carrossel() {
                     <CartButton
                         id={jogos[number[2]].id}
                         price={typeof (jogos[number[2]].preco) == "object" ?
-                            jogos[number[2]].preco[2] : jogos[number[2]].preco
+                            jogos[number[2]].preco[0] : jogos[number[2]].preco
                         }
                         discount={jogos[number[2]].discount}
                         bottom="10px"
@@ -160,7 +160,7 @@ function Carrossel() {
                     <CartButton
                         id={jogos[number[3]].id}
                         price={typeof (jogos[number[3]].preco) == "object" ?
-                            jogos[number[3]].preco[3] : jogos[number[3]].preco
+                            jogos[number[3]].preco[0] : jogos[number[3]].preco
                         }
                         discount={jogos[number[3]].discount}
                         bottom="10px"
