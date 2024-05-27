@@ -5,18 +5,25 @@ import Banner from "../../components/Banner";
 import jogos from "../../json/games.json";
 import Form from "../../components/Form";
 import { useParams } from "react-router-dom";
-
 import GameInfo from "../../components/GameInfo";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import PageNotFound from "../PageNotFound";
+import Loading from "../../components/Loading";
 
 function Game() {
+    const [loading, setLoading] = useState(1)
+
+    useEffect(() => {
+        setTimeout(() => setLoading(0), 1000)
+    }, []);
+
     const params = useParams()
     const jogo = jogos.find((jogo) => { return jogo.id === params.id })
     if(!jogo) { return <PageNotFound/>}
 
     return (
         <section>
+            <Loading opacity={loading} height="130vh"/>
             <Header console="Consoles" shadow="none" />
             <Banner
                 img={jogos[jogo.id].bigcover}
@@ -29,7 +36,7 @@ function Game() {
                 <Form id={jogo.id} />
                 <GameInfo id={jogo.id}/>
             </Banner>
-            <Footer color="black" />
+            <Footer color="#100f0f" />
         </section>
     );
 }

@@ -7,6 +7,8 @@ import jogos from "../../json/games.json";
 import Category from "../../components/Category";
 import Card from "../../components/Card";
 import NintendoIcon from "../../components/NintendoIcon";
+import { useEffect, useState } from "react";
+import Loading from "../../components/Loading";
 
 const categories = [
     "As franquias mais amadas",
@@ -19,8 +21,15 @@ function filterCategory(id) {
 }
 
 function Nintendo() {
+    const [loading, setLoading] = useState(1)
+
+    useEffect(() => {
+        setTimeout(() => setLoading(0), 1000)
+    }, []);
+
     return (
         <section className="styles.section">
+            <Loading opacity={loading}/>
             <Header console={<NintendoIcon marginBottom="0"/>} color="#e60012" shadow="#000000fe 5px 3px 8px" />
             <Banner
                 img="https://i.pinimg.com/originals/9d/72/de/9d72deccef3bae5c0c30b6b9031a5e68.jpg"

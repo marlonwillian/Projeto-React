@@ -6,6 +6,8 @@ import Banner from "../../components/Banner";
 import jogos from "../../json/games.json";
 import Category from "../../components/Category";
 import Card from "../../components/Card";
+import { useEffect, useState } from "react";
+import Loading from "../../components/Loading";
 
 const categories = [
     "Destaques no PC",
@@ -31,36 +33,45 @@ export function getRandomInt(min, max) {
 const number = getRandomInt(0, 69);
 
 function PC() {
+    const [loading, setLoading] = useState(1)
+
+    useEffect(() => {
+        setTimeout(() => setLoading(0), 1000)
+    }, []);
+
     return (
-        <section>
-            <Header console="Consoles" color="#100f0f" shadow="0 2px 5px #000000dc"/>
-            <Container background="#00000096" marginTop="70px">
-                {categories.map((category, index) =>
-                    <Category 
-                        title={category} 
-                        category={category} 
-                        key={index} 
-                    >
-                        {
-                            filterCategory(index).map(jogo => 
-                                <Card 
-                                    title={jogo.title} 
-                                    id={jogo.id} 
-                                    price={
-                                        typeof(jogo.preco) == "object" 
-                                        ? jogo.preco[0] : jogo.preco
-                                    }
-                                    discount={jogo.discount}
-                                    img={jogo.cover} 
-                                    key={jogo.id} 
-                                />
-                            )
-                        }
-                    </Category>
-                )}
-            </Container>
-            <Footer color="#100f0f"/>
-        </section>
+        <>
+            <Loading opacity={loading} height="105%"/>
+            <section>
+                <Header console="Consoles" color="#100f0f" shadow="0 2px 5px #000000dc"/>
+                <Container background="#00000096" marginTop="70px">
+                    {categories.map((category, index) =>
+                        <Category
+                            title={category}
+                            category={category}
+                            key={index}
+                        >
+                            {
+                                filterCategory(index).map(jogo =>
+                                    <Card
+                                        title={jogo.title}
+                                        id={jogo.id}
+                                        price={
+                                            typeof(jogo.preco) == "object"
+                                            ? jogo.preco[0] : jogo.preco
+                                        }
+                                        discount={jogo.discount}
+                                        img={jogo.cover}
+                                        key={jogo.id}
+                                    />
+                                )
+                            }
+                        </Category>
+                    )}
+                </Container>
+                <Footer color="#100f0f"/>
+            </section>
+        </>
     );
 }
 

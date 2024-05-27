@@ -60,18 +60,10 @@ function FilterPlataform( {id, onlylogo, fontsize, nintendosize, steamsize}) {
             style={{fontSize: fontsize, fontFamily: "nintendofont", fontWeight: "100", color: "white", backgroundColor: "red", padding: "6px"}}>
                 <span className={styles.nintendo}> {plataform}</span>
         </span> : plataform == "STEAM" ?
-        onlylogo ? 
-        <i 
-            class="fa-brands fa-steam" 
-            style={{
-                color: "white", fontSize: steamsize, marginRight: "5px", marginBottom: "5px"
-            }}>
-        </i> 
-        :
         <span
             className={styles.plataform}
             style={{fontSize: fontsize, fontFamily: "steamfont", color: "white", backgroundColor: "#132239", border: "0.1px solid white"}}>
-                <span><i class="fa-brands fa-steam"></i> {plataform}</span>
+                <span>PC</span>
         </span> : <span></span>)
     );
 }

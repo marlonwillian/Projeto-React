@@ -19,9 +19,4 @@
     color: white;
     padding: 10px;
     font-size: 20px;
-    transition: 0.5s ease-in;
-}
-
-.button:hover {
-    box-shadow: 0px 0px 5px white;
 }

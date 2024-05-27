@@ -7,6 +7,7 @@ import Game from "./pages/Game";
 import CartProvider from "./context/Cart";
 import PC from "./pages/PC";
 import RedirectPage from "./pages/RedirectPage";
+import PageNotFound from "./pages/PageNotFound";
 
 function AppRoutes() {
     return (
@@ -20,6 +21,7 @@ function AppRoutes() {
                     <Route path="/nintendo" element={ <Nintendo/> }></Route>
                     <Route path="/xbox" element={ <Xbox/> }></Route>
                     <Route path="/pc" element={ <PC/> }></Route>
+                    <Route path="*" element={ <PageNotFound/> }></Route>
                 </Routes>
             </CartProvider>
         </BrowserRouter>
