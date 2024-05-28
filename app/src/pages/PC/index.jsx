@@ -41,7 +41,8 @@ function PC() {
 
     return (
         <>
-            <Loading opacity={loading} height="105%"/>
+            <title>PC</title>
+            <Loading opacity={loading} height="105%" margintop="-70px"/>
             <section>
                 <Header console="Consoles" color="#100f0f" shadow="0 2px 5px #000000dc"/>
                 <Container background="#00000096" marginTop="70px">

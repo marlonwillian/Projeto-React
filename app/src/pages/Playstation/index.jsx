@@ -6,6 +6,8 @@ import Footer from "../../components/Footer";
 import jogos from "../../json/games.json";
 import Category from "../../components/Category";
 import Card from "../../components/Card";
+import { useEffect, useState } from "react";
+import Loading from "../../components/Loading";
 
 const categories = [
     "Ultimos lançamentos e anunciados",
@@ -18,8 +20,16 @@ function filterCategory(id) {
 }
 
 function Playstation() {
+    const [loading, setLoading] = useState(1)
+
+    useEffect(() => {
+        setTimeout(() => setLoading(0), 1000)
+    }, []);
+
     return (
         <section className="styles.section">
+            <title>PlayStation</title>
+            <Loading opacity={loading}/>
             <Header console={<i class="fa-brands fa-playstation"></i>} color="#08459a" shadow="#000000fe 5px 3px 8px"/>
             <Banner 
                 img="https://preview.redd.it/the-new-playstation-studios-banner-who-can-spot-dreams-v0-nsy12gkrmdt81.jpg?auto=webp&s=66d3a29499ae8e4659ce4e0d0b34c7b69bed1d5a"

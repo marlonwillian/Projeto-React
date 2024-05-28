@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from "./Loading.module.css";
 
-function Loading({ opacity, height }) {
+function Loading({ opacity, height, margintop }) {
   const [display, setDisplay] = useState("flex")
 
   useEffect(() => {
@@ -11,7 +11,9 @@ function Loading({ opacity, height }) {
   return (
     <div 
       className={styles.container} 
-      style={{ opacity: opacity, display: display, height: height}}>
+      style={{ 
+        opacity: opacity, display: display, height: height, marginTop: margintop
+      }}>
       <div className={styles.loader}></div>
     </div>
   );

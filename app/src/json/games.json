@@ -471,7 +471,7 @@
 
 
   { 
-    "id": "30",
+    "id": "0",
     "title": "Final Fantasy VII Rebirth",
     "imgTitle": "https://images.squarespace-cdn.com/content/v1/5f8c58e8028e082422fb73b5/4e776c63-9ec5-447b-885e-91fe89431db1/ff7_rebirth_W.png?format=500w",
     "position": "50%",
@@ -481,12 +481,12 @@
     "info": ["Não", "Sim", "RPG", "29/02/2024"],
     "online": "1 Jogador",
     "rating": "quatorze",
-    "cover": "https://catwithmonocle.com/wp-content/uploads/2023/12/ff7rebirth-artwork-01-1920x1080-1.jpg",
+    "cover": "https://img.asmedia.epimg.net/resizer/v2/UDSICW5LJRDRTA6X4PG3FH3T64.jpg?auth=da022ed3eef539abbd48865720b51e8cebe3ef04ac33b7f86737f07a18b81a57&width=1472&height=828&smart=true",
     "bigcover": "https://wallpapercg.com/download/final-fantasy-vii-rebirth-4k-wallpaper--18762.jpg",
     "category": "Ultimos lançamentos e anunciados"
   },
   {
-    "id": "31",
+    "id": "2",
     "title": "Rise of the Ronin",
     "imgTitle": "https://upload.wikimedia.org/wikipedia/fr/thumb/5/51/Rise_of_the_R%C5%8Dnin_Logo.png/1200px-Rise_of_the_R%C5%8Dnin_Logo.png",
     "position": "50%",
@@ -536,7 +536,7 @@
     "developer": "Insomniac Games",
     "imgTitle": "https://pnghq.com/wp-content/uploads/marvels-wolverine-transparent-image-download-36430.png",
     "position": "10%",
-    "preco": [349.90, 399.50],
+    "preco": "Anunciado",
     "console": ["PS5"],
     "info": ["?", "?", "?", "2026"],
     "online": "1 Jogador",
@@ -1089,5 +1089,55 @@
     "cover": "https://img.hype.games/cdn/b874b2a3-a2cf-45df-941f-c920452a9bb8bak-cover.jpg",
     "bigcover": "https://i.pinimg.com/originals/3a/58/39/3a5839b4f47c63d19ff8f30906d6d733.jpg",
     "category": "Game Pass"
+  },
+
+
+
+
+  {
+    "id": "70",
+    "title": "Ghost of Tsushima",
+    "imgTitle": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ghost_of_Tsushima_logo_black.svg/1280px-Ghost_of_Tsushima_logo_black.svg.png",
+    "position": "20%",
+    "developer": "Sucker Punch",
+    "preco": [249.90, 349.90],
+    "discount": 50,
+    "console": ["PS4", "PS5", "STEAM"],
+    "info": ["Sim", "Sim", "RPG, Ação, Aventura", "17/07/2020"],
+    "online": "2",
+    "rating": "dezoito",
+    "cover": "https://www.fayerwayer.com/resizer/v2/MYGUD2KGKRHMVLNCW7X6EEAV5Y.jpg?auth=fddbd218ff5832e2200a36833d13fb4e948451ae5a82046909087e344307e4b7&width=1440&height=810&smart=true",
+    "bigcover": "https://images7.alphacoders.com/135/1355897.jpeg",
+    "category": "Destaques no PC"
+  },
+  {
+    "id": "71",
+    "title": "Helldivers™ 2",
+    "imgTitle": "https://upload.wikimedia.org/wikipedia/fr/a/a7/Helldivers_II_Logo.png",
+    "position": "20%",
+    "developer": "Arrowhead Game Studios",
+    "preco": [199.50, 299.90],
+    "console": ["PS5", "STEAM"],
+    "info": ["Sim", "Sim", "Ação", "08/02/2024"],
+    "online": "Jogo Online",
+    "rating": "dezoito",
+    "cover": "https://cdn.gfinityesports.com/images/ncavvykf/gfinityesports/d8ca0699d0e30ac49080894f5d63d8580d3741f7-1280x720.jpg?rect=0,24,1280,672&w=1600&h=840&fit=crop&auto=format",
+    "bigcover": "https://image.api.playstation.com/vulcan/ap/rnd/202309/0718/243f571567566eb014e9d48787d31629aaf2d3a032525862.jpg",
+    "category": "Destaques no PC"
+  },
+  {
+    "id": "72",
+    "title": "Cyberpunk 2077",
+    "imgTitle": "https://purepng.com/public/uploads/large/purepng.com-cyberpunk-2077-logologosgame-logogame-logosgameslogocyberpunk-2077-12715289961328hlgr.png",
+    "position": "50%",
+    "developer": "CD Projekt Red",
+    "preco": [249.50, 379.90],
+    "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
+    "info": ["Sim", "Sim", "RPG", "10/12/2020"],
+    "online": "Jogo Online",
+    "rating": "dezoito",
+    "cover": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e5c4ea106320809.624447174ed4b.jpg",
+    "bigcover": "https://www.bhmpics.com/downloads/4k-cyberpunk-2077-Wallpapers/41.cyberpunk-2077-4k-wallpaper.jpg",
+    "category": "Destaques no PC"
   }
 ]

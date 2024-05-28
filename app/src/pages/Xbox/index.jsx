@@ -6,6 +6,8 @@ import Footer from "../../components/Footer";
 import jogos from "../../json/games.json";
 import Category from "../../components/Category";
 import Card from "../../components/Card";
+import Loading from "../../components/Loading";
+import { useEffect, useState } from "react";
 
 const categories = [
     "O melhor da Xbox Game Studios",
@@ -18,8 +20,16 @@ function filterCategory(id) {
 }
 
 function Xbox() {
+    const [loading, setLoading] = useState(1)
+
+    useEffect(() => {
+        setTimeout(() => setLoading(0), 1000)
+    }, []);
+
     return (
         <section className="styles.section">
+            <title>Xbox</title>
+            <Loading opacity={loading}/>
             <Header console={<i class="fa-brands fa-xbox"></i>} colorScrolled="green"/>
             <Banner
                 img="https://pixelz.cc/wp-content/uploads/2023/09/halo-infinite-master-chief-uhd-4k-wallpaper.jpg"

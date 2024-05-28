@@ -29,6 +29,7 @@ function Nintendo() {
 
     return (
         <section className="styles.section">
+            <title>Nintendo</title>
             <Loading opacity={loading}/>
             <Header console={<NintendoIcon marginBottom="0"/>} color="#e60012" shadow="#000000fe 5px 3px 8px" />
             <Banner

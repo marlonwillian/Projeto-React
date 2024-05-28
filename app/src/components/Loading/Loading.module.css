@@ -7,7 +7,7 @@
   position: fixed;
   z-index: 999999;
   background-color: #100f0f;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .loader {

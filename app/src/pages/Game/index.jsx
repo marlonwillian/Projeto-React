@@ -23,6 +23,7 @@ function Game() {
 
     return (
         <section>
+            <title>{jogo.title}</title>
             <Loading opacity={loading} height="130vh"/>
             <Header console="Consoles" shadow="none" />
             <Banner

@@ -77,9 +77,9 @@ function Form({ id }) {
                                     }
                                 </label>
                             )) 
-                        : 
+                        : typeof (opcoes) == "number" ?
                             <div>
-                                <span className={styles.value} >
+                                <span className={styles.value}>
                                     <span 
                                         className={styles.discount} 
                                         style={{
@@ -91,17 +91,31 @@ function Form({ id }) {
                                     R$ {typeof(jogo[id].discount) != "number" ? convertPrice(jogo[id].preco) : convertPrice(newPrice)}
                                 </span>
                             </div>
+                        : <span 
+                            className={styles.value} 
+                            style={{
+                                marginTop: "65px",
+                                paddingInline: "50px"
+                            }}>
+                            {jogo[id].info[3]}
+                        </span>
                     }
                     <hr style={{ display: typeof (opcoes) == "object" ? "block" : "none" }} />
                     <section style={{ alignItems: "flex-end" }}>
-                        <CartButton
-                            id={id}
-                            price={typeof(opcoes) == "number" ? 
-                                opcoes : parseFloat(valorSelecionado)
-                            }
-                            gamePage={true}
-                            opacity={valorSelecionado == '' && typeof (opcoes) == "object" ? "0" : "1"}
-                        />
+                        {
+                            typeof (opcoes) != "string" ?
+                                <CartButton
+                                    id={id}
+                                    price={typeof(opcoes) == "number" ? 
+                                        opcoes : parseFloat(valorSelecionado)
+                                    }
+                                    gamePage={true}
+                                    opacity={
+                                        valorSelecionado == '' && typeof (opcoes) == "object" ? "0" : "1"
+                                    }
+                                />
+                            : ""
+                        }
                     </section>
                 </div>
                 <hr />

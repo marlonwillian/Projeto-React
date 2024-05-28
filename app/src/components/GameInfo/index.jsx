@@ -34,7 +34,7 @@ function GameInfo({ id }) {
             style={{ marginRight: "21px" }}
           ></i>
           Voz em PT-BR:
-          <span style={{ marginLeft: "84px" }}>{jogo[id].info[0]}</span>
+          <span style={{ marginLeft: "78px" }}>{jogo[id].info[0]}</span>
           <br />
         </span>
         <span>
@@ -43,7 +43,7 @@ function GameInfo({ id }) {
             style={{ marginRight: "14px" }}
           ></i>
           Legendas em PT-BR:
-          <span style={{ marginLeft: "32px" }}>{jogo[id].info[1]}</span>
+          <span style={{ marginLeft: "23px" }}>{jogo[id].info[1]}</span>
           <br />
         </span>
         <span>

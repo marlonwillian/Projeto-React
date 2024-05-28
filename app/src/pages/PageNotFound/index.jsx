@@ -14,6 +14,7 @@ function PageNotFound() {
 
   return (
     <>
+      <title>Página não encontrada!</title>
       <Loading opacity={loading}/>
       <Header console="Consoles" />
       <Banner

@@ -46,22 +46,23 @@ function Home() {
 
     return (
         <section className={styles.home}>
+            <title>Página Inicial</title>
             <Loading opacity={loading}/>
             <Header console="Consoles" />
             <Banner
                 height="100vh"
                 bgposition="center"
                 bgcolor="black"
-                img={jogos[number].bigcover}
+                img={jogos[72].bigcover}
             >
                 <div
                     className={styles.title}
                     style={{
-                        left: jogos[number].position,
-                        transform: `translate(-${jogos[number].position})`
+                        left: jogos[72].position,
+                        transform: `translate(-${jogos[72].position})`
                     }}>
                     <img
-                        src={jogos[number].imgTitle}
+                        src={jogos[72].imgTitle}
                         style={{ width: "350px" }}
                     />
                     <Link to={`/jogo/${number}`}>
