@@ -53,16 +53,16 @@ function Home() {
                 height="100vh"
                 bgposition="center"
                 bgcolor="black"
-                img={jogos[72].bigcover}
+                img={jogos[79].bigcover}
             >
                 <div
                     className={styles.title}
                     style={{
-                        left: jogos[72].position,
-                        transform: `translate(-${jogos[72].position})`
+                        left: jogos[79].position,
+                        transform: `translate(-${jogos[79].position})`
                     }}>
                     <img
-                        src={jogos[72].imgTitle}
+                        src={jogos[79].imgTitle}
                         style={{ width: "350px" }}
                     />
                     <Link to={`/jogo/${number}`}>
