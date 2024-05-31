@@ -81,8 +81,8 @@ function GameInfo({ id }) {
                 <span>Jogo Online</span>
               </div>
           : <div className={styles.onlineInfo}>
-                <span styles={{ paddingBottom: "1px" }}>{jogo[id].online}</span>
-              </div>
+              <span styles={{ paddingBottom: "1px" }}>{jogo[id].online}</span>
+            </div>
         }
       </div>
     </section>

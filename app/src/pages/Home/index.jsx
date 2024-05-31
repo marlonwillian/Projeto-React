@@ -35,7 +35,7 @@ function convertPrice(price) {
     return price
 }
 
-const number = getRandomInt(0, 69);
+const number = getRandomInt(0, 79);
 
 function Home() {
     const [loading, setLoading] = useState(1)
@@ -53,16 +53,16 @@ function Home() {
                 height="100vh"
                 bgposition="center"
                 bgcolor="black"
-                img={jogos[79].bigcover}
+                img={jogos[number].bigcover}
             >
                 <div
                     className={styles.title}
                     style={{
-                        left: jogos[79].position,
-                        transform: `translate(-${jogos[79].position})`
+                        left: jogos[number].position,
+                        transform: `translate(-${jogos[number].position})`
                     }}>
                     <img
-                        src={jogos[79].imgTitle}
+                        src={jogos[number].imgTitle}
                         style={{ width: "350px" }}
                     />
                     <Link to={`/jogo/${number}`}>
@@ -86,6 +86,7 @@ function Home() {
                     <Category
                         title={category}
                         category={category}
+                        index={index}
                         key={index}
                     >
                         {

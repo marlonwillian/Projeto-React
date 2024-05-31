@@ -41,7 +41,7 @@ function Xbox() {
             </Banner>
             <Container background="#016001">
                 {categories.map((category, index) =>
-                    <Category title={category} category={category} key={index} >
+                    <Category title={category} category={category} index={index} key={index}>
                         {
                             filterCategory(index).map(jogo =>
                                 <Card

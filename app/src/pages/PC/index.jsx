@@ -50,6 +50,7 @@ function PC() {
                         <Category
                             title={category}
                             category={category}
+                            index={index}
                             key={index}
                         >
                             {

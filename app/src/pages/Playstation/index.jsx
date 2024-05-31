@@ -8,6 +8,7 @@ import Category from "../../components/Category";
 import Card from "../../components/Card";
 import { useEffect, useState } from "react";
 import Loading from "../../components/Loading";
+import GiftCards from "../../components/GiftCards";
 
 const categories = [
     "Ultimos lançamentos e anunciados",
@@ -30,17 +31,18 @@ function Playstation() {
         <section className="styles.section">
             <title>PlayStation</title>
             <Loading opacity={loading}/>
-            <Header console={<i class="fa-brands fa-playstation"></i>} color="#08459a" shadow="#000000fe 5px 3px 8px"/>
+            <Header console={<i class="fa-brands fa-playstation"></i>} color="#08459a" colorScrolled="#08459a" shadow="#000000fe 5px 3px 8px"/>
             <Banner 
                 img="https://preview.redd.it/the-new-playstation-studios-banner-who-can-spot-dreams-v0-nsy12gkrmdt81.jpg?auto=webp&s=66d3a29499ae8e4659ce4e0d0b34c7b69bed1d5a"
                 height="105vh"
-                
             >
-                <h1 className={styles.title}><span class="fa-brands fa-playstation"></span> PlayStation</h1>
+                <h1 className={styles.title}>
+                    <span class="fa-brands fa-playstation"></span> PlayStation
+                </h1>
             </Banner>
             <Container background="#08264f">
                 { categories.map((category, index) =>
-                    <Category title={category} category={category} key={index} >
+                    <Category title={category} category={category} key={index} index={index}>
                         {
                             filterCategory(index).map(jogo => 
                                 <Card 
@@ -59,6 +61,7 @@ function Playstation() {
                     </Category>
                 )}
             </Container>
+            <GiftCards/>
             <Footer color="#08459a"/>
         </section>
     )

@@ -12,8 +12,7 @@ import Loading from "../../components/Loading";
 
 const categories = [
     "As franquias mais amadas",
-    "Ultimos lançamentos",
-    "Gift Cards",
+    "Ultimos lançamentos"
 ]
 
 function filterCategory(id) {
@@ -31,16 +30,26 @@ function Nintendo() {
         <section className="styles.section">
             <title>Nintendo</title>
             <Loading opacity={loading}/>
-            <Header console={<NintendoIcon marginBottom="0"/>} color="#e60012" shadow="#000000fe 5px 3px 8px" />
+            <Header 
+                console={<NintendoIcon marginBottom="0"/>} 
+                color="#e60012" 
+                shadow="#000000fe 5px 3px 8px"
+                colorScrolled="#e60012"
+            />
             <Banner
                 img="https://i.pinimg.com/originals/9d/72/de/9d72deccef3bae5c0c30b6b9031a5e68.jpg"
                 height="105vh"
             >
                 <h1 className={styles.title}><i><NintendoIcon marginBottom="2"/></i> Nintendo</h1>
             </Banner>
-            <Container background="#b6121b" bordertop="0.5px solid white">
+            <Container background="#b6121b" bordertop="0.5px solid #ffffff5a">
                 {categories.map((category, index) =>
-                    <Category title={category} category={category} key={index} >
+                    <Category 
+                        title={category} 
+                        category={category} 
+                        index={index} 
+                        key={index} 
+                    >
                         {
                             filterCategory(index).map(jogo =>
                                 <Card
