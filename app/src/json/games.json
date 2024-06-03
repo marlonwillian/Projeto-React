@@ -642,7 +642,7 @@
   },
   {
     "id": "41",
-    "title": "k: Em uma outra dimensão",
+    "title": "Ratchet & Clank: Em uma outra dimensão",
     "imgTitle": "https://cdn2.steamgriddb.com/logo/80029efad818240170239faf2ad95c65.png",
     "position": "50%",
     "developer": "Insomniac Games",
@@ -1246,5 +1246,51 @@
     "cover": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
     "bigcover": "https://cdn2.unrealengine.com/starlink-1920x1080-1920x1080-345ddb26ab0b.png",
     "category": "Epic Games"
+  },
+
+
+
+  {
+    "id": 80,
+    "title": "50 Reais PSN",
+    "preco": 50,
+    "cover": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
+    "plataform": "PlayStation"
+  },
+  {
+    "id": 81,
+    "title": "100 Reais PSN",
+    "preco": 100,
+    "cover": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
+    "plataform": "PlayStation"
+  },
+  {
+    "id": 82,
+    "title": "200 Reais PSN",
+    "preco": 200,
+    "cover": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
+    "plataform": "PlayStation"
+  },
+  {
+    "id": 83,
+    "title": "300 Reais PSN",
+    "preco": 300,
+    "cover": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
+    "plataform": "PlayStation"
+  },
+  {
+    "id": 84,
+    "title": "400 Reais PSN",
+    "preco": 400,
+    "cover": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
+    "plataform": "PlayStation"
+  },
+  {
+    "id": 85,
+    "title": "500 Reais PSN",
+    "preco": 500,
+    "cover": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
+    "plataform": "PlayStation"
   }
+  
 ]

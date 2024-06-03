@@ -30,11 +30,6 @@ export function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min
 }
 
-function convertPrice(price) {
-    price = price.toLocaleString('pt-br', { minimumFractionDigits: 2 });
-    return price
-}
-
 const number = getRandomInt(0, 79);
 
 function Home() {

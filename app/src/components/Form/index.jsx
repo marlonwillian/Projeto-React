@@ -70,7 +70,7 @@ function Form({ id }) {
                                                     </i>
                                                 </span>
                                                 <span className={styles.discount1}>
-                                                    -50%
+                                                    -{jogo[id].discount}%
                                                 </span>
                                             </>
                                         : null

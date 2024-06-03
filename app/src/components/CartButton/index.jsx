@@ -18,6 +18,8 @@ function CartButton({id, price, discount, gamePage, margintop, position, bottom,
 
     const location = useLocation();
 
+    console.log(id, price)
+
     useEffect(() => {
         if (
             !isNaN(price) && noCart && paginaCarregada 
@@ -60,7 +62,10 @@ function CartButton({id, price, discount, gamePage, margintop, position, bottom,
                             {
                             !noCart ? 
                                 typeof(discount) == "number" ?
-                                    `R$ ${convertPrice(newPrice)}` : `R$ ${convertPrice(price)}`
+                                    `R$ ${convertPrice(newPrice)}` 
+                                : typeof(discount) != "number" && price != 0? 
+                                    `R$ ${convertPrice(price)}`
+                                : "Gratuito"
                             : "No Carrinho"
                             }
                         </span>

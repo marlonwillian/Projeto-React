@@ -1,25 +1,13 @@
+import CartButton from "../CartButton";
 import styles from "./GiftButton.module.css";
+import jogos from "../../json/games.json";
+import { convertPrice } from "../CartButton";
 
-function GiftButton() {
+function GiftButton({ price }) {
   return (
     <>
       <div className={styles.price}>
-        R$ 50,00
-      </div>
-      <div className={styles.price}>
-        R$ 100,00
-      </div>
-      <div className={styles.price}>
-        R$ 300,00
-      </div>
-      <div className={styles.price}>
-        R$ 350,00
-      </div>
-      <div className={styles.price}>
-        R$ 400,00
-      </div>
-      <div className={styles.price}>
-        R$ 500,00
+        R$ {convertPrice(price)}
       </div>
     </>
   );
