@@ -79,7 +79,7 @@
     "title": "Red Dead Redemption",
     "imgTitle": "https://pngimg.com/d/red_dead_redemption_PNG14.png",
     "position": "50%",
-    "developer": "rockstar",
+    "developer": "Rockstar Games",
     "preco": 249.50,
     "discount": 20,
     "console": ["PS4", "XBOX", "Nintendo"],
@@ -95,7 +95,7 @@
     "title": "Red Dead Redemption 2",
     "imgTitle": "https://seeklogo.com/images/R/red-dead-redemption-2-logo-8FDAA679D7-seeklogo.com.png",
     "position": "50%",
-    "developer": "rockstar",
+    "developer": "Rockstar Games",
     "preco": 248.90,
     "discount": 67,
     "console": ["PS4", "XBOX", "STEAM"],
@@ -111,7 +111,7 @@
     "title": "Grand Theft Auto: The Trilogy",
     "imgTitle": "https://www.rockstarmag.fr/wp-content/uploads/2021/10/GTA-The-Trilogy-The-Definitive-Edition.png",
     "position": "50%",
-    "developer": "rockstar",
+    "developer": "Rockstar Games",
     "preco": 299.90,
     "discount": 50,
     "console": ["PS5", "PS4", "XBOX", "XBOX X|S", "STEAM"],
@@ -127,7 +127,7 @@
     "title": "Grand Theft Auto V",
     "imgTitle": "https://i.pinimg.com/originals/70/18/89/701889e554a9de116efb4a5508a808bf.png",
     "position": "10%",
-    "developer": "rockstar",
+    "developer": "Rockstar Games",
     "preco": 299.90,
     "discount": 50,
     "console": ["PS5", "PS4", "XBOX X|S", "XBOX", "STEAM"],
@@ -143,7 +143,7 @@
     "title": "Grand Theft Auto VI",
     "imgTitle": "https://upload.wikimedia.org/wikipedia/pt/9/91/GTAVIlogo.png",
     "position": "80%",
-    "developer": "rockstar",
+    "developer": "Rockstar Games",
     "preco": "Anunciado",
     "console": ["PS5", "XBOX X|S"],
     "info": ["Não", "Sim", "Ação", "2025"],
@@ -1252,45 +1252,134 @@
 
   {
     "id": 80,
-    "title": "50 Reais PSN",
-    "preco": 50,
-    "cover": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
+    "title": "60 Reais PSN",
+    "preco": 60,
+    "cover": "https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/5e4c2aadfd895908ea2f5b34/screenshots/so1qsp2j5raeimwdlp0p.jpg",
     "plataform": "PlayStation"
   },
   {
     "id": 81,
     "title": "100 Reais PSN",
     "preco": 100,
-    "cover": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
+    "cover": "https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/5e4c3458d597ec0f96e13111/screenshots/eecleppsmc2te5e70y6u.jpg",
     "plataform": "PlayStation"
   },
   {
     "id": 82,
-    "title": "200 Reais PSN",
-    "preco": 200,
-    "cover": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
+    "title": "250 Reais PSN",
+    "preco": 250,
+    "cover": "https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/5e4c4020d597ec0fbfe13101/screenshots/vghbwkorlslcd6ovqnhm.jpg",
     "plataform": "PlayStation"
   },
   {
     "id": 83,
     "title": "300 Reais PSN",
     "preco": 300,
-    "cover": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
+    "cover": "https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/62a34e20e883cd001564230a/screenshots/sctaujyrgimseax64xb0.jpg",
     "plataform": "PlayStation"
   },
   {
     "id": 84,
     "title": "400 Reais PSN",
     "preco": 400,
-    "cover": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
+    "cover": "https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/62a34f9c28241d00153f16a6/screenshots/o4ufbehgdq14dcdxe87p.jpg",
     "plataform": "PlayStation"
   },
   {
     "id": 85,
-    "title": "500 Reais PSN",
-    "preco": 500,
-    "cover": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
+    "title": "530 Reais PSN",
+    "preco": 530,
+    "cover": "https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/6504701b88b87933149da329/screenshots/tqdtvork6uu2tywhtmxt.jpg",
     "plataform": "PlayStation"
-  }
+  },
+
+
   
+  {
+    "id": 86,
+    "title": "50 Reais Nintendo",
+    "preco": 50,
+    "cover": "https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/61a7e601cf3b940014aa99da/screenshots/glyu5oxtkpgjv3vepux0.jpg",
+    "plataform": "Nintendo"
+  },
+  {
+    "id": 87,
+    "title": "100 Reais Nintendo",
+    "preco": 100,
+    "cover": "https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/5ffcb074a3f8b14917650160/screenshots/kj16zh0rlctretfxxket.jpg",
+    "plataform": "Nintendo"
+  },
+  {
+    "id": 88,
+    "title": "250 Reais Nintendo",
+    "preco": 250,
+    "cover": "https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/5ffcb9a5c883e6264cb0e5e5/screenshots/nkxblgmovrmylkgzjkyz.jpg",
+    "plataform": "Nintendo"
+  },
+  {
+    "id": 89,
+    "title": "300 Reais Nintendo",
+    "preco": 300,
+    "cover": "https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/61a7f12182d19a001989a070/screenshots/bhj7ctnbplevafchv81e.jpg",
+    "plataform": "Nintendo"
+  },
+  {
+    "id": 90,
+    "title": "400 Reais Nintendo",
+    "preco": 400,
+    "cover": "https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/64887d050c01280b1216f553/screenshots/fgwvxnkro8qot8uvj5kn.jpg",
+    "plataform": "Nintendo"
+  },
+  {
+    "id": 91,
+    "title": "500 Reais Nintendo",
+    "preco": 500,
+    "cover": "https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/648877791482600016df6f85/screenshots/qzrrogpuu20zfr6xxoda.jpg",
+    "plataform": "Nintendo"
+  },
+
+
+
+  {
+    "id": 92,
+    "title": "10 Reais Xbox",
+    "preco": 10,
+    "cover": "https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/5e5edd60a3f8b10cd11c98f0/screenshots/j00zwmitcrx8xexwc63x.jpg",
+    "plataform": "Xbox"
+  },
+  {
+    "id": 93,
+    "title": "25 Reais Xbox",
+    "preco": 25,
+    "cover": "https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/5e5ee03fa3f8b10cc81c98c7/screenshots/pwsb61bgap5yiehwrpwc.jpg",
+    "plataform": "Xbox"
+  },
+  {
+    "id": 94,
+    "title": "50 Reais Xbox",
+    "preco": 50,
+    "cover": "https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/5e505b39d597ec021f8c390e/screenshots/hxosfpznfp5ondik9oqh.jpg",
+    "plataform": "Xbox"
+  },
+  {
+    "id": 95,
+    "title": "70 Reais Xbox",
+    "preco": 70,
+    "cover": "https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/5e5fe565a3f8b10cd11c9920/screenshots/oavfodbce2qbj0ap75jj.jpg",
+    "plataform": "Xbox"
+  },
+  {
+    "id": 96,
+    "title": "100 Reais Xbox",
+    "preco": 100,
+    "cover": "https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/5e505e0bd597ec02238c3911/screenshots/lm2mugm185lvauxwtb3q.jpg",
+    "plataform": "Xbox"
+  },
+  {
+    "id": 97,
+    "title": "200 Reais Xbox",
+    "preco": 200,
+    "cover": "https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/5e505f8bd597ec02268c390f/screenshots/znanywsbrvtskwbyau7p.jpg",
+    "plataform": "Xbox"
+  } 
 ]

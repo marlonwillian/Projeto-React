@@ -61,7 +61,7 @@ function Playstation() {
                     </Category>
                 )}
             </Container>
-            <GiftCards plataform="PlayStation"/>
+            <GiftCards plataform="PlayStation" firstColor="08264f" secondColor="025ca5c2"/>
             <Footer color="#08459a"/>
         </section>
     )

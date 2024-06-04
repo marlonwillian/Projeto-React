@@ -8,6 +8,7 @@ import Category from "../../components/Category";
 import Card from "../../components/Card";
 import Loading from "../../components/Loading";
 import { useEffect, useState } from "react";
+import GiftCards from "../../components/GiftCards";
 
 const categories = [
     "O melhor da Xbox Game Studios",
@@ -60,6 +61,7 @@ function Xbox() {
                     </Category>
                 )}
             </Container>
+            <GiftCards plataform="Xbox" firstColor="016001" secondColor="016001"/>
             <Footer color="green" />
         </section>
     )

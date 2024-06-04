@@ -1,8 +1,7 @@
 .giftCard {
   padding-top: 100px;
   padding-inline: 100px;
-  background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,0.9557072829131653) 25%, rgba(0,0,0,0.41228991596638653) 50%, #08264f 85%);
+  background: linear-gradient(0deg, #000000f4 25%, #00000069 50%, #08264f 85%);
   height: 160vh;
 }
 
@@ -24,18 +23,73 @@
   border-color: white;
 }
 
-.gifts {
+.psgifts {
   width: 450px;
 }
 
-.personagem1 {
+.pspersonagem1 {
   position: absolute;
   width: 200px;
   margin-top: 185px;
   transform: translateX(-70px);
 }
 
-.personagem2 {
+.pspersonagem2 {
+  position: absolute;
+  width: 230px;
+  margin-top: -26px;
+  transform: translateX(-190px);
+}
+
+.nsgifts {
+  width: 450px;
+}
+
+.nspersonagem1 {
+  position: absolute;
+  width: 200px;
+  margin-top: 230px;
+  transform: translateX(-70px);
+}
+
+.nspersonagem2 {
+  position: absolute;
+  width: 230px;
+  margin-top: 230px;
+  transform: translateX(-150px);
+}
+
+.xbgifts {
+  width: 450px;
+  margin-top: 30px;
+}
+
+.xbpersonagem1 {
+  position: absolute;
+  width: 150px;
+  margin-top: 110px;
+  transform: translateX(-70px);
+}
+
+.xbpersonagem2 {
+  position: absolute;
+  width: 230px;
+  margin-top: -26px;
+  transform: translateX(-190px);
+}
+
+.pcgifts {
+  width: 450px;
+}
+
+.pcpersonagem1 {
+  position: absolute;
+  width: 200px;
+  margin-top: 185px;
+  transform: translateX(-70px);
+}
+
+.pcpersonagem2 {
   position: absolute;
   width: 230px;
   margin-top: -26px;
@@ -48,7 +102,6 @@
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 15px;
-  box-shadow: 0px 0px 15px #025ca5c2;
   border-radius: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -72,5 +125,6 @@
 }
 
 .price:hover {
-  background-color: #025ca5c2;
+  background-color: white;
+  color: black;
 }

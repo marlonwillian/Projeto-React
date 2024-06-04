@@ -18,13 +18,14 @@ function SearchCard({ id, price, cart }) {
         return prices
     }
 
-    const edition = originalPrice == price ? "Edição Padrão" : "Edição Deluxe"
+    const edition = originalPrice == price && id < 80? 
+    "Edição Padrão" : originalPrice != price && id < 80 ? "Edição Deluxe" : ""
 
     return (
         <>
             <Link 
                 className={styles.link} 
-                to={id < 80 ? `/redirect/${id}` : `/${jogos[id].plataform}#Gift-Cards`}
+                to={id < 80 ? `/redirect/${id}` : `/${jogos[id].plataform}`}
             >
                 <div className={styles.searchGame}>
                     <img
@@ -41,8 +42,7 @@ function SearchCard({ id, price, cart }) {
                                 null
                             }
                             {
-                                cart != true ?
-
+                                cart != true && typeof (jogos[id].preco) != "string"?
                                     typeof (jogos[id].discount) != "number" ?
                                         <span style={{ fontSize: "10px" }}>
                                             <i 
@@ -64,7 +64,12 @@ function SearchCard({ id, price, cart }) {
                                             R$ {verifyDiscount(id)[1]}
                                         </i>
                                     </span>
-                                    
+                                : cart != true && typeof (jogos[id].preco) == "string" ?
+                                    <i 
+                                        style={{marginRight: "5px",fontSize: "15px"}}
+                                    >
+                                        Anunciado
+                                    </i>
                                 : cart === true && typeof (jogos[id].discount) == "number" ?
 
                                     <span>
@@ -94,7 +99,6 @@ function SearchCard({ id, price, cart }) {
                                         <i style={{ fontSize: "15px" }}>{edition}</i>
                                     </span>
                                 : convertPrice(jogos[id].preco)
-
                             }
                         </span>
                     </div>

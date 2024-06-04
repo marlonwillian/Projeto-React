@@ -9,6 +9,7 @@ import Card from "../../components/Card";
 import NintendoIcon from "../../components/NintendoIcon";
 import { useEffect, useState } from "react";
 import Loading from "../../components/Loading";
+import GiftCards from "../../components/GiftCards";
 
 const categories = [
     "As franquias mais amadas",
@@ -68,6 +69,7 @@ function Nintendo() {
                     </Category>
                 )}
             </Container>
+            <GiftCards plataform="Nintendo" firstColor="b6121b" secondColor="e60012"/>
             <Footer color="#e60012" />
         </section>
     )

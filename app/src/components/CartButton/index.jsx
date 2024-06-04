@@ -50,7 +50,6 @@ function CartButton({id, price, discount, gamePage, margintop, position, bottom,
                 }
                 type="button"
             >
-            
                 {
                     typeof(discount) == "number" && gamePage != true ?
                     <span className={styles.discount}> -{discount}% </span> : null
