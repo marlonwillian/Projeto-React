@@ -10,6 +10,7 @@ import jogos from "../../json/games.json";
 import { Link } from "react-router-dom";
 import Loading from "../../components/Loading";
 import { useEffect, useState } from "react";
+import CarrosselCategory from "../../components/CarrosselCategory";
 
 const categories = [
     "Lançamentos e anunciados",
@@ -78,28 +79,30 @@ function Home() {
             </Banner>
             <Container paddingTop="360px" background="black">
                 {categories.map((category, index) =>
-                    <Category
-                        title={category}
-                        category={category}
-                        index={index}
-                        key={index}
-                    >
-                        {
-                            filterCategory(index).map(jogo =>
-                                <Card
-                                    title={jogo.title}
-                                    id={jogo.id}
-                                    price={
-                                        typeof (jogo.preco) == "object"
-                                            ? jogo.preco[0] : jogo.preco
-                                    }
-                                    discount={jogo.discount}
-                                    img={jogo.cover}
-                                    key={jogo.id}
-                                />
-                            )
-                        }
-                    </Category>
+                        <Category
+                            title={category}
+                            category={category}
+                            index={index}
+                            key={index}
+                        >
+                            <CarrosselCategory>
+                                {
+                                    filterCategory(index).map(jogo =>
+                                        <Card
+                                            title={jogo.title}
+                                            id={jogo.id}
+                                            price={
+                                                typeof (jogo.preco) == "object"
+                                                    ? jogo.preco[0] : jogo.preco
+                                            }
+                                            discount={jogo.discount}
+                                            img={jogo.cover}
+                                            key={jogo.id}
+                                        />
+                                    )
+                                }
+                            </CarrosselCategory>
+                        </Category>
                 )}
             </Container>
             <Footer color="#100f0f" />
