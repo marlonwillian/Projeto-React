@@ -32,37 +32,44 @@ function Carrossel() {
                             img={jogos[number[0]].cover}
                         >
                             <div className={styles.gameinfo}>
-                                <div className={styles.plataforms}>
-                                    <FilterPlataform
+                                <div className={styles.gameinfo2}>
+                                    <CartButton
                                         id={jogos[number[0]].id}
-                                        fontsize="8px"
-                                        onlylogo="true"
-                                        nintendosize="20px"
-                                        steamsize="20px"
+                                        price={typeof (jogos[number[0]].preco) == "object" ?
+                                            jogos[number[0]].preco[0] : jogos[number[0]].preco
+                                        }
+                                        discount={jogos[number[0]].discount}
+                                        isCarrossel={true}
                                     />
+                                    <div className={styles.plataforms}>
+                                        <FilterPlataform
+                                            id={jogos[number[0]].id}
+                                            fontsize="8px"
+                                            onlylogo="true"
+                                            nintendosize="20px"
+                                            steamsize="20px"
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         </Banner>
                     </Link>
-                    <CartButton
-                        id={jogos[number[0]].id}
-                        price={typeof (jogos[number[0]].preco) == "object" ?
-                            jogos[number[0]].preco[0] : jogos[number[0]].preco
-                        }
-                        discount={jogos[number[0]].discount}
-                        bottom="10px"
-                        marginleft="25px"
-                        position="absolute"
-                        opacity="1"
-                    />
                 </Carousel.Item>
-                <Carousel.Item interval={6500} color="black">
+                {/* <Carousel.Item interval={6500} color="black">
                     <Link className={styles.link} to={`/jogo/${jogos[number[1]].id}`}>
                         <Banner
                             isCarrossel={true}
                             img={jogos[number[1]].cover}
                         >
                             <div className={styles.gameinfo}>
+                            <CartButton
+                                id={jogos[number[1]].id}
+                                price={typeof (jogos[number[1]].preco) == "object" ?
+                                    jogos[number[1]].preco[0] : jogos[number[1]].preco
+                                }
+                                discount={jogos[number[1]].discount}
+                                isCarrossel={true}
+                            />
                                 <div className={styles.plataforms}>
                                     <FilterPlataform
                                         id={jogos[number[1]].id}
@@ -75,17 +82,6 @@ function Carrossel() {
                             </div>
                         </Banner>
                     </Link>
-                    <CartButton
-                        id={jogos[number[1]].id}
-                        price={typeof (jogos[number[1]].preco) == "object" ?
-                            jogos[number[1]].preco[0] : jogos[number[1]].preco
-                        }
-                        discount={jogos[number[1]].discount}
-                        bottom="10px"
-                        marginleft="25px"
-                        position="absolute"
-                        opacity="1"
-                    />
                 </Carousel.Item>
                 <Carousel.Item interval={6500} color="black">
                     <Link className={styles.link} to={`/jogo/${jogos[number[2]].id}`}>
@@ -94,6 +90,14 @@ function Carrossel() {
                             img={jogos[number[2]].cover}
                         >
                             <div className={styles.gameinfo}>
+                            <CartButton
+                                id={jogos[number[2]].id}
+                                price={typeof (jogos[number[2]].preco) == "object" ?
+                                    jogos[number[2]].preco[0] : jogos[number[2]].preco
+                                }
+                                discount={jogos[number[2]].discount}
+                                isCarrossel={true}
+                            />
                                 <div className={styles.plataforms}>
                                     <FilterPlataform
                                         id={jogos[number[2]].id}
@@ -106,17 +110,6 @@ function Carrossel() {
                             </div>
                         </Banner>
                     </Link>
-                    <CartButton
-                        id={jogos[number[2]].id}
-                        price={typeof (jogos[number[2]].preco) == "object" ?
-                            jogos[number[2]].preco[0] : jogos[number[2]].preco
-                        }
-                        discount={jogos[number[2]].discount}
-                        bottom="10px"
-                        marginleft="25px"
-                        position="absolute"
-                        opacity="1"
-                    />
                 </Carousel.Item>
                 <Carousel.Item interval={6500} color="black">
                     <Link className={styles.link} to={`/jogo/${jogos[number[3]].id}`}>
@@ -124,7 +117,15 @@ function Carrossel() {
                             isCarrossel={true}
                             img={jogos[number[3]].cover}
                         >
-                            <div className={styles.gameinfo}>
+                            <div className={styles.gameinfo}>   
+                                <CartButton
+                                    id={jogos[number[3]].id}
+                                    price={typeof (jogos[number[3]].preco) == "object" ?
+                                        jogos[number[3]].preco[0] : jogos[number[3]].preco
+                                    }
+                                    discount={jogos[number[3]].discount}
+                                    isCarrossel={true}
+                                />
                                 <div className={styles.plataforms}>
                                     <FilterPlataform
                                         id={jogos[number[3]].id}
@@ -137,18 +138,7 @@ function Carrossel() {
                             </div>
                         </Banner>
                     </Link>
-                    <CartButton
-                        id={jogos[number[3]].id}
-                        price={typeof (jogos[number[3]].preco) == "object" ?
-                            jogos[number[3]].preco[0] : jogos[number[3]].preco
-                        }
-                        discount={jogos[number[3]].discount}
-                        bottom="10px"
-                        marginleft="25px"
-                        position="absolute"
-                        opacity="1"
-                    />
-                </Carousel.Item>
+                </Carousel.Item> */}
             </Carousel>
         </div>
     );

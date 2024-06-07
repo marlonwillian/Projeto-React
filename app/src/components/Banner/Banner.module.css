@@ -36,14 +36,20 @@
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 884px) {
     .bannerCarrossel {
         height: 50vh;
     }
 }
 
-@media screen and (max-width: 884px) {
+@media screen and (max-width: 770px) {
     .bannerCarrossel {
-        height: 40vh;
+        height: 35vh;
+    }
+}
+
+@media screen and (max-width: 647px) {
+    .bannerCarrossel {
+        height: 20vh;
     }
 }

@@ -1,15 +1,22 @@
 .div {
     display: inline-block;
-    width: 65%;
-    height: 80%;
+    width: 79%;
     text-align: initial;
     margin-top: 50px;
-    border-radius: 5px; 
+    border-radius: 5px;
+}
+
+.div a {
+    text-decoration: none;
 }
 
 .div a > span {
     background-color: black;
     border-radius: 5px;
+}
+
+.div > div > div{
+    padding-bottom: 110px;
 }
 
 .gameinfo {
@@ -20,32 +27,46 @@
     border-bottom: 0.5px solid #ffffff5a;
 }
 
-.plataforms {
+.gameinfo2 {
     display: flex;
-    width: auto;
-    align-items: self-end;
-    float: right;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
     margin-top: 455px;
+}
+
+.plataforms {
+    width: auto;
+    float: right;
     margin-right: 25px;
     background-color: #000000;
     padding-bottom: 5px;
     padding-left: 5px;
     border-radius: 5px;
-    z-index: 999999;
 }
 
-.btn {
-    position: absolute;
-}
-
-@media screen and (max-width: 1228px) {
-    .plataforms {
-        margin-top: 400px;
+@media screen and (max-width: 1114px) {
+    .gameinfo2 {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
     }
 }
 
-@media screen and (max-width: 1228px) {
-    .plataforms {
-        margin-top: 335px;
+@media screen and (max-width: 884px) {
+    .gameinfo2 {
+        margin-top: 385px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .gameinfo2 {
+        margin-top: 275px;
+    }
+}
+
+@media screen and (max-width: 647px) {
+    .gameinfo2 {
+        margin-top: 275px;
     }
 }

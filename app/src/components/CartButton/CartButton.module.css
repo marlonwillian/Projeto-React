@@ -38,6 +38,14 @@
     margin-right: 10px;
 }
 
+.btnCarrossel {
+    margin-left: 25px;
+    background-color: #000000;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
 .discount {
     background-color: #008000ba;
     color: white;
