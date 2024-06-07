@@ -1,8 +1,0 @@
-.slick-prev::before {
-    position: absolute;
-    transform: translateX(-55px);
-}
-.slick-next::before {
-    position: absolute;
-    transform: translateX(55px);
-}

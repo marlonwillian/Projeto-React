@@ -28,12 +28,7 @@ function Carrossel() {
                 <Carousel.Item interval={6500} color="black">
                     <Link className={styles.link} to={`/jogo/${jogos[number[0]].id}`}>
                         <Banner
-                            height="75vh"
-                            bgposition="center"
-                            bgcolor="black"
-                            borderradius="5px"
-                            paddingtop="0px"
-                            textalign="left"
+                            isCarrossel={true}
                             img={jogos[number[0]].cover}
                         >
                             <div className={styles.gameinfo}>
@@ -56,7 +51,7 @@ function Carrossel() {
                         }
                         discount={jogos[number[0]].discount}
                         bottom="10px"
-                        marginleft="50px"
+                        marginleft="25px"
                         position="absolute"
                         opacity="1"
                     />
@@ -64,12 +59,7 @@ function Carrossel() {
                 <Carousel.Item interval={6500} color="black">
                     <Link className={styles.link} to={`/jogo/${jogos[number[1]].id}`}>
                         <Banner
-                            height="75vh"
-                            bgposition="center"
-                            bgcolor="black"
-                            borderradius="5px"
-                            paddingtop="0px"
-                            textalign="left"
+                            isCarrossel={true}
                             img={jogos[number[1]].cover}
                         >
                             <div className={styles.gameinfo}>
@@ -92,7 +82,7 @@ function Carrossel() {
                         }
                         discount={jogos[number[1]].discount}
                         bottom="10px"
-                        marginleft="50px"
+                        marginleft="25px"
                         position="absolute"
                         opacity="1"
                     />
@@ -100,12 +90,7 @@ function Carrossel() {
                 <Carousel.Item interval={6500} color="black">
                     <Link className={styles.link} to={`/jogo/${jogos[number[2]].id}`}>
                         <Banner
-                            height="75vh"
-                            bgposition="center"
-                            bgcolor="black"
-                            borderradius="5px"
-                            paddingtop="0px"
-                            textalign="left"
+                            isCarrossel={true}
                             img={jogos[number[2]].cover}
                         >
                             <div className={styles.gameinfo}>
@@ -128,7 +113,7 @@ function Carrossel() {
                         }
                         discount={jogos[number[2]].discount}
                         bottom="10px"
-                        marginleft="50px"
+                        marginleft="25px"
                         position="absolute"
                         opacity="1"
                     />
@@ -136,12 +121,7 @@ function Carrossel() {
                 <Carousel.Item interval={6500} color="black">
                     <Link className={styles.link} to={`/jogo/${jogos[number[3]].id}`}>
                         <Banner
-                            height="75vh"
-                            bgposition="center"
-                            bgcolor="black"
-                            borderradius="5px"
-                            paddingtop="0px"
-                            textalign="left"
+                            isCarrossel={true}
                             img={jogos[number[3]].cover}
                         >
                             <div className={styles.gameinfo}>
@@ -164,7 +144,7 @@ function Carrossel() {
                         }
                         discount={jogos[number[3]].discount}
                         bottom="10px"
-                        marginleft="50px"
+                        marginleft="25px"
                         position="absolute"
                         opacity="1"
                     />

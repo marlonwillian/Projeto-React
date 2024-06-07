@@ -18,8 +18,6 @@ function CartButton({id, price, discount, gamePage, margintop, position, bottom,
 
     const location = useLocation();
 
-    console.log(id, price)
-
     useEffect(() => {
         if (
             !isNaN(price) && noCart && paginaCarregada 

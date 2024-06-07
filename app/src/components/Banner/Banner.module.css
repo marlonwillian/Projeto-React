@@ -1,9 +1,49 @@
 .banner {
     width: 100%;
-    height: 645px;
     background-size: cover;
     color: white;
     padding-top: 70px;
     text-align: center;
     z-index: 1;
+}
+
+.bannerHome {
+    height: 100vh;
+    background-position: center;
+    background-color: black;
+}
+
+.bannerCarrossel {
+    display: flex;
+    height: 70vh;
+    background-position: center;
+    background-color: black;
+    border-radius: 5px;
+    padding-top: 0px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+@media screen and (max-width: 1228px) {
+    .bannerCarrossel {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 1114px) {
+    .bannerCarrossel {
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .bannerCarrossel {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 884px) {
+    .bannerCarrossel {
+        height: 40vh;
+    }
 }

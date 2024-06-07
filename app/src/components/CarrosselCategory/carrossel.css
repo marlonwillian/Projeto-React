@@ -1,4 +1,21 @@
-.slick-prev::before,
+.slick-prev {
+    z-index: 1;
+}
+
+.slick-prev::before {
+    font-size: 30px;
+    position: absolute;
+    transform: translateX(40px);
+}
 .slick-next::before {
-    font-size: 25px;
+    font-size: 30px;
+    position: absolute;
+    transform: translateX(-65px);
+}
+
+@media screen and (min-width: 1246px) {
+    .slick-prev::before,
+    .slick-next::before {
+        display: none;
+    }
 }

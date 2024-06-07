@@ -46,9 +46,7 @@ function Home() {
             <Loading opacity={loading}/>
             <Header console="Consoles" />
             <Banner
-                height="100vh"
-                bgposition="center"
-                bgcolor="black"
+                isHome={true}
                 img={jogos[number].bigcover}
             >
                 <div

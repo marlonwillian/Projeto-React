@@ -1,9 +1,16 @@
 import styles from "./Banner.module.css";
 
-function Banner({ children, img, height, bgposition, bgcolor, margintop, paddingtop, borderradius, textalign}) {
+function Banner({ children, img, height, bgposition, bgcolor, margintop, paddingtop, borderradius, textalign, isHome, isCarrossel}) {
     return (
         <section 
-            className={styles.banner}
+            className={
+                `${styles.banner} 
+                ${
+                      isHome ? styles.bannerHome 
+                    : isCarrossel ? styles.bannerCarrossel
+                    : ""
+                }`
+            }
             style={{
                 backgroundImage: `url('${ img }')`, 
                 height: height, 
