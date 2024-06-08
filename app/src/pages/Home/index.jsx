@@ -69,13 +69,12 @@ function Home() {
                     </Link>
                 </div>
                 <Container
-                    background="linear-gradient(0deg, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 65%, rgba(0, 0, 0, 0.740) 90%, rgba(0, 0, 0, 0.450) 95%, rgba(0,0,0,0) 100%)"
-                    marginTop="60vh"
+                    isHome={true}
                 >
                     <Carrossel />
                 </Container>
             </Banner>
-            <Container paddingTop="360px" background="black">
+            <Container isCategory={true}>
                 {categories.map((category, index) =>
                         <Category
                             title={category}

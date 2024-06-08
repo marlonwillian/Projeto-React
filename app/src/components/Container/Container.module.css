@@ -5,3 +5,37 @@
     text-align: center;
     padding-bottom: 80px;
 }
+
+.homeContainer {
+    background: linear-gradient(0deg, #000000 25%, #000000 65%, #000000bd 90%, #00000073 95%, #00000000 100%);
+    margin-top: 60vh;
+}
+
+.categoryContainer {
+    padding-top: 390px;
+    background-color: black;
+}
+
+@media (width <= 884px) {
+    .categoryContainer {
+        padding-top: 270px;
+    }
+}
+
+@media (width <= 700px) {
+    .categoryContainer {
+        padding-top: 200px;
+    }
+}
+
+@media (width <= 500px) {
+    .categoryContainer {
+        padding-top: 80px;
+    }
+}
+
+@media (width <= 1000px) and (height <= 412px) {
+    .categoryContainer {
+        padding-top: 490px;
+    }
+}

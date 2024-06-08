@@ -41,8 +41,6 @@
 .btnCarrossel {
     margin-left: 25px;
     background-color: #000000;
-    padding-bottom: 5px;
-    padding-left: 5px;
     border-radius: 5px;
 }
 
@@ -54,4 +52,18 @@
     margin-left: -4px;
     width: 100%;
     font-size: 20px;
+}
+
+@media (width <= 659px) {
+    .btnCarrossel{
+        margin: 0px;
+    }
+    .btnCarrossel span{
+        font-size: 15px;
+        margin: 0px;
+        margin-right: 5px;
+    }
+    .btnCarrossel i{
+        font-size: 15px;
+    }
 }
