@@ -6,7 +6,7 @@ function Footer({ color }) {
             className={styles.footer}
             style={{ backgroundColor: color }}
         >
-            <span className={styles.upDescription}>Rua Cássio Ramos, n° 1910 - São Paulo, SP</span>
+            <span className={styles.upDescription}>Rua Cássio Ramos, n° 1910 <br/> São Paulo, SP</span>
             <hr style={{ paddingInline: "15px" }} />
             <span className={styles.downDescription}> 
                 <span>

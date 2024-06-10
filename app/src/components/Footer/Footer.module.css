@@ -17,6 +17,10 @@
     padding-right: 2px;
 }
 
+.upDescription > span > br{
+    display: none;
+}
+
 .downDescription {
     display: flex;
     justify-content: space-between;
@@ -32,4 +36,17 @@
 
 a {
     color: white;
+}
+
+@media (width <= 600px){
+    .upDescription > span > br{
+        display: block;
+    }
+    .downDescription {
+        flex-direction: column;
+    }
+    .downDescription span{
+        margin-block: 5px;
+        min-width: 270px;
+    }
 }

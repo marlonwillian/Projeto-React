@@ -40,6 +40,26 @@ function Home() {
         setTimeout(() => setLoading(0), 1000)
     }, []);
 
+    const [windowSize, setWindowSize] = useState({
+        width: window.innerWidth,
+        height: window.innerHeight
+      });
+    
+    useEffect(() => {
+        const handleResize = () => {
+            setWindowSize({
+            width: window.innerWidth,
+            height: window.innerHeight
+            });
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    console.log(windowSize.height)
+
     return (
         <section className={styles.home}>
             <title>Página Inicial</title>
@@ -52,12 +72,11 @@ function Home() {
                 <div
                     className={styles.title}
                     style={{
-                        left: jogos[number].position,
-                        transform: `translate(-${jogos[number].position})`
+                        left: windowSize.width > 1000 ? jogos[number].position : "50%",
+                        transform: windowSize.width > 1000 ? `translate(-${jogos[number].position})`: "translate(-50%)"
                     }}>
                     <img
                         src={jogos[number].imgTitle}
-                        style={{ width: "350px" }}
                     />
                     <Link to={`/jogo/${number}`}>
                         <button className={styles.button}>

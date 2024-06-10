@@ -38,6 +38,12 @@
     }
 }
 
+@media (width <= 500px) {
+    .bannerHome {
+        height: 80vh;
+    }
+}
+
 @media (width <= 1000px) and (height <= 412px) {
     .bannerCarrossel {
         height: 80vh;

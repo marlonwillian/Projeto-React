@@ -7,7 +7,7 @@
 }
 
 .homeContainer {
-    background: linear-gradient(0deg, #000000 25%, #000000 65%, #000000bd 90%, #00000073 95%, #00000000 100%);
+    background: linear-gradient(0deg, #000000 25%, #000000 65%, #000000fe 90%, #0000009f 95%, #00000000 100%);
     margin-top: 60vh;
 }
 
@@ -16,26 +16,15 @@
     background-color: black;
 }
 
-@media (width <= 884px) {
+@media (width <= 1000px) {
     .categoryContainer {
-        padding-top: 270px;
-    }
-}
-
-@media (width <= 700px) {
-    .categoryContainer {
-        padding-top: 200px;
+        padding-top: 520px;
     }
 }
 
 @media (width <= 500px) {
     .categoryContainer {
-        padding-top: 80px;
+        padding-top: 450px;
     }
 }
 
-@media (width <= 1000px) and (height <= 412px) {
-    .categoryContainer {
-        padding-top: 490px;
-    }
-}

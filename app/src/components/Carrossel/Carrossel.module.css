@@ -39,7 +39,6 @@
     width: auto;
     float: right;
     margin-right: 25px;
-    background-color: #000000;
     border-radius: 5px;
 }
 
@@ -49,7 +48,12 @@
         justify-content: center;
         gap: 30px;
         margin-top: 450px;
+    }
+}
 
+@media (width <= 1000px) {
+    .div {
+        margin-top: 230px;
     }
 }
 
