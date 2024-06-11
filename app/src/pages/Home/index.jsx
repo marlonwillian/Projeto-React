@@ -43,7 +43,7 @@ function Home() {
     const [windowSize, setWindowSize] = useState({
         width: window.innerWidth,
         height: window.innerHeight
-      });
+    });
     
     useEffect(() => {
         const handleResize = () => {
@@ -57,8 +57,6 @@ function Home() {
 
         return () => window.removeEventListener('resize', handleResize);
     }, []);
-
-    console.log(windowSize.height)
 
     return (
         <section className={styles.home}>

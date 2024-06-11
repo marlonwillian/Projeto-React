@@ -26,6 +26,24 @@ function Header({ console, color, colorScrolled, shadow }) {
 
     const refInput = useRef(null);
 
+    const [windowSize, setWindowSize] = useState({
+        width: window.innerWidth,
+        height: window.innerHeight
+    });
+    
+    useEffect(() => {
+        const handleResize = () => {
+            setWindowSize({
+            width: window.innerWidth,
+            height: window.innerHeight
+            });
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
     useEffect(() => {
         refInput.current.focus();
     }, [showSearch]);
@@ -55,7 +73,6 @@ function Header({ console, color, colorScrolled, shadow }) {
         </div>
     }
 
-
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY > 1) {
@@ -83,17 +100,23 @@ function Header({ console, color, colorScrolled, shadow }) {
                 <Link to="/"><i class="fa-solid fa-house"></i></Link>
             </nav>
             <nav className={styles.nav}>
-                <a className={styles.a_con}
+                <a 
+                    className={styles.a_con}
+                    style={{display: showSearch && windowSize.width <= 500? "none" : ""}}
                     onClick={() => {
                         showComponent ? setComponent(false) : setComponent(true); setCart(false); setSearch(false);
                     }}
                 >
-                    <i style={{ marginRight: "10px" }}>
+                    <span className={styles.seta}>
+                        <i 
+                            className={
+                                `fa-solid fa-chevron-down ${showComponent ? "fa-fade" : ""}`
+                            }>
+                        </i>
+                    </span>
+                    <i>
                         {console}
                     </i>
-                    <span className={styles.seta}>
-                        <i className={`fa-solid fa-chevron-down ${showComponent ? "fa-fade" : ""}`}></i>
-                    </span>
                     <nav
                         className={`
                             ${styles.consoles} 
@@ -113,12 +136,21 @@ function Header({ console, color, colorScrolled, shadow }) {
                         </Link>
                     </nav>
                 </a>
+                <span 
+                    className={styles.line} 
+                    style={{display: showSearch && windowSize.width <= 500? "none" : ""}}>
+                </span>
                 <a>
                     {
                         showSearch ?
                             <i>
                                 {searchBar()}
-                                <i class="fa-solid fa-caret-left" style={{ cursor: "pointer" }} onClick={() => setSearch(false)}></i>
+                                <i 
+                                    class="fa-solid fa-caret-left" 
+                                    style={{ cursor: "pointer" }} 
+                                    onClick={() => setSearch(false)}
+                                >
+                                </i>
                                 <SearchGames
                                     jogos={jogos}
                                     text={searchText}
@@ -128,7 +160,8 @@ function Header({ console, color, colorScrolled, shadow }) {
                             :
                             <i>
                                 {searchBar()}
-                                <i class="fa-solid fa-magnifying-glass" style={{ cursor: "pointer" }}
+                                <i 
+                                    class="fa-solid fa-magnifying-glass" style={{ cursor: "pointer", paddingRight: "10px"}}
                                     onClick={() => { setSearch(true); setComponent(false); setCart(false) }}
                                 ></i>
                             </i>
