@@ -15,12 +15,8 @@ function GameList({ jogos, cart, display, width, height }) {
 
     return (
         <>
-            <i 
-                className={`fa-solid fa-caret-up ${styles.arrow}`} 
-                style={{ display: jogos == 0 || cart == true ? "none" : "block" }}>
-            </i>
             <div 
-                className={styles.searchCard} 
+                className={`${cart ? styles.cartCard : styles.searchCard}`} 
                 style={{ 
                     display: jogos == 0 || cart == true ? "none" : "block", 
                     display: display, width: width, height: height 

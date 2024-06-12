@@ -6,6 +6,7 @@ import quatorze from "./img/14.png";
 import dezeseis from "./img/16.png";
 import dezoito from "./img/18.png";
 import livre from "./img/livre.png";
+import { useEffect, useState } from "react";
 
 function GameInfo({ id }) {
   const ratingsImages = {
@@ -19,12 +20,36 @@ function GameInfo({ id }) {
 
   const image = ratingsImages[jogo[id].rating];
 
+  const [windowSize, setWindowSize] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight
+      });
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
     <section className={styles.gameInfo}>
       <div className={styles.gameDetails}>
         <span
           className={styles.age}
-          style={{bottom: (typeof(jogo[id].preco)) == "number" ? "20%" : "5%"}}
+          style={{
+            bottom:
+              (typeof (jogo[id].preco)) == "number" && window.innerWidth > 825 ? "20%"
+              : (typeof (jogo[id].preco)) != "number" && window.innerWidth > 825 ? "5%"
+              : (typeof (jogo[id].preco)) == "number" && window.innerWidth <= 825 ? "-20%" 
+              : "-36%"
+          }}
         >
           <img src={image} style={{ width: "70px" }} />
         </span><br />
@@ -72,7 +97,7 @@ function GameInfo({ id }) {
               <hr className={styles.linha} />
               <span>Jogo Online</span>
             </div>
-          : jogo[id].online == "3" ?
+            : jogo[id].online == "3" ?
               <div className={styles.onlineInfo}>
                 <span styles={{ paddingBottom: "1px" }}>
                   1 Jogador/Cooperativo
@@ -80,9 +105,9 @@ function GameInfo({ id }) {
                 <hr className={styles.linha} />
                 <span>Jogo Online</span>
               </div>
-          : <div className={styles.onlineInfo}>
-              <span styles={{ paddingBottom: "1px" }}>{jogo[id].online}</span>
-            </div>
+              : <div className={styles.onlineInfo}>
+                <span styles={{ paddingBottom: "1px" }}>{jogo[id].online}</span>
+              </div>
         }
       </div>
     </section>

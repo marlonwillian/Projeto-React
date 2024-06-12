@@ -149,3 +149,34 @@ input[type="radio"] {
 .submitButton:hover {
     box-shadow: 0px 0px 5px white;
 }
+
+@media (width <= 825px) {
+    .description {
+        height: 60%;
+    }
+
+    .description h2 {
+        padding-left: 50px;
+        white-space: nowrap;
+        max-width: 50px;
+    }
+    
+    .description h5 {
+        padding-left: 50px;
+        white-space: nowrap;
+        max-width: 50px;
+    }
+    
+    .edition {
+        padding-left: 50px;
+    }
+
+    .price {
+        padding-left: 50px;
+        max-width: 300px;
+    }
+
+    .price div{
+        width: 300px;
+    }
+}

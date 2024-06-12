@@ -145,6 +145,7 @@
     font-size: 13px;
     border-radius: 5px;
     text-overflow: ellipsis;
+    margin-top: -15px;
 }
 
 @keyframes increase {
@@ -215,6 +216,17 @@
     right: 15%;
     transform: translate(-15%);
     background-color: black;
+}
+
+@media (width <= 700px) {
+    .searchBar {
+        max-width: 150px;
+    }
+
+    .line {
+        margin-left: 20px;
+        margin-right: 40px;
+    }
 }
 
 @media (width <= 500px) {
