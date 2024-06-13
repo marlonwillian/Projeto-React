@@ -39,20 +39,21 @@ function GameInfo({ id }) {
   }, []);
 
   return (
-    <section className={styles.gameInfo}>
-      <div className={styles.gameDetails}>
-        <span
-          className={styles.age}
-          style={{
-            bottom:
-              (typeof (jogo[id].preco)) == "number" && window.innerWidth > 825 ? "20%"
-              : (typeof (jogo[id].preco)) != "number" && window.innerWidth > 825 ? "5%"
-              : (typeof (jogo[id].preco)) == "number" && window.innerWidth <= 825 ? "-20%" 
-              : "-36%"
-          }}
-        >
-          <img src={image} style={{ width: "70px" }} />
-        </span><br />
+    <section 
+      className={styles.gameInfo} 
+      style={{
+        marginTop: typeof(jogo[id].preco) == "number" && window.innerWidth <= 825 ? "0px" : ""
+      }}
+    >
+      <div 
+        className={styles.gameDetails}
+        style={{
+          marginTop: typeof(jogo[id].preco) == "number" 
+          && window.innerWidth <= 825 && window.innerHeight <= 650 ? "25px" 
+          : typeof(jogo[id].preco) == "number" 
+          && window.innerWidth <= 825 && window.innerHeight > 650 ? "-170px" : "" 
+        }}
+      >
         <span>
           <i
             class="fa-solid fa-microphone-lines"
@@ -89,7 +90,19 @@ function GameInfo({ id }) {
           <span style={{ marginLeft: "97px" }}>{jogo[id].info[3]}</span>
         </span>
       </div>
-      <div className={styles.rightInfo}>
+      <div 
+        className={styles.rightInfo} 
+        style={{marginTop: typeof(jogo[id].preco) == "number" 
+          && window.innerWidth <= 825 && window.innerHeight <= 650 ? "70px" 
+          : typeof(jogo[id].preco) == "number" 
+          && window.innerWidth <= 825 && window.innerHeight > 650 ? "-100px" : ""
+        }}
+      >
+        <span
+          className={styles.age}
+        >
+          <img src={image} style={{ width: "70px" }} />
+        </span>
         {
           jogo[id].online == "2" ?
             <div className={styles.onlineInfo}>

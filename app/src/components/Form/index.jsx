@@ -17,8 +17,6 @@ function Form({ id }) {
         price.length > 0 ? price[0]: 0
     );
 
-    console.log(valorSelecionado)
-
     const change = (event) => {
         setValorSelecionado(event.target.value);
     };

@@ -51,7 +51,7 @@ function Game() {
                     typeof(jogos[jogo.id].preco) == "number" && window.innerWidth > 825 ? "114vh" 
                     : typeof(jogos[jogo.id].preco) != "number" && window.innerWidth > 825 ?"150vh"
                     : typeof(jogos[jogo.id].preco) == "number" && window.innerWidth <= 825 ? "145vh"
-                    : typeof(jogos[jogo.id].preco) != "number" && window.innerWidth <= 825 ? "160vh" : null
+                    : typeof(jogos[jogo.id].preco) != "number" && window.innerWidth <= 825 && window.innerHeight < 650 ? "160vh" : null
                 }
             >
                 <Form id={jogo.id} />

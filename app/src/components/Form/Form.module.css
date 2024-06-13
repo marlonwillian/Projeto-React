@@ -156,27 +156,39 @@ input[type="radio"] {
     }
 
     .description h2 {
-        padding-left: 50px;
+        padding-left: 30px;
         white-space: nowrap;
-        max-width: 50px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     
     .description h5 {
-        padding-left: 50px;
+        padding-left: 30px;
         white-space: nowrap;
         max-width: 50px;
     }
     
     .edition {
-        padding-left: 50px;
+        padding-left: 30px;
+        max-width: 400px;
+    }
+
+    .edition div {
+        justify-items: left;
+        width: 342px;
+    }
+
+    .edition div label {
+        min-width: 340px;
+        font-size: 20px;
     }
 
     .price {
-        padding-left: 50px;
-        max-width: 300px;
+        padding-left: 30px;
+        max-width: 400px;
     }
 
-    .price div{
+    .price div {
         width: 300px;
     }
 }

@@ -14,17 +14,18 @@
   padding-left: 100px;
 }
 
-.age {
-  position: absolute;
-  left: 89%;
-}
-
 .gameDetails > span > i{
   margin-right: 15px;
 }
 
 .rightInfo {
   margin-top: 100px;
+  display: grid;
+  align-content: center;
+}
+
+.age {
+  margin-bottom: 70px;
 }
 
 .onlineInfo {
@@ -35,7 +36,7 @@
   min-width: 150px;
   border: 0.5px solid #ffffff5a;
   margin-right: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 340px;
   padding: 15px;
   font-size: 15px;
   text-align: center;
@@ -46,7 +47,7 @@
   margin: 0;
 }
 
-@media (width <= 825px) {
+@media (width <= 825px) and (height > 650px) {
   .gameInfo {
     display: flex;
     flex-direction: column;
@@ -54,17 +55,56 @@
     align-items: flex-start;
     padding-left: 0px;
     height: 40%;
+    margin-top: -16px;
+    padding-top: 30px;
+    margin-bottom: 0px;
   }
 
-  .age {
-    left: 60%;
-  }
-
-  .gameDetails {
-    padding-left: 50px;
+  .rightInfo {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
   }
 
   .onlineInfo {
-    margin-left: 50px;
+    margin-left: 30px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+  }
+
+  .gameDetails {
+    padding-left: 30px;
+  }
+}
+
+@media (width < 825px) and (height < 650px) {
+  .gameInfo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding-left: 0px;
+    height: 40%;
+    margin-top: -16px;
+    margin-bottom: 0px;
+  }
+
+  .rightInfo {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+
+  .onlineInfo {
+    margin-left: 30px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+  }
+
+  .gameDetails {
+    padding-left: 30px;
+    margin-top: 70px;
   }
 }
