@@ -42,7 +42,7 @@ function GameInfo({ id }) {
     <section 
       className={styles.gameInfo} 
       style={{
-        marginTop: typeof(jogo[id].preco) == "number" && window.innerWidth <= 825 ? "0px" : ""
+        marginTop: typeof(jogo[id].preco) == "number" && window.innerWidth <= 825 ? "-16px" : ""
       }}
     >
       <div 
@@ -51,7 +51,7 @@ function GameInfo({ id }) {
           marginTop: typeof(jogo[id].preco) == "number" 
           && window.innerWidth <= 825 && window.innerHeight <= 650 ? "25px" 
           : typeof(jogo[id].preco) == "number" 
-          && window.innerWidth <= 825 && window.innerHeight > 650 ? "-170px" : "" 
+          && window.innerWidth <= 825 && window.innerHeight > 650 ? "-10px" : "" 
         }}
       >
         <span>
@@ -95,7 +95,7 @@ function GameInfo({ id }) {
         style={{marginTop: typeof(jogo[id].preco) == "number" 
           && window.innerWidth <= 825 && window.innerHeight <= 650 ? "70px" 
           : typeof(jogo[id].preco) == "number" 
-          && window.innerWidth <= 825 && window.innerHeight > 650 ? "-100px" : ""
+          && window.innerWidth <= 825 && window.innerHeight > 650 ? "100px" : ""
         }}
       >
         <span

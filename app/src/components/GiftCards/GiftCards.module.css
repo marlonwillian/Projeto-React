@@ -128,3 +128,5 @@
   background-color: white;
   color: black;
 }
+
+@media (width < 1369)

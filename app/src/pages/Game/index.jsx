@@ -48,10 +48,10 @@ function Game() {
                 isGamePage={true}
                 img={jogos[jogo.id].bigcover}
                 height={
-                    typeof(jogos[jogo.id].preco) == "number" && window.innerWidth > 825 ? "114vh" 
+                    typeof(jogos[jogo.id].preco) == "number" && window.innerWidth > 825 && window.innerHeight > 650? "114vh" 
                     : typeof(jogos[jogo.id].preco) != "number" && window.innerWidth > 825 ?"150vh"
-                    : typeof(jogos[jogo.id].preco) == "number" && window.innerWidth <= 825 ? "145vh"
-                    : typeof(jogos[jogo.id].preco) != "number" && window.innerWidth <= 825 && window.innerHeight < 650 ? "160vh" : null
+                    : typeof(jogos[jogo.id].preco) == "number" && window.innerWidth <= 825 && window.innerHeight < 650? "145vh"
+                    : typeof(jogos[jogo.id].preco) == "number" && window.innerWidth > 825 && window.innerHeight <= 650? "128vh" : ""
                 }
             >
                 <Form id={jogo.id} />

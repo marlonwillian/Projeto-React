@@ -41,6 +41,12 @@
     }
 }
 
+@media (width <= 825px) {
+    .bannerGamePage {
+        background-position: center;
+    }
+}
+
 @media (width <= 500px) {
     .bannerHome {
         height: 80vh;
