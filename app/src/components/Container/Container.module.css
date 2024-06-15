@@ -16,6 +16,17 @@
     background-color: black;
 }
 
+.giftContainer {
+    background-color: black;
+    padding-bottom: 200px;
+}
+
+@media (width <= 1369px) {
+    .giftContainer {
+        padding-bottom: 280px;
+    }
+}
+
 @media (width <= 1000px) {
     .categoryContainer {
         padding-top: 520px;

@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 export const convertPrice = (price) => Number(price).toFixed(2).replace('.', ',');
 
-function CartButton({ id, price, discount, gamePage, margintop, position, bottom, marginleft, opacity, isCarrossel }) {
+function CartButton({ id, price, discount, gamePage, margintop, position, bottom, marginleft, opacity, isCarrossel, isGift }) {
     let desconto = discount / 100
     desconto = desconto * price
     let newPrice = price - desconto
@@ -34,10 +34,13 @@ function CartButton({ id, price, discount, gamePage, margintop, position, bottom
     return (
         <>
             <button
-                className={
-                    `${styles.btn} 
-                    ${isCarrossel ? styles.btnCarrossel : ""}`
-                }
+                className={`
+                    ${styles.btn} 
+                    ${
+                        isCarrossel ? styles.btnCarrossel : 
+                        isGift ? styles.btnGift : ""
+                    }
+                `}
                 style={{
                     marginTop: margintop,
                     bottom: bottom,

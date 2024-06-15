@@ -1,11 +1,16 @@
 import styles from "./Container.module.css";
 
-function Container({ children, color, background, marginTop, paddingBottom, paddingTop, bordertop, isHome, isCategory}) {
+function Container({ children, color, background, marginTop, paddingBottom, paddingTop, bordertop, isHome, isCategory, isGift}) {
     return (
         <section 
             className={`
                 ${styles.container} 
-                ${isHome ? styles.homeContainer : isCategory ? styles.categoryContainer : ""}
+                ${
+                    isHome ? styles.homeContainer 
+                    : isCategory ? styles.categoryContainer 
+                    : isGift ? styles.giftContainer 
+                    : ""
+                }
             `} 
             style={{
                 backgroundColor: color, 

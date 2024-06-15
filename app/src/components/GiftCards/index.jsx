@@ -38,7 +38,7 @@ function GiftCards({ plataform, firstColor, secondColor }) {
   }
 
   return (
-    <Container background="black" paddingBottom="100px">
+    <Container isGift={true}>
       <div 
         className={styles.giftCard} 
         style={{background: `linear-gradient(0deg, #000000f4 25%, #00000069 50%, #${firstColor} 85%)`}}
@@ -53,7 +53,13 @@ function GiftCards({ plataform, firstColor, secondColor }) {
           <img src={plataformImages[plataform][1]} className={imagesStyles[plataform][1]}/>
           <img src={plataformImages[plataform][2]} className={imagesStyles[plataform][2]}/>
         </div>
-        <section className={styles.gfSection} style={{ height: selectedPrice == '' ? "290px" : "380px", boxShadow: `0px 0px 15px #${secondColor}`}}>
+        <section 
+          className={`
+            ${styles.gfSection} 
+            ${selectedPrice ? styles.gfSection1 : styles.gfSection2}
+          `} 
+          style={{boxShadow: `0px 0px 15px #${secondColor}`}}
+        >
           {
             jogos.map(
               (jogo) => plataform === jogo.plataform ?
@@ -73,7 +79,7 @@ function GiftCards({ plataform, firstColor, secondColor }) {
             id={selectedPrice[0]}
             price={selectedPrice[1]}
             gamePage={true}
-            margintop="50px"
+            isGift={true}
             opacity={
               selectedPrice == "" ? 0 : 1
             }

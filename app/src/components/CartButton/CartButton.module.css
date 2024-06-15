@@ -44,6 +44,10 @@
     border-radius: 5px;
 }
 
+.btnGift {
+    margin-top: 50px;
+}
+
 .discount {
     background-color: #008000ba;
     color: white;
@@ -52,6 +56,13 @@
     margin-left: -4px;
     width: 100%;
     font-size: 20px;
+}
+
+@media (width <= 1369px) {
+    .btnGift {
+        position: absolute;
+        margin-top: 430px;
+    }
 }
 
 @media (width <= 659px) {
@@ -65,5 +76,11 @@
     }
     .btnCarrossel i{
         font-size: 15px;
+    }
+}
+
+@media (width <= 550px) and (height >= 660px) {
+    .btnGift {
+        margin-top: 570px;
     }
 }

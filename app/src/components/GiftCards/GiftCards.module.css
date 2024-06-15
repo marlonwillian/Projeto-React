@@ -78,24 +78,6 @@
   transform: translateX(-190px);
 }
 
-.pcgifts {
-  width: 450px;
-}
-
-.pcpersonagem1 {
-  position: absolute;
-  width: 200px;
-  margin-top: 185px;
-  transform: translateX(-70px);
-}
-
-.pcpersonagem2 {
-  position: absolute;
-  width: 230px;
-  margin-top: -26px;
-  transform: translateX(-190px);
-}
-
 .gfSection {
   display: flex;
   justify-content: center;
@@ -108,6 +90,14 @@
   padding-bottom: 50px;
   cursor: pointer;
   transition: 0.5s ease-in;
+}
+
+.gfSection1 {
+  height: 380px;
+}
+
+.gfSection2 {
+  height: 290px;
 }
 
 .price {
@@ -129,4 +119,42 @@
   color: black;
 }
 
-@media (width < 1369)
+@media (width <= 1369px) {
+  .gfSection1 {
+    height: 485px;
+  }
+  
+  .gfSection2 {
+    height: 450px
+  }
+  
+  .btn {
+    margin-top: 430px 
+  }
+}
+
+@media (width <= 650px) {
+  .pspersonagem2 {
+    margin-top: -531px;
+    transform: translateX(-46px) rotate(311deg);
+  }
+}
+
+@media (width <= 550px) and (height >= 660px) {
+  .giftCard {
+    padding-inline: 19px;
+  }
+
+  .gfSection1 {
+    height: 630px;
+  }
+
+  .gfSection2 {
+    height: 520px;
+  }
+
+  /* .psgifts {
+    width: 380px;
+  } */
+}
+
