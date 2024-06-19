@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/projetoreact/static/css/main.23a35e76.css",
+    "main.js": "/projetoreact/static/js/main.6956f35f.js",
+    "static/media/kratos.png": "/projetoreact/static/media/kratos.27884e333b1190440508.png",
+    "static/media/mario.png": "/projetoreact/static/media/mario.24d8df5e8d9622648a18.png",
+    "static/media/sm.png": "/projetoreact/static/media/sm.83b0ccf5d1838f9d75ef.png",
+    "static/media/chai.png": "/projetoreact/static/media/chai.3520c225148f53aa984b.png",
+    "static/media/link.png": "/projetoreact/static/media/link.03953b660aece7df5211.png",
+    "static/media/xbcards.png": "/projetoreact/static/media/xbcards.8bbab90edf4c9901adec.png",
+    "static/media/nscards.png": "/projetoreact/static/media/nscards.54a915d148d612ec8f2f.png",
+    "static/media/pscards.png": "/projetoreact/static/media/pscards.fb73184977ff2c251c13.png",
+    "static/media/masterchief.png": "/projetoreact/static/media/masterchief.d8c64cb771870cb9a574.png",
+    "static/media/xboxfont.ttf": "/projetoreact/static/media/xboxfont.d4c613b56f84694f8f6b.ttf",
+    "static/media/steamfont.otf": "/projetoreact/static/media/steamfont.08010f9bc8c31da03ca9.otf",
+    "static/media/psfont.ttf": "/projetoreact/static/media/psfont.2c139a4a156f192ca221.ttf",
+    "static/media/nintendofont.ttf": "/projetoreact/static/media/nintendofont.263b560984b7544b22c9.ttf",
+    "static/media/playstation-font.ttf": "/projetoreact/static/media/playstation-font.5b1783b73e82e788f3ee.ttf",
+    "index.html": "/projetoreact/index.html",
+    "main.23a35e76.css.map": "/projetoreact/static/css/main.23a35e76.css.map",
+    "main.6956f35f.js.map": "/projetoreact/static/js/main.6956f35f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23a35e76.css",
+    "static/js/main.6956f35f.js"
+  ]
+}
