@@ -134,27 +134,156 @@
 }
 
 @media (width <= 650px) {
+  .giftCard {
+    padding-inline: 0px;
+  }
+
   .pspersonagem2 {
-    margin-top: -531px;
-    transform: translateX(-46px) rotate(311deg);
+    margin-top: -40px;
+    transform: translateX(-234px) rotate(311deg);
+  }
+  
+  .nspersonagem1 {
+    margin-top: 240px;
+   	transform: translateX(-40px);
+  }
+
+  .nspersonagem2 {
+    margin-top: 240px;
+   	transform: translateX(-165px);
+  }
+
+  .xbpersonagem1 {
+    margin-top: 107px;
+    transform: translateX(-49px);
+  }
+
+  .xbpersonagem2 {
+    margin-top: -54px;
+    transform: translateX(-181px);
+  }
+
+  .price {
+    font-size: 20px;
   }
 }
 
-@media (width <= 550px) and (height >= 660px) {
+@media (width <= 600px) {
+  .nspersonagem1 {
+    width: 170px;
+    margin-top: 267px;
+    transform: translateX(0px);
+  }
+
+  .nspersonagem2 {
+    width: 198px;
+    margin-top: 268px;
+    transform: translateX(-190px);
+  }
+} 
+
+@media (width <= 550px) {
+  .psgifts {
+    width: 420px;
+  }
+
   .giftCard {
-    padding-inline: 19px;
+    padding-inline: 0px;
+  }
+
+  .pspersonagem1 {
+    margin-top: 129px;
+	  width: 150px;
+	  transform: translateX(-47px);
+  }
+  .pspersonagem2 {
+    margin-top: -23px;
+	  width: 161px;
+	  transform: translateX(-170px) rotate(311deg);
+  }
+
+  .xbgifts {
+    width: 440px;
+  }
+
+  .xbpersonagem1 {
+    width: 111px;
+    transform: translateX(14px) translateY(75px);
+  }
+
+  .xbpersonagem2 {
+    margin-top: -18px;
+    width: 180px;
+    transform: translateX(-210px);
+  }
+
+  .price {
+    font-size: 21px;
   }
 
   .gfSection1 {
-    height: 630px;
+    height: 505px;
   }
-
-  .gfSection2 {
-    height: 520px;
-  }
-
-  /* .psgifts {
-    width: 380px;
-  } */
 }
 
+@media (width <= 520px) {
+  .psgifts {
+    width: 310px;
+  }
+
+  .giftCard {
+    padding-inline: 0px;
+  }
+
+  .pspersonagem1 {
+    margin-top: 129px;
+	  width: 150px;
+	  transform: translateX(-47px);
+  }
+  .pspersonagem2 {
+    margin-top: -23px;
+	  width: 161px;
+	  transform: translateX(-170px) rotate(311deg);
+  }
+}
+
+@media (width <= 500px) {
+  .nsgifts {
+    width: 354px;
+  }
+
+  .nspersonagem1 {
+    width: 145px;
+    margin-top: 193px;
+    transform: translateX(18px);
+  }
+
+  .nspersonagem2 {
+    width: 151px;
+    margin-top: 217px;
+    transform: translateX(-155px);
+  }
+}
+
+@media (width <= 445px) {
+  .xbgifts {
+    width: 350px;
+  }
+
+  .xbpersonagem1 {
+    width: 100px;
+    transform: translateX(-5px) translateY(30px);
+  }
+
+  .xbpersonagem2 {
+    margin-top: -18px;
+    width: 150px;
+    transform: translateX(-157px);
+  }
+}
+
+@media (width <= 370px) {
+  .price {
+    font-size: 25px;
+  }
+}

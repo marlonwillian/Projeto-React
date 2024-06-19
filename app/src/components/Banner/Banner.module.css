@@ -4,7 +4,6 @@
     color: white;
     padding-top: 70px;
     text-align: center;
-    z-index: 1;
 }
 
 .bannerHome {
@@ -29,9 +28,33 @@
     margin-top: -100px;
 }
 
+.bannerPlaystation {
+    height: 105vh;
+}
+
+.bannerNintendo {
+    height: 105vh;
+}
+
+.bannerXbox {
+    height: 105vh;
+}
+
+@media (width <= 1130px) {
+    .bannerXbox {
+        background-position: center;
+    }
+}
+
 @media (width <= 1114px) {
     .bannerCarrossel {
         height: 60vh;
+    }
+}
+
+@media (width <= 1030px) {
+    .bannerNintendo {
+        height: 80vh;
     }
 }
 
@@ -44,6 +67,12 @@
 @media (width <= 825px) {
     .bannerGamePage {
         background-position: center;
+    }
+}
+
+@media (width <= 800px) {
+    .bannerNintendo {
+        height: 56vh;
     }
 }
 
@@ -75,7 +104,28 @@
     .bannerCarrossel {
         height: 25vh;
     }
+
+    .bannerPlaystation {
+        background-position: center;
+        height: 80vh;
+    }
+
+    .bannerNintendo {
+        height: 36vh;
+    }
 }
+
+@media (width <= 550px) and (height > 650px) {
+    .bannerNintendo {
+        height: 30vh;
+    }
+}
+
+@media (width <= 550px) and (height <= 650px) {
+    .bannerNintendo {
+        height: 36vh;
+    }
+} 
 
 /*
 @media screen and (max-width: 450px) {

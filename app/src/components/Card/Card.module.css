@@ -12,6 +12,8 @@
     background-color: #100f0f;
     border-top: 1px solid #ffffff6e;
     border-bottom: 1px solid #ffffff6e;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .card p {
@@ -51,8 +53,8 @@
 
 .link {
     text-overflow: ellipsis;
-    color: white;
     overflow: hidden;
+    color: white;
     text-decoration: none;
     z-index: 1;
 }

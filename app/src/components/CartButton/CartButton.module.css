@@ -84,3 +84,9 @@
         margin-top: 570px;
     }
 }
+
+@media (width <= 550px) {
+    .btnGift {
+        margin-top: 458px;
+    }
+}

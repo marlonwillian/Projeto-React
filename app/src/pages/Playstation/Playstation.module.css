@@ -8,3 +8,10 @@
     font-size: 100px;
     margin-top: 470px;
 }
+
+@media (width <= 618px) {
+    .title {
+        font-size: 65px;
+        margin-top: 280px;
+    }
+}

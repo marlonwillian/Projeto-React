@@ -33,6 +33,18 @@
     }
 }
 
+@media (width <= 550px) {
+    .giftContainer {
+        padding-bottom: 245px;
+    }
+}
+
+@media (width <= 550px) and (height >= 650px){
+    .giftContainer {
+        padding-bottom: 50px;
+    }
+}
+
 @media (width <= 500px) {
     .categoryContainer {
         padding-top: 450px;

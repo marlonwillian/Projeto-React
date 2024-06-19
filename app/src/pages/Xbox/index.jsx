@@ -9,6 +9,7 @@ import Card from "../../components/Card";
 import Loading from "../../components/Loading";
 import { useEffect, useState } from "react";
 import GiftCards from "../../components/GiftCards";
+import CarrosselCategory from "../../components/CarrosselCategory";
 
 const categories = [
     "O melhor da Xbox Game Studios",
@@ -34,7 +35,7 @@ function Xbox() {
             <Header console={<i class="fa-brands fa-xbox"></i>} colorScrolled="green"/>
             <Banner
                 img="https://pixelz.cc/wp-content/uploads/2023/09/halo-infinite-master-chief-uhd-4k-wallpaper.jpg"
-                height="105vh"
+                isXbox={true}
             >
                 <div className={styles.plataformDiv}>
                     <h1 className={styles.title}><span class="fa-brands fa-xbox"></span> XBOX</h1>
@@ -43,21 +44,23 @@ function Xbox() {
             <Container background="#016001">
                 {categories.map((category, index) =>
                     <Category title={category} category={category} index={index} key={index}>
-                        {
-                            filterCategory(index).map(jogo =>
-                                <Card
-                                    title={jogo.title}
-                                    id={jogo.id}
-                                    price={
-                                        typeof (jogo.preco) == "object"
-                                            ? jogo.preco[0] : jogo.preco
-                                    }
-                                    discount={jogo.discount}
-                                    color="black"
-                                    img={jogo.cover}
-                                    key={jogo.id}
-                                />)
-                        }
+                        <CarrosselCategory>
+                            {
+                                filterCategory(index).map(jogo =>
+                                    <Card
+                                        title={jogo.title}
+                                        id={jogo.id}
+                                        price={
+                                            typeof (jogo.preco) == "object"
+                                                ? jogo.preco[0] : jogo.preco
+                                        }
+                                        discount={jogo.discount}
+                                        color="black"
+                                        img={jogo.cover}
+                                        key={jogo.id}
+                                    />)
+                            }
+                        </CarrosselCategory>
                     </Category>
                 )}
             </Container>
