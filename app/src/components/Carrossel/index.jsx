@@ -26,7 +26,10 @@ function Carrossel() {
         <div className={styles.div}>
             <Carousel>
                 <Carousel.Item interval={6500} color="black">
-                    <Link className={styles.link} to={`/jogo/${jogos[number[0]].id}`}>
+                    <Link 
+                        className={styles.link} 
+                        to={`/jogo/${jogos[number[0]].id}`}
+                    >
                         <Banner
                             isCarrossel={true}
                             img={jogos[number[0]].cover}

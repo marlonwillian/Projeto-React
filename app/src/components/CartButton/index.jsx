@@ -73,7 +73,7 @@ function CartButton({ id, price, discount, gamePage, margintop, position, bottom
                                         : "No Carrinho"
                                 }
                             </span>
-                            <i class={`${icone}`} style={{ color: noCart ? "red" : "white" }}></i>
+                            <i class={`${icone}`} style={{ color: noCart ? "red" : "white", display: isCarrossel ? "none" : "" }}></i>
                         </>
                         : typeof (price) == "number" || "object" && gamePage == true ?
                             <>

@@ -581,7 +581,7 @@
     "id": "37",
     "title": "Marvel's Spider-Man 2",
     "imgTitle": "https://cdn.marvel.com/content/1x/marvelsspiderman2_lob_log_div_02.png",
-    "position": "90%",
+    "position": "20%",
     "developer": "Insomniac Games",
     "preco": [349.90, 399.50],
     "console": ["PS5"],
@@ -589,7 +589,7 @@
     "online": "1 Jogador",
     "rating": "doze",
     "cover": "https://4kwallpapers.com/images/wallpapers/marvels-spider-man-2560x1440-11609.jpeg",
-    "bigcover": "https://www.xtrafondos.com/wallpapers/resoluciones/23/marvels-spider-man-2_2560x1440_12036.jpg",     
+    "bigcover": "https://4kwallpapers.com/images/wallpapers/marvels-spider-man--13276.jpeg",     
     "category": "O melhor do PlayStation Studios"
   },
   {
@@ -644,7 +644,7 @@
     "id": "41",
     "title": "Ratchet & Clank: Em uma outra dimensão",
     "imgTitle": "https://cdn2.steamgriddb.com/logo/80029efad818240170239faf2ad95c65.png",
-    "position": "50%",
+    "position": "20%",
     "developer": "Insomniac Games",
     "preco": [349.90, 399.50],
     "console": ["PS5", "STEAM"],
@@ -652,7 +652,7 @@
     "online": "1 Jogador",
     "rating": "dez",
     "cover": "https://cdn1.epicgames.com/offer/046aeb7098b94ac3961dad6c5dbe68c0/EGS_RatchetClankRiftApart_InsomniacGames_S1_2560x1440-aea43afcad407b14673456322e63a01b",
-    "bigcover": "https://sidequest.pt/wp-content/uploads/2021/06/ratchet-and-clank-rift-apart-ps5-art-1621336598.jpg",      
+    "bigcover": "https://images3.alphacoders.com/111/1117343.jpg",      
     "category": "PS Plus"
   },
   {
@@ -768,7 +768,7 @@
     "id": "49",
     "title": "Animal Crossing™: New Horizons",
     "imgTitle": "https://animalcrossing.nintendo.com/new-horizons/assets/img/global/logos/logo-acnh-en.png",
-    "position": "90%",
+    "position": "50%",
     "developer": "Nintendo",
     "preco": 299.00,
     "console": ["Nintendo"],
@@ -776,7 +776,7 @@
     "online": "2",
     "rating": "livre",
     "cover": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000027619/9989957eae3a6b545194c42fec2071675c34aadacd65e6b33fdfe7b3b6a86c3a",
-    "bigcover": "https://www.xtrafondos.com/en/descargar.php?id=6557&resolucion=2560x1440",
+    "bigcover": "https://images.alphacoders.com/112/1128605.jpg",
     "category": "As franquias mais amadas"
   },
   {
@@ -828,7 +828,7 @@
     "id": "53",
     "title": "Super Mario Bros.™ Wonder",
     "imgTitle": "https://upload.wikimedia.org/wikipedia/commons/3/36/Super_Mario_Bros._Wonder_Logo.png",
-    "position": "50%",
+    "position": "65%",
     "developer": "Nintendo",
     "preco": 299.00,
     "console": ["Nintendo"],
@@ -836,7 +836,7 @@
     "online": "3",
     "rating": "livre",
     "cover": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/analisis-super-mario-bros-wonder-3198058.jpg?tf=1200x675",
-    "bigcover": "https://catwithmonocle.com/wp-content/uploads/2023/11/smb-wonder-artwork-01-1920x1080-1.jpg",
+    "bigcover": "https://images4.alphacoders.com/133/1337831.png",
     "category": "Ultimos lançamentos"
   },
   {
